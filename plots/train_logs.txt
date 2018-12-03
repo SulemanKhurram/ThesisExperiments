@@ -1,0 +1,2662 @@
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 1e-05
+| Optimizer = Adam
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 1e-05
+| Optimizer = Adam
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 1e-05
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0000
+| Epoch [  1/ 80] Iter[  1/  7]		Loss: 444351.2188 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  2/  7]		Loss: 222252.7969 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  3/  7]		Loss: 111320.8672 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  4/  7]		Loss: 55579.6055 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  5/  7]		Loss: 27753.9316 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  6/  7]		Loss: 13894.2178 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  7/  7]		Loss: 6955.6772 Acc@1: 2.000%
+{'Epoch': 1, 'Loss': 6955.67724609375, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #1			Loss: 4.3944 Acc@1: 2.00%
+| Saving Best model...			Top1 = 2.00%
+| Elapsed time : 0:00:10
+
+=> Training Epoch #2, LR=0.0000
+| Epoch [  2/ 80] Iter[  1/  7]		Loss: 444369.3750 Acc@1: 2.000%
+| Epoch [  2/ 80] Iter[  2/  7]		Loss: 222491.6719 Acc@1: 2.000%
+| Epoch [  2/ 80] Iter[  3/  7]		Loss: 111136.4688 Acc@1: 2.000%
+| Epoch [  2/ 80] Iter[  4/  7]		Loss: 55649.5547 Acc@1: 2.000%
+| Epoch [  2/ 80] Iter[  5/  7]		Loss: 27805.5449 Acc@1: 2.000%
+| Epoch [  2/ 80] Iter[  6/  7]		Loss: 13913.5898 Acc@1: 2.000%
+| Epoch [  2/ 80] Iter[  7/  7]		Loss: 6945.9980 Acc@1: 2.000%
+{'Epoch': 2, 'Loss': 6945.998046875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.6
+overall recall : 0.6666666666666666
+ROC_AUC0.6666666666666667
+False positive[0.         0.66666667 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[2 4]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.3333    0.5000         6
+    Glaucoma     0.2000    1.0000    0.3333         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.6000    0.6667    0.4167         7
+weighted avg     0.8857    0.4286    0.4762         7
+
+
+| Validation Epoch #2			Loss: 6.7930 Acc@1: 2.00%
+| Elapsed time : 0:00:16
+
+=> Training Epoch #3, LR=0.0000
+| Epoch [  3/ 80] Iter[  1/  7]		Loss: 444904.7188 Acc@1: 1.000%
+| Epoch [  3/ 80] Iter[  2/  7]		Loss: 222489.2344 Acc@1: 1.000%
+| Epoch [  3/ 80] Iter[  3/  7]		Loss: 111137.0312 Acc@1: 1.000%
+| Epoch [  3/ 80] Iter[  4/  7]		Loss: 55573.5781 Acc@1: 2.000%
+| Epoch [  3/ 80] Iter[  5/  7]		Loss: 27806.2578 Acc@1: 2.000%
+| Epoch [  3/ 80] Iter[  6/  7]		Loss: 13920.7559 Acc@1: 2.000%
+| Epoch [  3/ 80] Iter[  7/  7]		Loss: 6952.3345 Acc@1: 2.000%
+{'Epoch': 3, 'Loss': 6952.33447265625, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #3			Loss: 6.3430 Acc@1: 2.00%
+| Elapsed time : 0:00:22
+
+=> Training Epoch #4, LR=0.0000
+| Epoch [  4/ 80] Iter[  1/  7]		Loss: 443696.2812 Acc@1: 2.000%
+| Epoch [  4/ 80] Iter[  2/  7]		Loss: 222483.8594 Acc@1: 2.000%
+| Epoch [  4/ 80] Iter[  3/  7]		Loss: 111231.4297 Acc@1: 2.000%
+| Epoch [  4/ 80] Iter[  4/  7]		Loss: 55511.6250 Acc@1: 2.000%
+| Epoch [  4/ 80] Iter[  5/  7]		Loss: 27797.9648 Acc@1: 2.000%
+| Epoch [  4/ 80] Iter[  6/  7]		Loss: 13895.4326 Acc@1: 2.000%
+| Epoch [  4/ 80] Iter[  7/  7]		Loss: 6942.4526 Acc@1: 2.000%
+{'Epoch': 4, 'Loss': 6942.45263671875, 'Accuracy': tensor(2)}
+overalll f1_score:0.5333333333333333
+overall precision:0.625
+overall recall : 0.75
+ROC_AUC0.75
+False positive[0.  0.5 1. ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.5000    0.6667         6
+    Glaucoma     0.2500    1.0000    0.4000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.6250    0.7500    0.5333         7
+weighted avg     0.8929    0.5714    0.6286         7
+
+
+| Validation Epoch #4			Loss: 6.1611 Acc@1: 2.00%
+| Elapsed time : 0:00:27
+
+=> Training Epoch #5, LR=0.0000
+| Epoch [  5/ 80] Iter[  1/  7]		Loss: 444676.7812 Acc@1: 2.000%
+| Epoch [  5/ 80] Iter[  2/  7]		Loss: 222132.6250 Acc@1: 2.000%
+| Epoch [  5/ 80] Iter[  3/  7]		Loss: 111175.1328 Acc@1: 2.000%
+| Epoch [  5/ 80] Iter[  4/  7]		Loss: 55540.4414 Acc@1: 2.000%
+| Epoch [  5/ 80] Iter[  5/  7]		Loss: 27806.0898 Acc@1: 2.000%
+| Epoch [  5/ 80] Iter[  6/  7]		Loss: 13906.9043 Acc@1: 2.000%
+| Epoch [  5/ 80] Iter[  7/  7]		Loss: 6937.5347 Acc@1: 2.000%
+{'Epoch': 5, 'Loss': 6937.53466796875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #5			Loss: 6.1144 Acc@1: 2.00%
+| Elapsed time : 0:00:34
+
+=> Training Epoch #6, LR=0.0000
+| Epoch [  6/ 80] Iter[  1/  7]		Loss: 444933.1875 Acc@1: 2.000%
+| Epoch [  6/ 80] Iter[  2/  7]		Loss: 222192.9219 Acc@1: 2.000%
+| Epoch [  6/ 80] Iter[  3/  7]		Loss: 111162.5781 Acc@1: 2.000%
+| Epoch [  6/ 80] Iter[  4/  7]		Loss: 55661.1094 Acc@1: 2.000%
+| Epoch [  6/ 80] Iter[  5/  7]		Loss: 27816.4180 Acc@1: 2.000%
+| Epoch [  6/ 80] Iter[  6/  7]		Loss: 13915.6982 Acc@1: 2.000%
+| Epoch [  6/ 80] Iter[  7/  7]		Loss: 6961.0552 Acc@1: 2.000%
+{'Epoch': 6, 'Loss': 6961.05517578125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #6			Loss: 5.9965 Acc@1: 2.00%
+| Elapsed time : 0:00:40
+
+=> Training Epoch #7, LR=0.0000
+| Epoch [  7/ 80] Iter[  1/  7]		Loss: 444935.8438 Acc@1: 3.000%
+| Epoch [  7/ 80] Iter[  2/  7]		Loss: 222818.1875 Acc@1: 2.000%
+| Epoch [  7/ 80] Iter[  3/  7]		Loss: 111263.6172 Acc@1: 2.000%
+| Epoch [  7/ 80] Iter[  4/  7]		Loss: 55545.5078 Acc@1: 2.000%
+| Epoch [  7/ 80] Iter[  5/  7]		Loss: 27801.4023 Acc@1: 2.000%
+| Epoch [  7/ 80] Iter[  6/  7]		Loss: 13899.7363 Acc@1: 2.000%
+| Epoch [  7/ 80] Iter[  7/  7]		Loss: 6960.2397 Acc@1: 2.000%
+{'Epoch': 7, 'Loss': 6960.23974609375, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #7			Loss: 4.9305 Acc@1: 2.00%
+| Elapsed time : 0:00:46
+
+=> Training Epoch #8, LR=0.0000
+| Epoch [  8/ 80] Iter[  1/  7]		Loss: 444299.4688 Acc@1: 2.000%
+| Epoch [  8/ 80] Iter[  2/  7]		Loss: 222127.4531 Acc@1: 1.000%
+| Epoch [  8/ 80] Iter[  3/  7]		Loss: 111027.3750 Acc@1: 2.000%
+| Epoch [  8/ 80] Iter[  4/  7]		Loss: 55634.1992 Acc@1: 2.000%
+| Epoch [  8/ 80] Iter[  5/  7]		Loss: 27771.5176 Acc@1: 2.000%
+| Epoch [  8/ 80] Iter[  6/  7]		Loss: 13906.2539 Acc@1: 2.000%
+| Epoch [  8/ 80] Iter[  7/  7]		Loss: 6964.7480 Acc@1: 2.000%
+{'Epoch': 8, 'Loss': 6964.748046875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #8			Loss: 2.8422 Acc@1: 2.00%
+| Elapsed time : 0:00:54
+
+=> Training Epoch #9, LR=0.0000
+| Epoch [  9/ 80] Iter[  1/  7]		Loss: 444705.8438 Acc@1: 2.000%
+| Epoch [  9/ 80] Iter[  2/  7]		Loss: 222459.4062 Acc@1: 2.000%
+| Epoch [  9/ 80] Iter[  3/  7]		Loss: 111130.4922 Acc@1: 2.000%
+| Epoch [  9/ 80] Iter[  4/  7]		Loss: 55528.2695 Acc@1: 2.000%
+| Epoch [  9/ 80] Iter[  5/  7]		Loss: 27770.9297 Acc@1: 2.000%
+| Epoch [  9/ 80] Iter[  6/  7]		Loss: 13905.0840 Acc@1: 2.000%
+| Epoch [  9/ 80] Iter[  7/  7]		Loss: 6937.0786 Acc@1: 2.000%
+{'Epoch': 9, 'Loss': 6937.07861328125, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #9			Loss: 3.8165 Acc@1: 2.00%
+| Elapsed time : 0:01:00
+
+=> Training Epoch #10, LR=0.0000
+| Epoch [ 10/ 80] Iter[  1/  7]		Loss: 444750.6250 Acc@1: 2.000%
+| Epoch [ 10/ 80] Iter[  2/  7]		Loss: 222516.4688 Acc@1: 2.000%
+| Epoch [ 10/ 80] Iter[  3/  7]		Loss: 111038.6484 Acc@1: 2.000%
+| Epoch [ 10/ 80] Iter[  4/  7]		Loss: 55551.0312 Acc@1: 2.000%
+| Epoch [ 10/ 80] Iter[  5/  7]		Loss: 27769.2754 Acc@1: 2.000%
+| Epoch [ 10/ 80] Iter[  6/  7]		Loss: 13897.2061 Acc@1: 2.000%
+| Epoch [ 10/ 80] Iter[  7/  7]		Loss: 6942.7393 Acc@1: 2.000%
+{'Epoch': 10, 'Loss': 6942.7392578125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #10			Loss: 3.8312 Acc@1: 2.00%
+| Elapsed time : 0:01:06
+
+=> Training Epoch #11, LR=0.0000
+| Epoch [ 11/ 80] Iter[  1/  7]		Loss: 444538.6250 Acc@1: 3.000%
+| Epoch [ 11/ 80] Iter[  2/  7]		Loss: 222475.4062 Acc@1: 2.000%
+| Epoch [ 11/ 80] Iter[  3/  7]		Loss: 111248.7969 Acc@1: 2.000%
+| Epoch [ 11/ 80] Iter[  4/  7]		Loss: 55498.6211 Acc@1: 2.000%
+| Epoch [ 11/ 80] Iter[  5/  7]		Loss: 27813.1699 Acc@1: 2.000%
+| Epoch [ 11/ 80] Iter[  6/  7]		Loss: 13883.8896 Acc@1: 2.000%
+| Epoch [ 11/ 80] Iter[  7/  7]		Loss: 6951.2495 Acc@1: 2.000%
+{'Epoch': 11, 'Loss': 6951.24951171875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #11			Loss: 0.3029 Acc@1: 2.00%
+| Elapsed time : 0:01:11
+
+=> Training Epoch #12, LR=0.0000
+| Epoch [ 12/ 80] Iter[  1/  7]		Loss: 444854.7188 Acc@1: 2.000%
+| Epoch [ 12/ 80] Iter[  2/  7]		Loss: 222054.6719 Acc@1: 2.000%
+| Epoch [ 12/ 80] Iter[  3/  7]		Loss: 111125.9141 Acc@1: 2.000%
+| Epoch [ 12/ 80] Iter[  4/  7]		Loss: 55583.6758 Acc@1: 2.000%
+| Epoch [ 12/ 80] Iter[  5/  7]		Loss: 27799.7461 Acc@1: 2.000%
+| Epoch [ 12/ 80] Iter[  6/  7]		Loss: 13917.1357 Acc@1: 2.000%
+| Epoch [ 12/ 80] Iter[  7/  7]		Loss: 6947.6113 Acc@1: 2.000%
+{'Epoch': 12, 'Loss': 6947.611328125, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #12			Loss: 4.6122 Acc@1: 2.00%
+| Elapsed time : 0:01:18
+
+=> Training Epoch #13, LR=0.0000
+| Epoch [ 13/ 80] Iter[  1/  7]		Loss: 444101.8438 Acc@1: 3.000%
+| Epoch [ 13/ 80] Iter[  2/  7]		Loss: 222141.5781 Acc@1: 2.000%
+| Epoch [ 13/ 80] Iter[  3/  7]		Loss: 111176.1641 Acc@1: 2.000%
+| Epoch [ 13/ 80] Iter[  4/  7]		Loss: 55602.5781 Acc@1: 2.000%
+| Epoch [ 13/ 80] Iter[  5/  7]		Loss: 27808.3418 Acc@1: 2.000%
+| Epoch [ 13/ 80] Iter[  6/  7]		Loss: 13897.6387 Acc@1: 2.000%
+| Epoch [ 13/ 80] Iter[  7/  7]		Loss: 6944.6377 Acc@1: 2.000%
+{'Epoch': 13, 'Loss': 6944.6376953125, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #13			Loss: 0.5109 Acc@1: 2.00%
+| Elapsed time : 0:01:23
+
+=> Training Epoch #14, LR=0.0000
+| Epoch [ 14/ 80] Iter[  1/  7]		Loss: 444883.1875 Acc@1: 2.000%
+| Epoch [ 14/ 80] Iter[  2/  7]		Loss: 222506.6250 Acc@1: 2.000%
+| Epoch [ 14/ 80] Iter[  3/  7]		Loss: 111112.4766 Acc@1: 2.000%
+| Epoch [ 14/ 80] Iter[  4/  7]		Loss: 55585.4219 Acc@1: 2.000%
+| Epoch [ 14/ 80] Iter[  5/  7]		Loss: 27786.9395 Acc@1: 2.000%
+| Epoch [ 14/ 80] Iter[  6/  7]		Loss: 13920.2500 Acc@1: 2.000%
+| Epoch [ 14/ 80] Iter[  7/  7]		Loss: 6949.1484 Acc@1: 2.000%
+{'Epoch': 14, 'Loss': 6949.1484375, 'Accuracy': tensor(2)}
+overalll f1_score:0.7878787878787878
+overall precision:0.75
+overall recall : 0.9166666666666667
+ROC_AUC0.9166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.8333    0.9091         6
+    Glaucoma     0.5000    1.0000    0.6667         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.7500    0.9167    0.7879         7
+weighted avg     0.9286    0.8571    0.8745         7
+
+
+| Validation Epoch #14			Loss: 0.5587 Acc@1: 2.00%
+| Elapsed time : 0:01:31
+
+=> Training Epoch #15, LR=0.0000
+| Epoch [ 15/ 80] Iter[  1/  7]		Loss: 444091.8438 Acc@1: 1.000%
+| Epoch [ 15/ 80] Iter[  2/  7]		Loss: 222358.5000 Acc@1: 1.000%
+| Epoch [ 15/ 80] Iter[  3/  7]		Loss: 111071.2031 Acc@1: 1.000%
+| Epoch [ 15/ 80] Iter[  4/  7]		Loss: 55624.4531 Acc@1: 1.000%
+| Epoch [ 15/ 80] Iter[  5/  7]		Loss: 27780.2051 Acc@1: 2.000%
+| Epoch [ 15/ 80] Iter[  6/  7]		Loss: 13916.0508 Acc@1: 2.000%
+| Epoch [ 15/ 80] Iter[  7/  7]		Loss: 6950.9116 Acc@1: 2.000%
+{'Epoch': 15, 'Loss': 6950.91162109375, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #15			Loss: 0.6945 Acc@1: 2.00%
+| Elapsed time : 0:01:36
+
+=> Training Epoch #16, LR=0.0000
+| Epoch [ 16/ 80] Iter[  1/  7]		Loss: 444490.6875 Acc@1: 2.000%
+| Epoch [ 16/ 80] Iter[  2/  7]		Loss: 222482.2500 Acc@1: 2.000%
+| Epoch [ 16/ 80] Iter[  3/  7]		Loss: 111077.6719 Acc@1: 2.000%
+| Epoch [ 16/ 80] Iter[  4/  7]		Loss: 55557.5000 Acc@1: 2.000%
+| Epoch [ 16/ 80] Iter[  5/  7]		Loss: 27804.5957 Acc@1: 2.000%
+| Epoch [ 16/ 80] Iter[  6/  7]		Loss: 13899.6631 Acc@1: 2.000%
+| Epoch [ 16/ 80] Iter[  7/  7]		Loss: 6944.7529 Acc@1: 2.000%
+{'Epoch': 16, 'Loss': 6944.7529296875, 'Accuracy': tensor(2)}
+overalll f1_score:0.7878787878787878
+overall precision:0.75
+overall recall : 0.9166666666666667
+ROC_AUC0.9166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.8333    0.9091         6
+    Glaucoma     0.5000    1.0000    0.6667         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.7500    0.9167    0.7879         7
+weighted avg     0.9286    0.8571    0.8745         7
+
+
+| Validation Epoch #16			Loss: 1.4714 Acc@1: 2.00%
+| Elapsed time : 0:01:43
+
+=> Training Epoch #17, LR=0.0000
+| Epoch [ 17/ 80] Iter[  1/  7]		Loss: 445041.5938 Acc@1: 2.000%
+| Epoch [ 17/ 80] Iter[  2/  7]		Loss: 222550.0156 Acc@1: 1.000%
+| Epoch [ 17/ 80] Iter[  3/  7]		Loss: 111144.7656 Acc@1: 1.000%
+| Epoch [ 17/ 80] Iter[  4/  7]		Loss: 55522.5117 Acc@1: 2.000%
+| Epoch [ 17/ 80] Iter[  5/  7]		Loss: 27818.2246 Acc@1: 2.000%
+| Epoch [ 17/ 80] Iter[  6/  7]		Loss: 13921.6885 Acc@1: 2.000%
+| Epoch [ 17/ 80] Iter[  7/  7]		Loss: 6939.9839 Acc@1: 2.000%
+{'Epoch': 17, 'Loss': 6939.98388671875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #17			Loss: 2.4810 Acc@1: 2.00%
+| Elapsed time : 0:01:49
+
+=> Training Epoch #18, LR=0.0000
+| Epoch [ 18/ 80] Iter[  1/  7]		Loss: 444953.3125 Acc@1: 2.000%
+| Epoch [ 18/ 80] Iter[  2/  7]		Loss: 222345.0781 Acc@1: 2.000%
+| Epoch [ 18/ 80] Iter[  3/  7]		Loss: 111343.4453 Acc@1: 2.000%
+| Epoch [ 18/ 80] Iter[  4/  7]		Loss: 55536.5000 Acc@1: 2.000%
+| Epoch [ 18/ 80] Iter[  5/  7]		Loss: 27781.4922 Acc@1: 2.000%
+| Epoch [ 18/ 80] Iter[  6/  7]		Loss: 13897.4785 Acc@1: 2.000%
+| Epoch [ 18/ 80] Iter[  7/  7]		Loss: 6953.9634 Acc@1: 2.000%
+{'Epoch': 18, 'Loss': 6953.96337890625, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #18			Loss: 0.4326 Acc@1: 2.00%
+| Elapsed time : 0:01:55
+
+=> Training Epoch #19, LR=0.0000
+| Epoch [ 19/ 80] Iter[  1/  7]		Loss: 444448.9062 Acc@1: 3.000%
+| Epoch [ 19/ 80] Iter[  2/  7]		Loss: 221955.3750 Acc@1: 2.000%
+| Epoch [ 19/ 80] Iter[  3/  7]		Loss: 111259.5781 Acc@1: 2.000%
+| Epoch [ 19/ 80] Iter[  4/  7]		Loss: 55521.2227 Acc@1: 2.000%
+| Epoch [ 19/ 80] Iter[  5/  7]		Loss: 27817.3672 Acc@1: 2.000%
+| Epoch [ 19/ 80] Iter[  6/  7]		Loss: 13898.7842 Acc@1: 2.000%
+| Epoch [ 19/ 80] Iter[  7/  7]		Loss: 6956.9033 Acc@1: 2.000%
+{'Epoch': 19, 'Loss': 6956.9033203125, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #19			Loss: 2.1185 Acc@1: 2.00%
+| Elapsed time : 0:02:03
+
+=> Training Epoch #20, LR=0.0000
+| Epoch [ 20/ 80] Iter[  1/  7]		Loss: 444805.6875 Acc@1: 1.000%
+| Epoch [ 20/ 80] Iter[  2/  7]		Loss: 222208.9219 Acc@1: 2.000%
+| Epoch [ 20/ 80] Iter[  3/  7]		Loss: 111106.5234 Acc@1: 2.000%
+| Epoch [ 20/ 80] Iter[  4/  7]		Loss: 55569.0898 Acc@1: 2.000%
+| Epoch [ 20/ 80] Iter[  5/  7]		Loss: 27816.8066 Acc@1: 2.000%
+| Epoch [ 20/ 80] Iter[  6/  7]		Loss: 13897.3750 Acc@1: 2.000%
+| Epoch [ 20/ 80] Iter[  7/  7]		Loss: 6957.8872 Acc@1: 2.000%
+{'Epoch': 20, 'Loss': 6957.88720703125, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #20			Loss: 0.0058 Acc@1: 2.00%
+| Elapsed time : 0:02:08
+
+=> Training Epoch #21, LR=0.0000
+| Epoch [ 21/ 80] Iter[  1/  7]		Loss: 444799.9375 Acc@1: 2.000%
+| Epoch [ 21/ 80] Iter[  2/  7]		Loss: 222347.4062 Acc@1: 2.000%
+| Epoch [ 21/ 80] Iter[  3/  7]		Loss: 111229.2500 Acc@1: 2.000%
+| Epoch [ 21/ 80] Iter[  4/  7]		Loss: 55559.9453 Acc@1: 2.000%
+| Epoch [ 21/ 80] Iter[  5/  7]		Loss: 27838.4336 Acc@1: 2.000%
+| Epoch [ 21/ 80] Iter[  6/  7]		Loss: 13909.0928 Acc@1: 2.000%
+| Epoch [ 21/ 80] Iter[  7/  7]		Loss: 6948.5073 Acc@1: 2.000%
+{'Epoch': 21, 'Loss': 6948.50732421875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #21			Loss: 2.1878 Acc@1: 2.00%
+| Elapsed time : 0:02:15
+
+=> Training Epoch #22, LR=0.0000
+| Epoch [ 22/ 80] Iter[  1/  7]		Loss: 444560.0000 Acc@1: 2.000%
+| Epoch [ 22/ 80] Iter[  2/  7]		Loss: 222643.6719 Acc@1: 2.000%
+| Epoch [ 22/ 80] Iter[  3/  7]		Loss: 111139.3906 Acc@1: 2.000%
+| Epoch [ 22/ 80] Iter[  4/  7]		Loss: 55533.6328 Acc@1: 2.000%
+| Epoch [ 22/ 80] Iter[  5/  7]		Loss: 27827.8965 Acc@1: 2.000%
+| Epoch [ 22/ 80] Iter[  6/  7]		Loss: 13903.1064 Acc@1: 2.000%
+| Epoch [ 22/ 80] Iter[  7/  7]		Loss: 6961.9775 Acc@1: 2.000%
+{'Epoch': 22, 'Loss': 6961.9775390625, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #22			Loss: 1.3332 Acc@1: 2.00%
+| Elapsed time : 0:02:21
+
+=> Training Epoch #23, LR=0.0000
+| Epoch [ 23/ 80] Iter[  1/  7]		Loss: 444796.9375 Acc@1: 2.000%
+| Epoch [ 23/ 80] Iter[  2/  7]		Loss: 222386.3125 Acc@1: 2.000%
+| Epoch [ 23/ 80] Iter[  3/  7]		Loss: 111240.7969 Acc@1: 3.000%
+| Epoch [ 23/ 80] Iter[  4/  7]		Loss: 55607.5156 Acc@1: 2.000%
+| Epoch [ 23/ 80] Iter[  5/  7]		Loss: 27799.3633 Acc@1: 3.000%
+| Epoch [ 23/ 80] Iter[  6/  7]		Loss: 13894.5303 Acc@1: 2.000%
+| Epoch [ 23/ 80] Iter[  7/  7]		Loss: 6950.9097 Acc@1: 2.000%
+{'Epoch': 23, 'Loss': 6950.90966796875, 'Accuracy': tensor(2)}
+overalll f1_score:0.7878787878787878
+overall precision:0.75
+overall recall : 0.9166666666666667
+ROC_AUC0.9166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.8333    0.9091         6
+    Glaucoma     0.5000    1.0000    0.6667         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.7500    0.9167    0.7879         7
+weighted avg     0.9286    0.8571    0.8745         7
+
+
+| Validation Epoch #23			Loss: 0.1454 Acc@1: 2.00%
+| Elapsed time : 0:02:26
+
+=> Training Epoch #24, LR=0.0000
+| Epoch [ 24/ 80] Iter[  1/  7]		Loss: 445135.0625 Acc@1: 2.000%
+| Epoch [ 24/ 80] Iter[  2/  7]		Loss: 222294.4688 Acc@1: 2.000%
+| Epoch [ 24/ 80] Iter[  3/  7]		Loss: 111182.8984 Acc@1: 2.000%
+| Epoch [ 24/ 80] Iter[  4/  7]		Loss: 55549.3750 Acc@1: 2.000%
+| Epoch [ 24/ 80] Iter[  5/  7]		Loss: 27761.3555 Acc@1: 2.000%
+| Epoch [ 24/ 80] Iter[  6/  7]		Loss: 13880.9482 Acc@1: 2.000%
+| Epoch [ 24/ 80] Iter[  7/  7]		Loss: 6958.5171 Acc@1: 2.000%
+{'Epoch': 24, 'Loss': 6958.51708984375, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #24			Loss: 0.9790 Acc@1: 2.00%
+| Elapsed time : 0:02:32
+
+=> Training Epoch #25, LR=0.0000
+| Epoch [ 25/ 80] Iter[  1/  7]		Loss: 444801.6250 Acc@1: 1.000%
+| Epoch [ 25/ 80] Iter[  2/  7]		Loss: 222032.1875 Acc@1: 2.000%
+| Epoch [ 25/ 80] Iter[  3/  7]		Loss: 111188.3594 Acc@1: 2.000%
+| Epoch [ 25/ 80] Iter[  4/  7]		Loss: 55552.8906 Acc@1: 1.000%
+| Epoch [ 25/ 80] Iter[  5/  7]		Loss: 27813.6328 Acc@1: 2.000%
+| Epoch [ 25/ 80] Iter[  6/  7]		Loss: 13891.2080 Acc@1: 2.000%
+| Epoch [ 25/ 80] Iter[  7/  7]		Loss: 6952.2339 Acc@1: 2.000%
+{'Epoch': 25, 'Loss': 6952.23388671875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #25			Loss: 0.8421 Acc@1: 2.00%
+| Elapsed time : 0:02:39
+
+=> Training Epoch #26, LR=0.0000
+| Epoch [ 26/ 80] Iter[  1/  7]		Loss: 444360.0938 Acc@1: 1.000%
+| Epoch [ 26/ 80] Iter[  2/  7]		Loss: 222129.4844 Acc@1: 2.000%
+| Epoch [ 26/ 80] Iter[  3/  7]		Loss: 111057.8203 Acc@1: 2.000%
+| Epoch [ 26/ 80] Iter[  4/  7]		Loss: 55600.5859 Acc@1: 2.000%
+| Epoch [ 26/ 80] Iter[  5/  7]		Loss: 27790.2012 Acc@1: 2.000%
+| Epoch [ 26/ 80] Iter[  6/  7]		Loss: 13901.8604 Acc@1: 2.000%
+| Epoch [ 26/ 80] Iter[  7/  7]		Loss: 6953.8843 Acc@1: 2.000%
+{'Epoch': 26, 'Loss': 6953.88427734375, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #26			Loss: 2.8734 Acc@1: 2.00%
+| Elapsed time : 0:02:45
+
+=> Training Epoch #27, LR=0.0000
+| Epoch [ 27/ 80] Iter[  1/  7]		Loss: 444137.5000 Acc@1: 1.000%
+| Epoch [ 27/ 80] Iter[  2/  7]		Loss: 222424.6719 Acc@1: 2.000%
+| Epoch [ 27/ 80] Iter[  3/  7]		Loss: 111012.9219 Acc@1: 2.000%
+| Epoch [ 27/ 80] Iter[  4/  7]		Loss: 55552.7656 Acc@1: 2.000%
+| Epoch [ 27/ 80] Iter[  5/  7]		Loss: 27803.1172 Acc@1: 2.000%
+| Epoch [ 27/ 80] Iter[  6/  7]		Loss: 13896.4316 Acc@1: 2.000%
+| Epoch [ 27/ 80] Iter[  7/  7]		Loss: 6949.9453 Acc@1: 2.000%
+{'Epoch': 27, 'Loss': 6949.9453125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #27			Loss: 2.4949 Acc@1: 2.00%
+| Elapsed time : 0:02:50
+
+=> Training Epoch #28, LR=0.0000
+| Epoch [ 28/ 80] Iter[  1/  7]		Loss: 444955.0000 Acc@1: 3.000%
+| Epoch [ 28/ 80] Iter[  2/  7]		Loss: 222246.7969 Acc@1: 2.000%
+| Epoch [ 28/ 80] Iter[  3/  7]		Loss: 111160.4609 Acc@1: 2.000%
+| Epoch [ 28/ 80] Iter[  4/  7]		Loss: 55525.5156 Acc@1: 2.000%
+| Epoch [ 28/ 80] Iter[  5/  7]		Loss: 27767.1172 Acc@1: 2.000%
+| Epoch [ 28/ 80] Iter[  6/  7]		Loss: 13901.0303 Acc@1: 2.000%
+| Epoch [ 28/ 80] Iter[  7/  7]		Loss: 6957.1621 Acc@1: 2.000%
+{'Epoch': 28, 'Loss': 6957.162109375, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #28			Loss: 0.9788 Acc@1: 2.00%
+| Elapsed time : 0:02:57
+
+=> Training Epoch #29, LR=0.0000
+| Epoch [ 29/ 80] Iter[  1/  7]		Loss: 444099.3750 Acc@1: 2.000%
+| Epoch [ 29/ 80] Iter[  2/  7]		Loss: 222549.9219 Acc@1: 2.000%
+| Epoch [ 29/ 80] Iter[  3/  7]		Loss: 111192.4688 Acc@1: 1.000%
+| Epoch [ 29/ 80] Iter[  4/  7]		Loss: 55528.4688 Acc@1: 2.000%
+| Epoch [ 29/ 80] Iter[  5/  7]		Loss: 27766.0703 Acc@1: 2.000%
+| Epoch [ 29/ 80] Iter[  6/  7]		Loss: 13910.1855 Acc@1: 2.000%
+| Epoch [ 29/ 80] Iter[  7/  7]		Loss: 6962.5171 Acc@1: 2.000%
+{'Epoch': 29, 'Loss': 6962.51708984375, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #29			Loss: 0.0142 Acc@1: 2.00%
+| Elapsed time : 0:03:02
+
+=> Training Epoch #30, LR=0.0000
+| Epoch [ 30/ 80] Iter[  1/  7]		Loss: 444799.4688 Acc@1: 3.000%
+| Epoch [ 30/ 80] Iter[  2/  7]		Loss: 222274.7812 Acc@1: 2.000%
+| Epoch [ 30/ 80] Iter[  3/  7]		Loss: 111183.4141 Acc@1: 2.000%
+| Epoch [ 30/ 80] Iter[  4/  7]		Loss: 55653.4180 Acc@1: 2.000%
+| Epoch [ 30/ 80] Iter[  5/  7]		Loss: 27753.9473 Acc@1: 2.000%
+| Epoch [ 30/ 80] Iter[  6/  7]		Loss: 13893.3213 Acc@1: 2.000%
+| Epoch [ 30/ 80] Iter[  7/  7]		Loss: 6952.5972 Acc@1: 2.000%
+{'Epoch': 30, 'Loss': 6952.59716796875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #30			Loss: 4.3777 Acc@1: 2.00%
+| Elapsed time : 0:03:09
+
+=> Training Epoch #31, LR=0.0000
+| Epoch [ 31/ 80] Iter[  1/  7]		Loss: 444667.7500 Acc@1: 1.000%
+| Epoch [ 31/ 80] Iter[  2/  7]		Loss: 222257.0156 Acc@1: 2.000%
+| Epoch [ 31/ 80] Iter[  3/  7]		Loss: 111183.9922 Acc@1: 2.000%
+| Epoch [ 31/ 80] Iter[  4/  7]		Loss: 55634.3789 Acc@1: 2.000%
+| Epoch [ 31/ 80] Iter[  5/  7]		Loss: 27793.4453 Acc@1: 2.000%
+| Epoch [ 31/ 80] Iter[  6/  7]		Loss: 13913.8906 Acc@1: 2.000%
+| Epoch [ 31/ 80] Iter[  7/  7]		Loss: 6941.0552 Acc@1: 2.000%
+{'Epoch': 31, 'Loss': 6941.05517578125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #31			Loss: 1.9551 Acc@1: 2.00%
+| Elapsed time : 0:03:15
+
+=> Training Epoch #32, LR=0.0000
+| Epoch [ 32/ 80] Iter[  1/  7]		Loss: 444437.1250 Acc@1: 2.000%
+| Epoch [ 32/ 80] Iter[  2/  7]		Loss: 221948.1406 Acc@1: 2.000%
+| Epoch [ 32/ 80] Iter[  3/  7]		Loss: 111084.2422 Acc@1: 2.000%
+| Epoch [ 32/ 80] Iter[  4/  7]		Loss: 55548.4766 Acc@1: 2.000%
+| Epoch [ 32/ 80] Iter[  5/  7]		Loss: 27806.5254 Acc@1: 2.000%
+| Epoch [ 32/ 80] Iter[  6/  7]		Loss: 13876.2539 Acc@1: 2.000%
+| Epoch [ 32/ 80] Iter[  7/  7]		Loss: 6942.1167 Acc@1: 2.000%
+{'Epoch': 32, 'Loss': 6942.11669921875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #32			Loss: 1.7496 Acc@1: 2.00%
+| Elapsed time : 0:03:22
+
+=> Training Epoch #33, LR=0.0000
+| Epoch [ 33/ 80] Iter[  1/  7]		Loss: 444785.5938 Acc@1: 2.000%
+| Epoch [ 33/ 80] Iter[  2/  7]		Loss: 222133.3281 Acc@1: 2.000%
+| Epoch [ 33/ 80] Iter[  3/  7]		Loss: 111288.3047 Acc@1: 2.000%
+| Epoch [ 33/ 80] Iter[  4/  7]		Loss: 55506.2812 Acc@1: 2.000%
+| Epoch [ 33/ 80] Iter[  5/  7]		Loss: 27779.3926 Acc@1: 2.000%
+| Epoch [ 33/ 80] Iter[  6/  7]		Loss: 13896.9404 Acc@1: 2.000%
+| Epoch [ 33/ 80] Iter[  7/  7]		Loss: 6935.8882 Acc@1: 2.000%
+{'Epoch': 33, 'Loss': 6935.88818359375, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #33			Loss: 5.3478 Acc@1: 2.00%
+| Elapsed time : 0:03:28
+
+=> Training Epoch #34, LR=0.0000
+| Epoch [ 34/ 80] Iter[  1/  7]		Loss: 444342.8125 Acc@1: 2.000%
+| Epoch [ 34/ 80] Iter[  2/  7]		Loss: 222242.8594 Acc@1: 2.000%
+| Epoch [ 34/ 80] Iter[  3/  7]		Loss: 111138.0938 Acc@1: 2.000%
+| Epoch [ 34/ 80] Iter[  4/  7]		Loss: 55631.5273 Acc@1: 2.000%
+| Epoch [ 34/ 80] Iter[  5/  7]		Loss: 27737.8438 Acc@1: 2.000%
+| Epoch [ 34/ 80] Iter[  6/  7]		Loss: 13895.9834 Acc@1: 2.000%
+| Epoch [ 34/ 80] Iter[  7/  7]		Loss: 6933.5776 Acc@1: 2.000%
+{'Epoch': 34, 'Loss': 6933.57763671875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #34			Loss: 1.9346 Acc@1: 2.00%
+| Elapsed time : 0:03:34
+
+=> Training Epoch #35, LR=0.0000
+| Epoch [ 35/ 80] Iter[  1/  7]		Loss: 444050.8125 Acc@1: 2.000%
+| Epoch [ 35/ 80] Iter[  2/  7]		Loss: 222224.7500 Acc@1: 2.000%
+| Epoch [ 35/ 80] Iter[  3/  7]		Loss: 111309.4922 Acc@1: 2.000%
+| Epoch [ 35/ 80] Iter[  4/  7]		Loss: 55624.5859 Acc@1: 2.000%
+| Epoch [ 35/ 80] Iter[  5/  7]		Loss: 27794.5801 Acc@1: 2.000%
+| Epoch [ 35/ 80] Iter[  6/  7]		Loss: 13898.7852 Acc@1: 2.000%
+| Epoch [ 35/ 80] Iter[  7/  7]		Loss: 6955.2456 Acc@1: 2.000%
+{'Epoch': 35, 'Loss': 6955.24560546875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #35			Loss: 3.0735 Acc@1: 2.00%
+| Elapsed time : 0:03:40
+
+=> Training Epoch #36, LR=0.0000
+| Epoch [ 36/ 80] Iter[  1/  7]		Loss: 444516.0000 Acc@1: 3.000%
+| Epoch [ 36/ 80] Iter[  2/  7]		Loss: 222100.8125 Acc@1: 3.000%
+| Epoch [ 36/ 80] Iter[  3/  7]		Loss: 110975.9688 Acc@1: 2.000%
+| Epoch [ 36/ 80] Iter[  4/  7]		Loss: 55563.3594 Acc@1: 2.000%
+| Epoch [ 36/ 80] Iter[  5/  7]		Loss: 27804.4453 Acc@1: 2.000%
+| Epoch [ 36/ 80] Iter[  6/  7]		Loss: 13906.1943 Acc@1: 2.000%
+| Epoch [ 36/ 80] Iter[  7/  7]		Loss: 6956.5044 Acc@1: 2.000%
+{'Epoch': 36, 'Loss': 6956.50439453125, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #36			Loss: 0.0095 Acc@1: 2.00%
+| Elapsed time : 0:03:45
+
+=> Training Epoch #37, LR=0.0000
+| Epoch [ 37/ 80] Iter[  1/  7]		Loss: 444034.6250 Acc@1: 2.000%
+| Epoch [ 37/ 80] Iter[  2/  7]		Loss: 222235.6719 Acc@1: 2.000%
+| Epoch [ 37/ 80] Iter[  3/  7]		Loss: 111127.3125 Acc@1: 2.000%
+| Epoch [ 37/ 80] Iter[  4/  7]		Loss: 55561.6914 Acc@1: 2.000%
+| Epoch [ 37/ 80] Iter[  5/  7]		Loss: 27775.5723 Acc@1: 2.000%
+| Epoch [ 37/ 80] Iter[  6/  7]		Loss: 13896.5967 Acc@1: 2.000%
+| Epoch [ 37/ 80] Iter[  7/  7]		Loss: 6964.3130 Acc@1: 2.000%
+{'Epoch': 37, 'Loss': 6964.31298828125, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #37			Loss: 2.4340 Acc@1: 2.00%
+| Elapsed time : 0:03:52
+
+=> Training Epoch #38, LR=0.0000
+| Epoch [ 38/ 80] Iter[  1/  7]		Loss: 443342.5000 Acc@1: 2.000%
+| Epoch [ 38/ 80] Iter[  2/  7]		Loss: 222217.6875 Acc@1: 2.000%
+| Epoch [ 38/ 80] Iter[  3/  7]		Loss: 111120.1094 Acc@1: 2.000%
+| Epoch [ 38/ 80] Iter[  4/  7]		Loss: 55577.5039 Acc@1: 2.000%
+| Epoch [ 38/ 80] Iter[  5/  7]		Loss: 27784.6074 Acc@1: 2.000%
+| Epoch [ 38/ 80] Iter[  6/  7]		Loss: 13883.1240 Acc@1: 2.000%
+| Epoch [ 38/ 80] Iter[  7/  7]		Loss: 6964.4048 Acc@1: 2.000%
+{'Epoch': 38, 'Loss': 6964.40478515625, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #38			Loss: 0.2152 Acc@1: 2.00%
+| Elapsed time : 0:03:57
+
+=> Training Epoch #39, LR=0.0000
+| Epoch [ 39/ 80] Iter[  1/  7]		Loss: 444522.4062 Acc@1: 2.000%
+| Epoch [ 39/ 80] Iter[  2/  7]		Loss: 222741.2344 Acc@1: 2.000%
+| Epoch [ 39/ 80] Iter[  3/  7]		Loss: 111234.4766 Acc@1: 2.000%
+| Epoch [ 39/ 80] Iter[  4/  7]		Loss: 55606.0547 Acc@1: 2.000%
+| Epoch [ 39/ 80] Iter[  5/  7]		Loss: 27784.6582 Acc@1: 2.000%
+| Epoch [ 39/ 80] Iter[  6/  7]		Loss: 13881.8662 Acc@1: 2.000%
+| Epoch [ 39/ 80] Iter[  7/  7]		Loss: 6950.2144 Acc@1: 2.000%
+{'Epoch': 39, 'Loss': 6950.21435546875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #39			Loss: 4.9442 Acc@1: 2.00%
+| Elapsed time : 0:04:04
+
+=> Training Epoch #40, LR=0.0000
+| Epoch [ 40/ 80] Iter[  1/  7]		Loss: 444485.7188 Acc@1: 2.000%
+| Epoch [ 40/ 80] Iter[  2/  7]		Loss: 222556.9375 Acc@1: 2.000%
+| Epoch [ 40/ 80] Iter[  3/  7]		Loss: 111107.8203 Acc@1: 2.000%
+| Epoch [ 40/ 80] Iter[  4/  7]		Loss: 55612.1445 Acc@1: 2.000%
+| Epoch [ 40/ 80] Iter[  5/  7]		Loss: 27806.0176 Acc@1: 2.000%
+| Epoch [ 40/ 80] Iter[  6/  7]		Loss: 13886.4199 Acc@1: 2.000%
+| Epoch [ 40/ 80] Iter[  7/  7]		Loss: 6941.9434 Acc@1: 2.000%
+{'Epoch': 40, 'Loss': 6941.943359375, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #40			Loss: 6.2536 Acc@1: 2.00%
+| Elapsed time : 0:04:10
+
+=> Training Epoch #41, LR=0.0000
+| Epoch [ 41/ 80] Iter[  1/  7]		Loss: 444443.2188 Acc@1: 2.000%
+| Epoch [ 41/ 80] Iter[  2/  7]		Loss: 222735.6719 Acc@1: 2.000%
+| Epoch [ 41/ 80] Iter[  3/  7]		Loss: 111159.6953 Acc@1: 2.000%
+| Epoch [ 41/ 80] Iter[  4/  7]		Loss: 55570.2969 Acc@1: 2.000%
+| Epoch [ 41/ 80] Iter[  5/  7]		Loss: 27785.0586 Acc@1: 2.000%
+| Epoch [ 41/ 80] Iter[  6/  7]		Loss: 13895.7441 Acc@1: 2.000%
+| Epoch [ 41/ 80] Iter[  7/  7]		Loss: 6941.1553 Acc@1: 2.000%
+{'Epoch': 41, 'Loss': 6941.1552734375, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #41			Loss: 5.7584 Acc@1: 2.00%
+| Elapsed time : 0:04:16
+
+=> Training Epoch #42, LR=0.0000
+| Epoch [ 42/ 80] Iter[  1/  7]		Loss: 445358.8438 Acc@1: 2.000%
+| Epoch [ 42/ 80] Iter[  2/  7]		Loss: 222413.8438 Acc@1: 2.000%
+| Epoch [ 42/ 80] Iter[  3/  7]		Loss: 111068.9766 Acc@1: 2.000%
+| Epoch [ 42/ 80] Iter[  4/  7]		Loss: 55646.8516 Acc@1: 2.000%
+| Epoch [ 42/ 80] Iter[  5/  7]		Loss: 27755.3203 Acc@1: 2.000%
+| Epoch [ 42/ 80] Iter[  6/  7]		Loss: 13900.4707 Acc@1: 2.000%
+| Epoch [ 42/ 80] Iter[  7/  7]		Loss: 6945.7388 Acc@1: 2.000%
+{'Epoch': 42, 'Loss': 6945.73876953125, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #42			Loss: 3.7058 Acc@1: 2.00%
+| Elapsed time : 0:04:22
+
+=> Training Epoch #43, LR=0.0000
+| Epoch [ 43/ 80] Iter[  1/  7]		Loss: 445444.6562 Acc@1: 2.000%
+| Epoch [ 43/ 80] Iter[  2/  7]		Loss: 221648.4219 Acc@1: 2.000%
+| Epoch [ 43/ 80] Iter[  3/  7]		Loss: 111138.8672 Acc@1: 2.000%
+| Epoch [ 43/ 80] Iter[  4/  7]		Loss: 55552.1250 Acc@1: 2.000%
+| Epoch [ 43/ 80] Iter[  5/  7]		Loss: 27824.9023 Acc@1: 2.000%
+| Epoch [ 43/ 80] Iter[  6/  7]		Loss: 13890.3633 Acc@1: 2.000%
+| Epoch [ 43/ 80] Iter[  7/  7]		Loss: 6950.7349 Acc@1: 2.000%
+{'Epoch': 43, 'Loss': 6950.73486328125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #43			Loss: 0.4464 Acc@1: 2.00%
+| Elapsed time : 0:04:29
+
+=> Training Epoch #44, LR=0.0000
+| Epoch [ 44/ 80] Iter[  1/  7]		Loss: 444033.1250 Acc@1: 2.000%
+| Epoch [ 44/ 80] Iter[  2/  7]		Loss: 222243.9531 Acc@1: 2.000%
+| Epoch [ 44/ 80] Iter[  3/  7]		Loss: 111204.5469 Acc@1: 2.000%
+| Epoch [ 44/ 80] Iter[  4/  7]		Loss: 55566.3945 Acc@1: 2.000%
+| Epoch [ 44/ 80] Iter[  5/  7]		Loss: 27769.4941 Acc@1: 2.000%
+| Epoch [ 44/ 80] Iter[  6/  7]		Loss: 13904.2715 Acc@1: 2.000%
+| Epoch [ 44/ 80] Iter[  7/  7]		Loss: 6951.8286 Acc@1: 2.000%
+{'Epoch': 44, 'Loss': 6951.82861328125, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #44			Loss: 1.0308 Acc@1: 2.00%
+| Elapsed time : 0:04:34
+
+=> Training Epoch #45, LR=0.0000
+| Epoch [ 45/ 80] Iter[  1/  7]		Loss: 445058.8750 Acc@1: 2.000%
+| Epoch [ 45/ 80] Iter[  2/  7]		Loss: 222232.7500 Acc@1: 2.000%
+| Epoch [ 45/ 80] Iter[  3/  7]		Loss: 111175.5156 Acc@1: 2.000%
+| Epoch [ 45/ 80] Iter[  4/  7]		Loss: 55549.3281 Acc@1: 2.000%
+| Epoch [ 45/ 80] Iter[  5/  7]		Loss: 27779.8633 Acc@1: 2.000%
+| Epoch [ 45/ 80] Iter[  6/  7]		Loss: 13908.7861 Acc@1: 2.000%
+| Epoch [ 45/ 80] Iter[  7/  7]		Loss: 6941.5479 Acc@1: 2.000%
+{'Epoch': 45, 'Loss': 6941.5478515625, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #45			Loss: 0.7898 Acc@1: 2.00%
+| Elapsed time : 0:04:41
+
+=> Training Epoch #46, LR=0.0000
+| Epoch [ 46/ 80] Iter[  1/  7]		Loss: 444203.1250 Acc@1: 2.000%
+| Epoch [ 46/ 80] Iter[  2/  7]		Loss: 222287.4219 Acc@1: 2.000%
+| Epoch [ 46/ 80] Iter[  3/  7]		Loss: 111358.4688 Acc@1: 2.000%
+| Epoch [ 46/ 80] Iter[  4/  7]		Loss: 55595.2852 Acc@1: 2.000%
+| Epoch [ 46/ 80] Iter[  5/  7]		Loss: 27807.8066 Acc@1: 2.000%
+| Epoch [ 46/ 80] Iter[  6/  7]		Loss: 13905.6318 Acc@1: 2.000%
+| Epoch [ 46/ 80] Iter[  7/  7]		Loss: 6962.1855 Acc@1: 2.000%
+{'Epoch': 46, 'Loss': 6962.185546875, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #46			Loss: 0.0196 Acc@1: 2.00%
+| Elapsed time : 0:04:46
+
+=> Training Epoch #47, LR=0.0000
+| Epoch [ 47/ 80] Iter[  1/  7]		Loss: 444137.9062 Acc@1: 2.000%
+| Epoch [ 47/ 80] Iter[  2/  7]		Loss: 222147.6875 Acc@1: 2.000%
+| Epoch [ 47/ 80] Iter[  3/  7]		Loss: 111222.8047 Acc@1: 2.000%
+| Epoch [ 47/ 80] Iter[  4/  7]		Loss: 55605.7461 Acc@1: 2.000%
+| Epoch [ 47/ 80] Iter[  5/  7]		Loss: 27781.4727 Acc@1: 2.000%
+| Epoch [ 47/ 80] Iter[  6/  7]		Loss: 13895.1240 Acc@1: 2.000%
+| Epoch [ 47/ 80] Iter[  7/  7]		Loss: 6941.2417 Acc@1: 2.000%
+{'Epoch': 47, 'Loss': 6941.24169921875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #47			Loss: 4.5232 Acc@1: 2.00%
+| Elapsed time : 0:04:52
+
+=> Training Epoch #48, LR=0.0000
+| Epoch [ 48/ 80] Iter[  1/  7]		Loss: 444487.1250 Acc@1: 1.000%
+| Epoch [ 48/ 80] Iter[  2/  7]		Loss: 222147.2812 Acc@1: 2.000%
+| Epoch [ 48/ 80] Iter[  3/  7]		Loss: 111025.5469 Acc@1: 1.000%
+| Epoch [ 48/ 80] Iter[  4/  7]		Loss: 55504.8906 Acc@1: 2.000%
+| Epoch [ 48/ 80] Iter[  5/  7]		Loss: 27757.2012 Acc@1: 2.000%
+| Epoch [ 48/ 80] Iter[  6/  7]		Loss: 13894.7344 Acc@1: 2.000%
+| Epoch [ 48/ 80] Iter[  7/  7]		Loss: 6946.9727 Acc@1: 2.000%
+{'Epoch': 48, 'Loss': 6946.97265625, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #48			Loss: 4.3165 Acc@1: 2.00%
+| Elapsed time : 0:04:58
+
+=> Training Epoch #49, LR=0.0000
+| Epoch [ 49/ 80] Iter[  1/  7]		Loss: 444912.8125 Acc@1: 2.000%
+| Epoch [ 49/ 80] Iter[  2/  7]		Loss: 222010.9375 Acc@1: 2.000%
+| Epoch [ 49/ 80] Iter[  3/  7]		Loss: 111290.1328 Acc@1: 2.000%
+| Epoch [ 49/ 80] Iter[  4/  7]		Loss: 55620.0859 Acc@1: 2.000%
+| Epoch [ 49/ 80] Iter[  5/  7]		Loss: 27788.1113 Acc@1: 2.000%
+| Epoch [ 49/ 80] Iter[  6/  7]		Loss: 13899.4492 Acc@1: 2.000%
+| Epoch [ 49/ 80] Iter[  7/  7]		Loss: 6945.9639 Acc@1: 2.000%
+{'Epoch': 49, 'Loss': 6945.9638671875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #49			Loss: 3.8989 Acc@1: 2.00%
+| Elapsed time : 0:05:06
+
+=> Training Epoch #50, LR=0.0000
+| Epoch [ 50/ 80] Iter[  1/  7]		Loss: 444422.8438 Acc@1: 2.000%
+| Epoch [ 50/ 80] Iter[  2/  7]		Loss: 222294.6406 Acc@1: 2.000%
+| Epoch [ 50/ 80] Iter[  3/  7]		Loss: 111082.8672 Acc@1: 2.000%
+| Epoch [ 50/ 80] Iter[  4/  7]		Loss: 55592.9258 Acc@1: 2.000%
+| Epoch [ 50/ 80] Iter[  5/  7]		Loss: 27744.2246 Acc@1: 2.000%
+| Epoch [ 50/ 80] Iter[  6/  7]		Loss: 13889.4668 Acc@1: 2.000%
+| Epoch [ 50/ 80] Iter[  7/  7]		Loss: 6955.5967 Acc@1: 2.000%
+{'Epoch': 50, 'Loss': 6955.5966796875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #50			Loss: 0.4085 Acc@1: 2.00%
+| Elapsed time : 0:05:14
+
+=> Training Epoch #51, LR=0.0000
+| Epoch [ 51/ 80] Iter[  1/  7]		Loss: 445066.0312 Acc@1: 1.000%
+| Epoch [ 51/ 80] Iter[  2/  7]		Loss: 222267.3125 Acc@1: 2.000%
+| Epoch [ 51/ 80] Iter[  3/  7]		Loss: 111013.0469 Acc@1: 2.000%
+| Epoch [ 51/ 80] Iter[  4/  7]		Loss: 55591.5391 Acc@1: 2.000%
+| Epoch [ 51/ 80] Iter[  5/  7]		Loss: 27784.9609 Acc@1: 2.000%
+| Epoch [ 51/ 80] Iter[  6/  7]		Loss: 13888.8242 Acc@1: 2.000%
+| Epoch [ 51/ 80] Iter[  7/  7]		Loss: 6955.8862 Acc@1: 2.000%
+{'Epoch': 51, 'Loss': 6955.88623046875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #51			Loss: 2.3853 Acc@1: 2.00%
+| Elapsed time : 0:05:20
+
+=> Training Epoch #52, LR=0.0000
+| Epoch [ 52/ 80] Iter[  1/  7]		Loss: 444435.2812 Acc@1: 3.000%
+| Epoch [ 52/ 80] Iter[  2/  7]		Loss: 222480.0156 Acc@1: 2.000%
+| Epoch [ 52/ 80] Iter[  3/  7]		Loss: 111178.6016 Acc@1: 2.000%
+| Epoch [ 52/ 80] Iter[  4/  7]		Loss: 55641.8008 Acc@1: 2.000%
+| Epoch [ 52/ 80] Iter[  5/  7]		Loss: 27767.9551 Acc@1: 2.000%
+| Epoch [ 52/ 80] Iter[  6/  7]		Loss: 13893.0781 Acc@1: 2.000%
+| Epoch [ 52/ 80] Iter[  7/  7]		Loss: 6949.1006 Acc@1: 2.000%
+{'Epoch': 52, 'Loss': 6949.1005859375, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #52			Loss: 2.0565 Acc@1: 2.00%
+| Elapsed time : 0:05:25
+
+=> Training Epoch #53, LR=0.0000
+| Epoch [ 53/ 80] Iter[  1/  7]		Loss: 444309.3750 Acc@1: 3.000%
+| Epoch [ 53/ 80] Iter[  2/  7]		Loss: 222049.9219 Acc@1: 2.000%
+| Epoch [ 53/ 80] Iter[  3/  7]		Loss: 111222.4688 Acc@1: 2.000%
+| Epoch [ 53/ 80] Iter[  4/  7]		Loss: 55618.3633 Acc@1: 2.000%
+| Epoch [ 53/ 80] Iter[  5/  7]		Loss: 27764.9492 Acc@1: 2.000%
+| Epoch [ 53/ 80] Iter[  6/  7]		Loss: 13894.7646 Acc@1: 2.000%
+| Epoch [ 53/ 80] Iter[  7/  7]		Loss: 6940.0435 Acc@1: 2.000%
+{'Epoch': 53, 'Loss': 6940.04345703125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #53			Loss: 5.2774 Acc@1: 2.00%
+| Elapsed time : 0:05:32
+
+=> Training Epoch #54, LR=0.0000
+| Epoch [ 54/ 80] Iter[  1/  7]		Loss: 444103.7500 Acc@1: 2.000%
+| Epoch [ 54/ 80] Iter[  2/  7]		Loss: 222418.7969 Acc@1: 2.000%
+| Epoch [ 54/ 80] Iter[  3/  7]		Loss: 111216.2109 Acc@1: 2.000%
+| Epoch [ 54/ 80] Iter[  4/  7]		Loss: 55576.6914 Acc@1: 2.000%
+| Epoch [ 54/ 80] Iter[  5/  7]		Loss: 27746.3125 Acc@1: 2.000%
+| Epoch [ 54/ 80] Iter[  6/  7]		Loss: 13909.8818 Acc@1: 2.000%
+| Epoch [ 54/ 80] Iter[  7/  7]		Loss: 6951.9204 Acc@1: 2.000%
+{'Epoch': 54, 'Loss': 6951.92041015625, 'Accuracy': tensor(2)}
+overalll f1_score:0.7878787878787878
+overall precision:0.75
+overall recall : 0.9166666666666667
+ROC_AUC0.9166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.8333    0.9091         6
+    Glaucoma     0.5000    1.0000    0.6667         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.7500    0.9167    0.7879         7
+weighted avg     0.9286    0.8571    0.8745         7
+
+
+| Validation Epoch #54			Loss: 0.1461 Acc@1: 2.00%
+| Elapsed time : 0:05:37
+
+=> Training Epoch #55, LR=0.0000
+| Epoch [ 55/ 80] Iter[  1/  7]		Loss: 444091.4375 Acc@1: 1.000%
+| Epoch [ 55/ 80] Iter[  2/  7]		Loss: 222624.8438 Acc@1: 1.000%
+| Epoch [ 55/ 80] Iter[  3/  7]		Loss: 110851.5000 Acc@1: 2.000%
+| Epoch [ 55/ 80] Iter[  4/  7]		Loss: 55585.0117 Acc@1: 2.000%
+| Epoch [ 55/ 80] Iter[  5/  7]		Loss: 27746.2402 Acc@1: 2.000%
+| Epoch [ 55/ 80] Iter[  6/  7]		Loss: 13904.7617 Acc@1: 2.000%
+| Epoch [ 55/ 80] Iter[  7/  7]		Loss: 6955.8433 Acc@1: 2.000%
+{'Epoch': 55, 'Loss': 6955.84326171875, 'Accuracy': tensor(2)}
+overalll f1_score:0.5333333333333333
+overall precision:0.625
+overall recall : 0.75
+ROC_AUC0.75
+False positive[0.  0.5 1. ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.5000    0.6667         6
+    Glaucoma     0.2500    1.0000    0.4000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.6250    0.7500    0.5333         7
+weighted avg     0.8929    0.5714    0.6286         7
+
+
+| Validation Epoch #55			Loss: 2.4061 Acc@1: 2.00%
+| Elapsed time : 0:05:44
+
+=> Training Epoch #56, LR=0.0000
+| Epoch [ 56/ 80] Iter[  1/  7]		Loss: 444235.1562 Acc@1: 3.000%
+| Epoch [ 56/ 80] Iter[  2/  7]		Loss: 222192.7188 Acc@1: 2.000%
+| Epoch [ 56/ 80] Iter[  3/  7]		Loss: 110984.7031 Acc@1: 2.000%
+| Epoch [ 56/ 80] Iter[  4/  7]		Loss: 55658.9805 Acc@1: 2.000%
+| Epoch [ 56/ 80] Iter[  5/  7]		Loss: 27797.1621 Acc@1: 2.000%
+| Epoch [ 56/ 80] Iter[  6/  7]		Loss: 13889.4883 Acc@1: 2.000%
+| Epoch [ 56/ 80] Iter[  7/  7]		Loss: 6944.4419 Acc@1: 2.000%
+{'Epoch': 56, 'Loss': 6944.44189453125, 'Accuracy': tensor(2)}
+overalll f1_score:0.7878787878787878
+overall precision:0.75
+overall recall : 0.9166666666666667
+ROC_AUC0.9166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.8333    0.9091         6
+    Glaucoma     0.5000    1.0000    0.6667         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.7500    0.9167    0.7879         7
+weighted avg     0.9286    0.8571    0.8745         7
+
+
+| Validation Epoch #56			Loss: 1.7300 Acc@1: 2.00%
+| Elapsed time : 0:05:50
+
+=> Training Epoch #57, LR=0.0000
+| Epoch [ 57/ 80] Iter[  1/  7]		Loss: 444703.4375 Acc@1: 2.000%
+| Epoch [ 57/ 80] Iter[  2/  7]		Loss: 222550.0156 Acc@1: 2.000%
+| Epoch [ 57/ 80] Iter[  3/  7]		Loss: 111146.8203 Acc@1: 2.000%
+| Epoch [ 57/ 80] Iter[  4/  7]		Loss: 55552.6875 Acc@1: 2.000%
+| Epoch [ 57/ 80] Iter[  5/  7]		Loss: 27798.3242 Acc@1: 2.000%
+| Epoch [ 57/ 80] Iter[  6/  7]		Loss: 13874.3643 Acc@1: 2.000%
+| Epoch [ 57/ 80] Iter[  7/  7]		Loss: 6941.8135 Acc@1: 2.000%
+{'Epoch': 57, 'Loss': 6941.8134765625, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #57			Loss: 2.6054 Acc@1: 2.00%
+| Elapsed time : 0:05:57
+
+=> Training Epoch #58, LR=0.0000
+| Epoch [ 58/ 80] Iter[  1/  7]		Loss: 444598.0938 Acc@1: 2.000%
+| Epoch [ 58/ 80] Iter[  2/  7]		Loss: 221957.3906 Acc@1: 2.000%
+| Epoch [ 58/ 80] Iter[  3/  7]		Loss: 111196.8281 Acc@1: 2.000%
+| Epoch [ 58/ 80] Iter[  4/  7]		Loss: 55562.8867 Acc@1: 2.000%
+| Epoch [ 58/ 80] Iter[  5/  7]		Loss: 27806.9102 Acc@1: 2.000%
+| Epoch [ 58/ 80] Iter[  6/  7]		Loss: 13905.2334 Acc@1: 2.000%
+| Epoch [ 58/ 80] Iter[  7/  7]		Loss: 6957.4375 Acc@1: 2.000%
+{'Epoch': 58, 'Loss': 6957.4375, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #58			Loss: 0.1057 Acc@1: 2.00%
+| Elapsed time : 0:06:02
+
+=> Training Epoch #59, LR=0.0000
+| Epoch [ 59/ 80] Iter[  1/  7]		Loss: 444940.1250 Acc@1: 2.000%
+| Epoch [ 59/ 80] Iter[  2/  7]		Loss: 222402.8906 Acc@1: 2.000%
+| Epoch [ 59/ 80] Iter[  3/  7]		Loss: 111002.9297 Acc@1: 2.000%
+| Epoch [ 59/ 80] Iter[  4/  7]		Loss: 55530.8359 Acc@1: 2.000%
+| Epoch [ 59/ 80] Iter[  5/  7]		Loss: 27832.3535 Acc@1: 2.000%
+| Epoch [ 59/ 80] Iter[  6/  7]		Loss: 13880.4844 Acc@1: 2.000%
+| Epoch [ 59/ 80] Iter[  7/  7]		Loss: 6954.4951 Acc@1: 2.000%
+{'Epoch': 59, 'Loss': 6954.4951171875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #59			Loss: 2.0008 Acc@1: 2.00%
+| Elapsed time : 0:06:08
+
+=> Training Epoch #60, LR=0.0000
+| Epoch [ 60/ 80] Iter[  1/  7]		Loss: 443867.1250 Acc@1: 1.000%
+| Epoch [ 60/ 80] Iter[  2/  7]		Loss: 222456.9688 Acc@1: 1.000%
+| Epoch [ 60/ 80] Iter[  3/  7]		Loss: 111073.9844 Acc@1: 2.000%
+| Epoch [ 60/ 80] Iter[  4/  7]		Loss: 55573.8984 Acc@1: 2.000%
+| Epoch [ 60/ 80] Iter[  5/  7]		Loss: 27762.8398 Acc@1: 2.000%
+| Epoch [ 60/ 80] Iter[  6/  7]		Loss: 13901.0146 Acc@1: 2.000%
+| Epoch [ 60/ 80] Iter[  7/  7]		Loss: 6941.6802 Acc@1: 2.000%
+{'Epoch': 60, 'Loss': 6941.68017578125, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #60			Loss: 3.1750 Acc@1: 2.00%
+| Elapsed time : 0:06:14
+
+=> Training Epoch #61, LR=0.0000
+| Epoch [ 61/ 80] Iter[  1/  7]		Loss: 444713.1562 Acc@1: 1.000%
+| Epoch [ 61/ 80] Iter[  2/  7]		Loss: 222305.2656 Acc@1: 1.000%
+| Epoch [ 61/ 80] Iter[  3/  7]		Loss: 111018.6328 Acc@1: 2.000%
+| Epoch [ 61/ 80] Iter[  4/  7]		Loss: 55563.0469 Acc@1: 2.000%
+| Epoch [ 61/ 80] Iter[  5/  7]		Loss: 27783.2949 Acc@1: 2.000%
+| Epoch [ 61/ 80] Iter[  6/  7]		Loss: 13879.3457 Acc@1: 2.000%
+| Epoch [ 61/ 80] Iter[  7/  7]		Loss: 6941.9844 Acc@1: 2.000%
+{'Epoch': 61, 'Loss': 6941.984375, 'Accuracy': tensor(2)}
+overalll f1_score:0.2222222222222222
+overall precision:0.3333333333333333
+overall recall : 0.16666666666666666
+ROC_AUC0.16666666666666669
+False positive[0.         0.66666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[2 4]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.6667    0.3333    0.4444         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.2857    0.2857    0.2857         7
+   macro avg     0.3333    0.1667    0.2222         7
+weighted avg     0.5714    0.2857    0.3810         7
+
+
+| Validation Epoch #61			Loss: 3.8990 Acc@1: 2.00%
+| Elapsed time : 0:06:20
+
+=> Training Epoch #62, LR=0.0000
+| Epoch [ 62/ 80] Iter[  1/  7]		Loss: 445388.0625 Acc@1: 2.000%
+| Epoch [ 62/ 80] Iter[  2/  7]		Loss: 222324.0156 Acc@1: 2.000%
+| Epoch [ 62/ 80] Iter[  3/  7]		Loss: 111148.5156 Acc@1: 2.000%
+| Epoch [ 62/ 80] Iter[  4/  7]		Loss: 55554.5078 Acc@1: 2.000%
+| Epoch [ 62/ 80] Iter[  5/  7]		Loss: 27785.9258 Acc@1: 2.000%
+| Epoch [ 62/ 80] Iter[  6/  7]		Loss: 13899.6602 Acc@1: 2.000%
+| Epoch [ 62/ 80] Iter[  7/  7]		Loss: 6940.2466 Acc@1: 2.000%
+{'Epoch': 62, 'Loss': 6940.24658203125, 'Accuracy': tensor(2)}
+overalll f1_score:0.5333333333333333
+overall precision:0.625
+overall recall : 0.75
+ROC_AUC0.75
+False positive[0.  0.5 1. ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.5000    0.6667         6
+    Glaucoma     0.2500    1.0000    0.4000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.6250    0.7500    0.5333         7
+weighted avg     0.8929    0.5714    0.6286         7
+
+
+| Validation Epoch #62			Loss: 0.7901 Acc@1: 2.00%
+| Elapsed time : 0:06:25
+
+=> Training Epoch #63, LR=0.0000
+| Epoch [ 63/ 80] Iter[  1/  7]		Loss: 444403.3125 Acc@1: 2.000%
+| Epoch [ 63/ 80] Iter[  2/  7]		Loss: 222190.2188 Acc@1: 2.000%
+| Epoch [ 63/ 80] Iter[  3/  7]		Loss: 111081.3906 Acc@1: 2.000%
+| Epoch [ 63/ 80] Iter[  4/  7]		Loss: 55551.3438 Acc@1: 2.000%
+| Epoch [ 63/ 80] Iter[  5/  7]		Loss: 27796.1055 Acc@1: 2.000%
+| Epoch [ 63/ 80] Iter[  6/  7]		Loss: 13880.1836 Acc@1: 2.000%
+| Epoch [ 63/ 80] Iter[  7/  7]		Loss: 6955.7422 Acc@1: 2.000%
+{'Epoch': 63, 'Loss': 6955.7421875, 'Accuracy': tensor(2)}
+overalll f1_score:0.3
+overall precision:0.375
+overall recall : 0.25
+ROC_AUC0.25
+False positive[0.  0.5 1. ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.7500    0.5000    0.6000         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.4286    0.4286    0.4286         7
+   macro avg     0.3750    0.2500    0.3000         7
+weighted avg     0.6429    0.4286    0.5143         7
+
+
+| Validation Epoch #63			Loss: 2.9124 Acc@1: 2.00%
+| Elapsed time : 0:06:31
+
+=> Training Epoch #64, LR=0.0000
+| Epoch [ 64/ 80] Iter[  1/  7]		Loss: 445349.0312 Acc@1: 1.000%
+| Epoch [ 64/ 80] Iter[  2/  7]		Loss: 222441.9688 Acc@1: 1.000%
+| Epoch [ 64/ 80] Iter[  3/  7]		Loss: 111161.8672 Acc@1: 1.000%
+| Epoch [ 64/ 80] Iter[  4/  7]		Loss: 55622.0156 Acc@1: 2.000%
+| Epoch [ 64/ 80] Iter[  5/  7]		Loss: 27828.6875 Acc@1: 2.000%
+| Epoch [ 64/ 80] Iter[  6/  7]		Loss: 13903.9961 Acc@1: 2.000%
+| Epoch [ 64/ 80] Iter[  7/  7]		Loss: 6958.0400 Acc@1: 2.000%
+{'Epoch': 64, 'Loss': 6958.0400390625, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #64			Loss: 1.2942 Acc@1: 2.00%
+| Elapsed time : 0:06:37
+
+=> Training Epoch #65, LR=0.0000
+| Epoch [ 65/ 80] Iter[  1/  7]		Loss: 444219.4688 Acc@1: 2.000%
+| Epoch [ 65/ 80] Iter[  2/  7]		Loss: 222297.4531 Acc@1: 1.000%
+| Epoch [ 65/ 80] Iter[  3/  7]		Loss: 111094.5625 Acc@1: 1.000%
+| Epoch [ 65/ 80] Iter[  4/  7]		Loss: 55506.2266 Acc@1: 1.000%
+| Epoch [ 65/ 80] Iter[  5/  7]		Loss: 27781.4512 Acc@1: 2.000%
+| Epoch [ 65/ 80] Iter[  6/  7]		Loss: 13912.8252 Acc@1: 2.000%
+| Epoch [ 65/ 80] Iter[  7/  7]		Loss: 6941.6748 Acc@1: 2.000%
+{'Epoch': 65, 'Loss': 6941.6748046875, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #65			Loss: 4.1163 Acc@1: 2.00%
+| Elapsed time : 0:06:43
+
+=> Training Epoch #66, LR=0.0000
+| Epoch [ 66/ 80] Iter[  1/  7]		Loss: 445057.7188 Acc@1: 2.000%
+| Epoch [ 66/ 80] Iter[  2/  7]		Loss: 222352.4062 Acc@1: 2.000%
+| Epoch [ 66/ 80] Iter[  3/  7]		Loss: 111102.2109 Acc@1: 2.000%
+| Epoch [ 66/ 80] Iter[  4/  7]		Loss: 55533.1211 Acc@1: 2.000%
+| Epoch [ 66/ 80] Iter[  5/  7]		Loss: 27777.2773 Acc@1: 2.000%
+| Epoch [ 66/ 80] Iter[  6/  7]		Loss: 13891.1992 Acc@1: 2.000%
+| Epoch [ 66/ 80] Iter[  7/  7]		Loss: 6951.6831 Acc@1: 2.000%
+{'Epoch': 66, 'Loss': 6951.68310546875, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #66			Loss: 1.7692 Acc@1: 2.00%
+| Elapsed time : 0:06:48
+
+=> Training Epoch #67, LR=0.0000
+| Epoch [ 67/ 80] Iter[  1/  7]		Loss: 444420.8438 Acc@1: 2.000%
+| Epoch [ 67/ 80] Iter[  2/  7]		Loss: 222252.8906 Acc@1: 2.000%
+| Epoch [ 67/ 80] Iter[  3/  7]		Loss: 111295.8359 Acc@1: 2.000%
+| Epoch [ 67/ 80] Iter[  4/  7]		Loss: 55539.1602 Acc@1: 2.000%
+| Epoch [ 67/ 80] Iter[  5/  7]		Loss: 27782.6035 Acc@1: 2.000%
+| Epoch [ 67/ 80] Iter[  6/  7]		Loss: 13904.0732 Acc@1: 2.000%
+| Epoch [ 67/ 80] Iter[  7/  7]		Loss: 6948.3379 Acc@1: 2.000%
+{'Epoch': 67, 'Loss': 6948.337890625, 'Accuracy': tensor(2)}
+overalll f1_score:0.3636363636363636
+overall precision:0.4
+overall recall : 0.3333333333333333
+ROC_AUC0.33333333333333337
+False positive[0.         0.33333333 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8000    0.6667    0.7273         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.4000    0.3333    0.3636         7
+weighted avg     0.6857    0.5714    0.6234         7
+
+
+| Validation Epoch #67			Loss: 2.1029 Acc@1: 2.00%
+| Elapsed time : 0:06:55
+
+=> Training Epoch #68, LR=0.0000
+| Epoch [ 68/ 80] Iter[  1/  7]		Loss: 444445.5938 Acc@1: 2.000%
+| Epoch [ 68/ 80] Iter[  2/  7]		Loss: 222481.7344 Acc@1: 2.000%
+| Epoch [ 68/ 80] Iter[  3/  7]		Loss: 111190.5234 Acc@1: 2.000%
+| Epoch [ 68/ 80] Iter[  4/  7]		Loss: 55594.9648 Acc@1: 2.000%
+| Epoch [ 68/ 80] Iter[  5/  7]		Loss: 27782.7754 Acc@1: 2.000%
+| Epoch [ 68/ 80] Iter[  6/  7]		Loss: 13905.4502 Acc@1: 2.000%
+| Epoch [ 68/ 80] Iter[  7/  7]		Loss: 6946.1387 Acc@1: 2.000%
+{'Epoch': 68, 'Loss': 6946.138671875, 'Accuracy': tensor(2)}
+overalll f1_score:1.0
+overall precision:1.0
+overall recall : 1.0
+ROC_AUC1.0
+False positive[0. 0. 1.]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[6 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    1.0000    1.0000         6
+    Glaucoma     1.0000    1.0000    1.0000         1
+
+   micro avg     1.0000    1.0000    1.0000         7
+   macro avg     1.0000    1.0000    1.0000         7
+weighted avg     1.0000    1.0000    1.0000         7
+
+
+| Validation Epoch #68			Loss: 0.0003 Acc@1: 2.00%
+| Elapsed time : 0:07:00
+
+=> Training Epoch #69, LR=0.0000
+| Epoch [ 69/ 80] Iter[  1/  7]		Loss: 444870.1562 Acc@1: 1.000%
+| Epoch [ 69/ 80] Iter[  2/  7]		Loss: 222415.1406 Acc@1: 1.000%
+| Epoch [ 69/ 80] Iter[  3/  7]		Loss: 111097.8281 Acc@1: 2.000%
+| Epoch [ 69/ 80] Iter[  4/  7]		Loss: 55525.0195 Acc@1: 2.000%
+| Epoch [ 69/ 80] Iter[  5/  7]		Loss: 27828.0078 Acc@1: 2.000%
+| Epoch [ 69/ 80] Iter[  6/  7]		Loss: 13877.4404 Acc@1: 2.000%
+| Epoch [ 69/ 80] Iter[  7/  7]		Loss: 6952.3770 Acc@1: 2.000%
+{'Epoch': 69, 'Loss': 6952.376953125, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #69			Loss: 0.9559 Acc@1: 2.00%
+| Elapsed time : 0:07:07
+
+=> Training Epoch #70, LR=0.0000
+| Epoch [ 70/ 80] Iter[  1/  7]		Loss: 444087.3750 Acc@1: 2.000%
+| Epoch [ 70/ 80] Iter[  2/  7]		Loss: 222525.1719 Acc@1: 2.000%
+| Epoch [ 70/ 80] Iter[  3/  7]		Loss: 111145.1328 Acc@1: 2.000%
+| Epoch [ 70/ 80] Iter[  4/  7]		Loss: 55583.6680 Acc@1: 2.000%
+| Epoch [ 70/ 80] Iter[  5/  7]		Loss: 27815.9102 Acc@1: 2.000%
+| Epoch [ 70/ 80] Iter[  6/  7]		Loss: 13902.8730 Acc@1: 2.000%
+| Epoch [ 70/ 80] Iter[  7/  7]		Loss: 6946.6118 Acc@1: 2.000%
+{'Epoch': 70, 'Loss': 6946.61181640625, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #70			Loss: 2.7263 Acc@1: 2.00%
+| Elapsed time : 0:07:12
+
+=> Training Epoch #71, LR=0.0000
+| Epoch [ 71/ 80] Iter[  1/  7]		Loss: 445014.3125 Acc@1: 3.000%
+| Epoch [ 71/ 80] Iter[  2/  7]		Loss: 222321.1094 Acc@1: 2.000%
+| Epoch [ 71/ 80] Iter[  3/  7]		Loss: 111221.7344 Acc@1: 2.000%
+| Epoch [ 71/ 80] Iter[  4/  7]		Loss: 55568.1406 Acc@1: 2.000%
+| Epoch [ 71/ 80] Iter[  5/  7]		Loss: 27821.9277 Acc@1: 2.000%
+| Epoch [ 71/ 80] Iter[  6/  7]		Loss: 13890.3311 Acc@1: 2.000%
+| Epoch [ 71/ 80] Iter[  7/  7]		Loss: 6946.8921 Acc@1: 2.000%
+{'Epoch': 71, 'Loss': 6946.89208984375, 'Accuracy': tensor(2)}
+overalll f1_score:0.5333333333333333
+overall precision:0.625
+overall recall : 0.75
+ROC_AUC0.75
+False positive[0.  0.5 1. ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.5000    0.6667         6
+    Glaucoma     0.2500    1.0000    0.4000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.6250    0.7500    0.5333         7
+weighted avg     0.8929    0.5714    0.6286         7
+
+
+| Validation Epoch #71			Loss: 2.7617 Acc@1: 2.00%
+| Elapsed time : 0:07:19
+
+=> Training Epoch #72, LR=0.0000
+| Epoch [ 72/ 80] Iter[  1/  7]		Loss: 444791.9062 Acc@1: 1.000%
+| Epoch [ 72/ 80] Iter[  2/  7]		Loss: 222448.2656 Acc@1: 2.000%
+| Epoch [ 72/ 80] Iter[  3/  7]		Loss: 111184.9688 Acc@1: 2.000%
+| Epoch [ 72/ 80] Iter[  4/  7]		Loss: 55575.7070 Acc@1: 2.000%
+| Epoch [ 72/ 80] Iter[  5/  7]		Loss: 27806.6680 Acc@1: 2.000%
+| Epoch [ 72/ 80] Iter[  6/  7]		Loss: 13916.1240 Acc@1: 2.000%
+| Epoch [ 72/ 80] Iter[  7/  7]		Loss: 6942.0000 Acc@1: 2.000%
+{'Epoch': 72, 'Loss': 6942.0, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #72			Loss: 4.0955 Acc@1: 2.00%
+| Elapsed time : 0:07:25
+
+=> Training Epoch #73, LR=0.0000
+| Epoch [ 73/ 80] Iter[  1/  7]		Loss: 444907.9062 Acc@1: 2.000%
+| Epoch [ 73/ 80] Iter[  2/  7]		Loss: 222273.9375 Acc@1: 2.000%
+| Epoch [ 73/ 80] Iter[  3/  7]		Loss: 111115.6250 Acc@1: 2.000%
+| Epoch [ 73/ 80] Iter[  4/  7]		Loss: 55539.5195 Acc@1: 2.000%
+| Epoch [ 73/ 80] Iter[  5/  7]		Loss: 27811.1699 Acc@1: 2.000%
+| Epoch [ 73/ 80] Iter[  6/  7]		Loss: 13865.4785 Acc@1: 2.000%
+| Epoch [ 73/ 80] Iter[  7/  7]		Loss: 6944.9805 Acc@1: 2.000%
+{'Epoch': 73, 'Loss': 6944.98046875, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #73			Loss: 3.1859 Acc@1: 2.00%
+| Elapsed time : 0:07:39
+
+=> Training Epoch #74, LR=0.0000
+| Epoch [ 74/ 80] Iter[  1/  7]		Loss: 445341.7812 Acc@1: 2.000%
+| Epoch [ 74/ 80] Iter[  2/  7]		Loss: 222228.0938 Acc@1: 2.000%
+| Epoch [ 74/ 80] Iter[  3/  7]		Loss: 111072.5156 Acc@1: 2.000%
+| Epoch [ 74/ 80] Iter[  4/  7]		Loss: 55632.5508 Acc@1: 2.000%
+| Epoch [ 74/ 80] Iter[  5/  7]		Loss: 27814.5176 Acc@1: 2.000%
+| Epoch [ 74/ 80] Iter[  6/  7]		Loss: 13900.7539 Acc@1: 2.000%
+| Epoch [ 74/ 80] Iter[  7/  7]		Loss: 6957.6982 Acc@1: 2.000%
+{'Epoch': 74, 'Loss': 6957.6982421875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #74			Loss: 2.8686 Acc@1: 2.00%
+| Elapsed time : 0:07:46
+
+=> Training Epoch #75, LR=0.0000
+| Epoch [ 75/ 80] Iter[  1/  7]		Loss: 444931.2812 Acc@1: 1.000%
+| Epoch [ 75/ 80] Iter[  2/  7]		Loss: 222187.9531 Acc@1: 1.000%
+| Epoch [ 75/ 80] Iter[  3/  7]		Loss: 111118.1406 Acc@1: 2.000%
+| Epoch [ 75/ 80] Iter[  4/  7]		Loss: 55467.5859 Acc@1: 2.000%
+| Epoch [ 75/ 80] Iter[  5/  7]		Loss: 27800.6621 Acc@1: 2.000%
+| Epoch [ 75/ 80] Iter[  6/  7]		Loss: 13916.8984 Acc@1: 2.000%
+| Epoch [ 75/ 80] Iter[  7/  7]		Loss: 6948.8491 Acc@1: 2.000%
+{'Epoch': 75, 'Loss': 6948.84912109375, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #75			Loss: 2.5528 Acc@1: 2.00%
+| Elapsed time : 0:07:53
+
+=> Training Epoch #76, LR=0.0000
+| Epoch [ 76/ 80] Iter[  1/  7]		Loss: 444335.0938 Acc@1: 2.000%
+| Epoch [ 76/ 80] Iter[  2/  7]		Loss: 222098.8750 Acc@1: 2.000%
+| Epoch [ 76/ 80] Iter[  3/  7]		Loss: 111100.7188 Acc@1: 2.000%
+| Epoch [ 76/ 80] Iter[  4/  7]		Loss: 55617.7148 Acc@1: 2.000%
+| Epoch [ 76/ 80] Iter[  5/  7]		Loss: 27783.1191 Acc@1: 2.000%
+| Epoch [ 76/ 80] Iter[  6/  7]		Loss: 13906.8037 Acc@1: 2.000%
+| Epoch [ 76/ 80] Iter[  7/  7]		Loss: 6943.9526 Acc@1: 2.000%
+{'Epoch': 76, 'Loss': 6943.95263671875, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #76			Loss: 1.0790 Acc@1: 2.00%
+| Elapsed time : 0:08:00
+
+=> Training Epoch #77, LR=0.0000
+| Epoch [ 77/ 80] Iter[  1/  7]		Loss: 444475.2812 Acc@1: 1.000%
+| Epoch [ 77/ 80] Iter[  2/  7]		Loss: 222307.1406 Acc@1: 2.000%
+| Epoch [ 77/ 80] Iter[  3/  7]		Loss: 111244.9062 Acc@1: 2.000%
+| Epoch [ 77/ 80] Iter[  4/  7]		Loss: 55647.5859 Acc@1: 2.000%
+| Epoch [ 77/ 80] Iter[  5/  7]		Loss: 27789.5742 Acc@1: 2.000%
+| Epoch [ 77/ 80] Iter[  6/  7]		Loss: 13896.3242 Acc@1: 2.000%
+| Epoch [ 77/ 80] Iter[  7/  7]		Loss: 6952.7046 Acc@1: 2.000%
+{'Epoch': 77, 'Loss': 6952.70458984375, 'Accuracy': tensor(2)}
+overalll f1_score:0.4615384615384615
+overall precision:0.42857142857142855
+overall recall : 0.5
+ROC_AUC0.5
+False positive[0. 1.]
+True positive[0. 1.]
+True positive[1 0]
+Confusion Matrix[[6 0]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8571    1.0000    0.9231         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.8571    0.8571    0.8571         7
+   macro avg     0.4286    0.5000    0.4615         7
+weighted avg     0.7347    0.8571    0.7912         7
+
+
+| Validation Epoch #77			Loss: 0.7426 Acc@1: 2.00%
+| Elapsed time : 0:08:06
+
+=> Training Epoch #78, LR=0.0000
+| Epoch [ 78/ 80] Iter[  1/  7]		Loss: 445060.0312 Acc@1: 2.000%
+| Epoch [ 78/ 80] Iter[  2/  7]		Loss: 221964.2031 Acc@1: 2.000%
+| Epoch [ 78/ 80] Iter[  3/  7]		Loss: 111157.9453 Acc@1: 2.000%
+| Epoch [ 78/ 80] Iter[  4/  7]		Loss: 55508.7500 Acc@1: 2.000%
+| Epoch [ 78/ 80] Iter[  5/  7]		Loss: 27796.7246 Acc@1: 2.000%
+| Epoch [ 78/ 80] Iter[  6/  7]		Loss: 13894.6133 Acc@1: 2.000%
+| Epoch [ 78/ 80] Iter[  7/  7]		Loss: 6952.6572 Acc@1: 2.000%
+{'Epoch': 78, 'Loss': 6952.6572265625, 'Accuracy': tensor(2)}
+overalll f1_score:0.4166666666666667
+overall precision:0.4166666666666667
+overall recall : 0.4166666666666667
+ROC_AUC0.4166666666666667
+False positive[0.         0.16666667 1.        ]
+True positive[0. 0. 1.]
+True positive[2 1 0]
+Confusion Matrix[[5 1]
+ [1 0]]
+              precision    recall  f1-score   support
+
+     Healthy     0.8333    0.8333    0.8333         6
+    Glaucoma     0.0000    0.0000    0.0000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.4167    0.4167    0.4167         7
+weighted avg     0.7143    0.7143    0.7143         7
+
+
+| Validation Epoch #78			Loss: 2.1504 Acc@1: 2.00%
+| Elapsed time : 0:08:13
+
+=> Training Epoch #79, LR=0.0000
+| Epoch [ 79/ 80] Iter[  1/  7]		Loss: 444298.1250 Acc@1: 2.000%
+| Epoch [ 79/ 80] Iter[  2/  7]		Loss: 222675.8750 Acc@1: 2.000%
+| Epoch [ 79/ 80] Iter[  3/  7]		Loss: 111016.6797 Acc@1: 2.000%
+| Epoch [ 79/ 80] Iter[  4/  7]		Loss: 55537.8867 Acc@1: 2.000%
+| Epoch [ 79/ 80] Iter[  5/  7]		Loss: 27785.2051 Acc@1: 2.000%
+| Epoch [ 79/ 80] Iter[  6/  7]		Loss: 13909.4863 Acc@1: 2.000%
+| Epoch [ 79/ 80] Iter[  7/  7]		Loss: 6957.9893 Acc@1: 2.000%
+{'Epoch': 79, 'Loss': 6957.9892578125, 'Accuracy': tensor(2)}
+overalll f1_score:0.65
+overall precision:0.6666666666666666
+overall recall : 0.8333333333333333
+ROC_AUC0.8333333333333334
+False positive[0.         0.33333333 1.        ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[4 2]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.6667    0.8000         6
+    Glaucoma     0.3333    1.0000    0.5000         1
+
+   micro avg     0.7143    0.7143    0.7143         7
+   macro avg     0.6667    0.8333    0.6500         7
+weighted avg     0.9048    0.7143    0.7571         7
+
+
+| Validation Epoch #79			Loss: 1.3129 Acc@1: 2.00%
+| Elapsed time : 0:08:18
+
+=> Training Epoch #80, LR=0.0000
+| Epoch [ 80/ 80] Iter[  1/  7]		Loss: 444431.4688 Acc@1: 2.000%
+| Epoch [ 80/ 80] Iter[  2/  7]		Loss: 222379.0312 Acc@1: 2.000%
+| Epoch [ 80/ 80] Iter[  3/  7]		Loss: 111230.1016 Acc@1: 2.000%
+| Epoch [ 80/ 80] Iter[  4/  7]		Loss: 55660.6562 Acc@1: 2.000%
+| Epoch [ 80/ 80] Iter[  5/  7]		Loss: 27745.4355 Acc@1: 2.000%
+| Epoch [ 80/ 80] Iter[  6/  7]		Loss: 13888.3594 Acc@1: 2.000%
+| Epoch [ 80/ 80] Iter[  7/  7]		Loss: 6959.9907 Acc@1: 2.000%
+{'Epoch': 80, 'Loss': 6959.99072265625, 'Accuracy': tensor(2)}
+overalll f1_score:0.5333333333333333
+overall precision:0.625
+overall recall : 0.75
+ROC_AUC0.75
+False positive[0.  0.5 1. ]
+True positive[0. 1. 1.]
+True positive[2 1 0]
+Confusion Matrix[[3 3]
+ [0 1]]
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.5000    0.6667         6
+    Glaucoma     0.2500    1.0000    0.4000         1
+
+   micro avg     0.5714    0.5714    0.5714         7
+   macro avg     0.6250    0.7500    0.5333         7
+weighted avg     0.8929    0.5714    0.6286         7
+
+
+| Validation Epoch #80			Loss: 3.2698 Acc@1: 2.00%
+| Elapsed time : 0:08:26
+
+[Phase 4] : Testing model
+* Test results : Acc@1 = 2.00%
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 0.0001
+| Optimizer = Adam
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+
+[Phase 4] : Testing model
+* Test results : Acc@1 = 0.00%
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 0.0001
+| Optimizer = Adam
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00
+| Elapsed time : 0:00:00

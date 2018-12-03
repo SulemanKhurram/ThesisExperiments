@@ -1,0 +1,548 @@
+=> Training Epoch #1, LR=0.0010
+| Epoch [  1/  1] Iter[  1/  4]		Loss: 1071920.6250 Acc@1: 42.000%
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 1
+| Initial Learning Rate = 1e-05
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0000
+| Epoch [  1/  1] Iter[  1/  7]		Loss: 1070531.5000 Acc@1: 51.000%
+| Epoch [  1/  1] Iter[  2/  7]		Loss: 536022.0000 Acc@1: 52.000%
+| Epoch [  1/  1] Iter[  3/  7]		Loss: 267454.3438 Acc@1: 54.000%
+| Epoch [  1/  1] Iter[  4/  7]		Loss: 133907.0625 Acc@1: 52.000%
+| Epoch [  1/  1] Iter[  5/  7]		Loss: 66954.7031 Acc@1: 54.000%
+| Epoch [  1/  1] Iter[  6/  7]		Loss: 33491.8633 Acc@1: 55.000%
+| Epoch [  1/  1] Iter[  7/  7]		Loss: 16740.8887 Acc@1: 55.000%
+{'Epoch': 1, 'Loss': tensor(16740.8887, device='cuda:0'), 'Accuracy': tensor(55)}
+overalll f1_score:0.4695898161244696
+overall precision:0.4693627450980392
+overall recall : 0.47000000000000003
+False positive[0.   0.34 1.  ]
+True positive[0.   0.28 1.  ]
+True positive[2 1 0]
+ROC_AUC0.47
+Confusion Matrix[[33 17]
+ [18  7]]
+
+| Validation Epoch #1			Loss: 16731.5898 Acc@1: 59.00%
+| Saving Best model...			Top1 = 59.00%
+| Elapsed time : 0:00:43
+
+[Phase 4] : Testing model
+* Test results : Acc@1 = 59.00%
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 60
+| Initial Learning Rate = 1e-05
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0000
+| Epoch [  1/ 60] Iter[  1/  7]		Loss: 1071154.5000 Acc@1: 54.000%
+| Epoch [  1/ 60] Iter[  2/  7]		Loss: 535440.4375 Acc@1: 59.000%
+| Epoch [  1/ 60] Iter[  3/  7]		Loss: 267750.5312 Acc@1: 60.000%
+| Epoch [  1/ 60] Iter[  4/  7]		Loss: 133934.9219 Acc@1: 57.000%
+| Epoch [  1/ 60] Iter[  5/  7]		Loss: 66922.5781 Acc@1: 57.000%
+| Epoch [  1/ 60] Iter[  6/  7]		Loss: 33478.5625 Acc@1: 58.000%
+| Epoch [  1/ 60] Iter[  7/  7]		Loss: 16734.9902 Acc@1: 58.000%
+{'Epoch': 1, 'Loss': tensor(16734.9902, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.503968253968254
+overall precision:0.5126774847870182
+overall recall : 0.51
+False positive[0.   0.22 1.  ]
+True positive[0.   0.24 1.  ]
+True positive[2 1 0]
+ROC_AUC0.51
+Confusion Matrix[[39 11]
+ [19  6]]
+
+| Validation Epoch #1			Loss: 16749.0898 Acc@1: 55.00%
+| Saving Best model...			Top1 = 55.00%
+| Elapsed time : 0:00:39
+
+=> Training Epoch #2, LR=0.0000
+| Epoch [  2/ 60] Iter[  1/  7]		Loss: 1070828.1250 Acc@1: 60.000%
+| Epoch [  2/ 60] Iter[  2/  7]		Loss: 535939.0625 Acc@1: 62.000%
+| Epoch [  2/ 60] Iter[  3/  7]		Loss: 267569.4375 Acc@1: 65.000%
+| Epoch [  2/ 60] Iter[  4/  7]		Loss: 133814.7500 Acc@1: 63.000%
+| Epoch [  2/ 60] Iter[  5/  7]		Loss: 67000.1875 Acc@1: 62.000%
+| Epoch [  2/ 60] Iter[  6/  7]		Loss: 33437.1953 Acc@1: 62.000%
+| Epoch [  2/ 60] Iter[  7/  7]		Loss: 16745.5605 Acc@1: 61.000%
+{'Epoch': 2, 'Loss': tensor(16745.5605, device='cuda:0'), 'Accuracy': tensor(61)}
+overalll f1_score:0.39957302971001596
+overall precision:0.44212962962962965
+overall recall : 0.44000000000000006
+False positive[0.   0.44 1.  ]
+True positive[0.   0.32 1.  ]
+True positive[2 1 0]
+ROC_AUC0.44000000000000006
+Confusion Matrix[[14 11]
+ [34 16]]
+
+| Validation Epoch #2			Loss: 16740.5293 Acc@1: 57.00%
+| Saving Best model...			Top1 = 57.00%
+| Elapsed time : 0:01:16
+
+=> Training Epoch #3, LR=0.0000
+| Epoch [  3/ 60] Iter[  1/  7]		Loss: 1071122.3750 Acc@1: 56.000%
+| Epoch [  3/ 60] Iter[  2/  7]		Loss: 535337.1250 Acc@1: 58.000%
+| Epoch [  3/ 60] Iter[  3/  7]		Loss: 267746.5000 Acc@1: 62.000%
+| Epoch [  3/ 60] Iter[  4/  7]		Loss: 133912.9219 Acc@1: 62.000%
+| Epoch [  3/ 60] Iter[  5/  7]		Loss: 66967.3750 Acc@1: 61.000%
+| Epoch [  3/ 60] Iter[  6/  7]		Loss: 33497.9180 Acc@1: 60.000%
+| Epoch [  3/ 60] Iter[  7/  7]		Loss: 16745.5020 Acc@1: 60.000%
+{'Epoch': 3, 'Loss': tensor(16745.5020, device='cuda:0'), 'Accuracy': tensor(60)}
+overalll f1_score:0.4274809160305344
+overall precision:0.5
+overall recall : 0.37333333333333335
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 60
+| Initial Learning Rate = 1e-05
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0000
+| Epoch [  1/ 60] Iter[  1/  7]		Loss: 1071430.6250 Acc@1: 80.000%
+| Epoch [  1/ 60] Iter[  2/  7]		Loss: 535021.2500 Acc@1: 75.000%
+| Epoch [  1/ 60] Iter[  3/  7]		Loss: 267716.9062 Acc@1: 64.000%
+| Epoch [  1/ 60] Iter[  4/  7]		Loss: 133899.2031 Acc@1: 63.000%
+| Epoch [  1/ 60] Iter[  5/  7]		Loss: 67003.6250 Acc@1: 62.000%
+| Epoch [  1/ 60] Iter[  6/  7]		Loss: 33497.9766 Acc@1: 61.000%
+| Epoch [  1/ 60] Iter[  7/  7]		Loss: 16735.7891 Acc@1: 61.000%
+{'Epoch': 1, 'Loss': tensor(16735.7891, device='cuda:0'), 'Accuracy': tensor(61)}
+overalll f1_score:0.35344827586206895
+overall precision:0.5
+overall recall : 0.2733333333333333
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.45333333 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[41 34]
+ [ 0  0]]
+
+| Validation Epoch #1			Loss: 16735.4883 Acc@1: 53.00%
+| Saving Best model...			Top1 = 53.00%
+| Elapsed time : 0:00:38
+
+=> Training Epoch #2, LR=0.0000
+| Epoch [  2/ 60] Iter[  1/  7]		Loss: 1071881.0000 Acc@1: 57.000%
+| Epoch [  2/ 60] Iter[  2/  7]		Loss: 535601.6875 Acc@1: 57.000%
+| Epoch [  2/ 60] Iter[  3/  7]		Loss: 267686.1562 Acc@1: 57.000%
+| Epoch [  2/ 60] Iter[  4/  7]		Loss: 133856.1094 Acc@1: 59.000%
+| Epoch [  2/ 60] Iter[  5/  7]		Loss: 66971.1406 Acc@1: 61.000%
+| Epoch [  2/ 60] Iter[  6/  7]		Loss: 33480.1328 Acc@1: 60.000%
+| Epoch [  2/ 60] Iter[  7/  7]		Loss: 16733.5508 Acc@1: 60.000%
+{'Epoch': 2, 'Loss': tensor(16733.5508, device='cuda:0'), 'Accuracy': tensor(60)}
+overalll f1_score:0.4620734622908063
+overall precision:0.46345029239766083
+overall recall : 0.47
+ROC_AUC0.47000000000000003
+False positive[0.   0.26 1.  ]
+True positive[0.  0.2 1. ]
+True positive[2 1 0]
+Confusion Matrix[[37 13]
+ [20  5]]
+
+| Validation Epoch #2			Loss: 16748.4355 Acc@1: 59.00%
+| Saving Best model...			Top1 = 59.00%
+| Elapsed time : 0:01:15
+
+=> Training Epoch #3, LR=0.0000
+| Epoch [  3/ 60] Iter[  1/  7]		Loss: 1071169.6250 Acc@1: 56.000%
+| Epoch [  3/ 60] Iter[  2/  7]		Loss: 535275.4375 Acc@1: 56.000%
+| Epoch [  3/ 60] Iter[  3/  7]		Loss: 267549.6250 Acc@1: 58.000%
+| Epoch [  3/ 60] Iter[  4/  7]		Loss: 133862.4844 Acc@1: 60.000%
+| Epoch [  3/ 60] Iter[  5/  7]		Loss: 66970.5156 Acc@1: 58.000%
+| Epoch [  3/ 60] Iter[  6/  7]		Loss: 33440.9102 Acc@1: 58.000%
+| Epoch [  3/ 60] Iter[  7/  7]		Loss: 16723.9023 Acc@1: 58.000%
+{'Epoch': 3, 'Loss': tensor(16723.9023, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.423076923076923
+overall precision:0.5
+overall recall : 0.36666666666666664
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.26666667 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[55 20]
+ [ 0  0]]
+
+| Validation Epoch #3			Loss: 16731.8379 Acc@1: 57.00%
+| Elapsed time : 0:01:51
+
+=> Training Epoch #4, LR=0.0000
+| Epoch [  4/ 60] Iter[  1/  7]		Loss: 1071444.8750 Acc@1: 59.000%
+| Epoch [  4/ 60] Iter[  2/  7]		Loss: 535578.7500 Acc@1: 55.000%
+| Epoch [  4/ 60] Iter[  3/  7]		Loss: 267781.4375 Acc@1: 59.000%
+| Epoch [  4/ 60] Iter[  4/  7]		Loss: 133999.8750 Acc@1: 59.000%
+| Epoch [  4/ 60] Iter[  5/  7]		Loss: 66980.4922 Acc@1: 58.000%
+| Epoch [  4/ 60] Iter[  6/  7]		Loss: 33488.8867 Acc@1: 58.000%
+| Epoch [  4/ 60] Iter[  7/  7]		Loss: 16752.3398 Acc@1: 58.000%
+{'Epoch': 4, 'Loss': tensor(16752.3398, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.5034889962426194
+overall precision:0.5366568914956011
+overall recall : 0.54
+ROC_AUC0.54
+False positive[0.   0.36 1.  ]
+True positive[0.   0.44 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[16  9]
+ [28 22]]
+
+| Validation Epoch #4			Loss: 16742.8555 Acc@1: 55.00%
+| Elapsed time : 0:02:27
+
+=> Training Epoch #5, LR=0.0000
+| Epoch [  5/ 60] Iter[  1/  7]		Loss: 1071252.6250 Acc@1: 55.000%
+| Epoch [  5/ 60] Iter[  2/  7]		Loss: 535648.8750 Acc@1: 55.000%
+| Epoch [  5/ 60] Iter[  3/  7]		Loss: 267609.1875 Acc@1: 58.000%
+| Epoch [  5/ 60] Iter[  4/  7]		Loss: 133931.1875 Acc@1: 58.000%
+| Epoch [  5/ 60] Iter[  5/  7]		Loss: 66893.2266 Acc@1: 60.000%
+| Epoch [  5/ 60] Iter[  6/  7]		Loss: 33478.6523 Acc@1: 58.000%
+| Epoch [  5/ 60] Iter[  7/  7]		Loss: 16739.3945 Acc@1: 59.000%
+{'Epoch': 5, 'Loss': tensor(16739.3945, device='cuda:0'), 'Accuracy': tensor(59)}
+overalll f1_score:0.44029850746268656
+overall precision:0.5
+overall recall : 0.3933333333333333
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.21333333 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[59 16]
+ [ 0  0]]
+
+| Validation Epoch #5			Loss: 16750.9980 Acc@1: 60.00%
+| Saving Best model...			Top1 = 60.00%
+| Elapsed time : 0:03:04
+
+=> Training Epoch #6, LR=0.0000
+| Epoch [  6/ 60] Iter[  1/  7]		Loss: 1070953.3750 Acc@1: 63.000%
+| Epoch [  6/ 60] Iter[  2/  7]		Loss: 535611.1250 Acc@1: 62.000%
+| Epoch [  6/ 60] Iter[  3/  7]		Loss: 267817.9688 Acc@1: 61.000%
+| Epoch [  6/ 60] Iter[  4/  7]		Loss: 133854.1719 Acc@1: 61.000%
+| Epoch [  6/ 60] Iter[  5/  7]		Loss: 66938.5000 Acc@1: 61.000%
+| Epoch [  6/ 60] Iter[  6/  7]		Loss: 33466.2109 Acc@1: 60.000%
+| Epoch [  6/ 60] Iter[  7/  7]		Loss: 16739.6699 Acc@1: 60.000%
+{'Epoch': 6, 'Loss': tensor(16739.6699, device='cuda:0'), 'Accuracy': tensor(60)}
+overalll f1_score:0.4318181818181818
+overall precision:0.5
+overall recall : 0.38
+Same class in targets. Error in computing ROC_AUC
+False positive[0.   0.24 1.  ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[57 18]
+ [ 0  0]]
+
+| Validation Epoch #6			Loss: 16729.7363 Acc@1: 60.00%
+| Elapsed time : 0:03:40
+
+=> Training Epoch #7, LR=0.0000
+| Epoch [  7/ 60] Iter[  1/  7]		Loss: 1072111.5000 Acc@1: 57.000%
+| Epoch [  7/ 60] Iter[  2/  7]		Loss: 535434.3750 Acc@1: 52.000%
+| Epoch [  7/ 60] Iter[  3/  7]		Loss: 267539.2500 Acc@1: 51.000%
+| Epoch [  7/ 60] Iter[  4/  7]		Loss: 133898.5781 Acc@1: 51.000%
+| Epoch [  7/ 60] Iter[  5/  7]		Loss: 66952.0859 Acc@1: 51.000%
+| Epoch [  7/ 60] Iter[  6/  7]		Loss: 33480.7695 Acc@1: 51.000%
+| Epoch [  7/ 60] Iter[  7/  7]		Loss: 16736.9922 Acc@1: 52.000%
+{'Epoch': 7, 'Loss': tensor(16736.9922, device='cuda:0'), 'Accuracy': tensor(52)}
+overalll f1_score:0.4140625
+overall precision:0.5
+overall recall : 0.35333333333333333
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.29333333 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[53 22]
+ [ 0  0]]
+
+| Validation Epoch #7			Loss: 16729.2949 Acc@1: 59.00%
+| Elapsed time : 0:04:15
+
+=> Training Epoch #8, LR=0.0000
+| Epoch [  8/ 60] Iter[  1/  7]		Loss: 1070533.0000 Acc@1: 63.000%
+| Epoch [  8/ 60] Iter[  2/  7]		Loss: 535491.8125 Acc@1: 60.000%
+| Epoch [  8/ 60] Iter[  3/  7]		Loss: 267723.5000 Acc@1: 60.000%
+| Epoch [  8/ 60] Iter[  4/  7]		Loss: 133820.8594 Acc@1: 61.000%
+| Epoch [  8/ 60] Iter[  5/  7]		Loss: 66920.3125 Acc@1: 59.000%
+| Epoch [  8/ 60] Iter[  6/  7]		Loss: 33462.8438 Acc@1: 59.000%
+| Epoch [  8/ 60] Iter[  7/  7]		Loss: 16732.8652 Acc@1: 59.000%
+{'Epoch': 8, 'Loss': tensor(16732.8652, device='cuda:0'), 'Accuracy': tensor(59)}
+overalll f1_score:0.48874199545548447
+overall precision:0.4892795883361921
+overall recall : 0.49
+ROC_AUC0.48999999999999994
+False positive[0.  0.3 1. ]
+True positive[0.   0.28 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[35 15]
+ [18  7]]
+
+| Validation Epoch #8			Loss: 16727.7793 Acc@1: 60.00%
+| Elapsed time : 0:04:51
+
+=> Training Epoch #9, LR=0.0000
+| Epoch [  9/ 60] Iter[  1/  7]		Loss: 1069914.6250 Acc@1: 54.000%
+| Epoch [  9/ 60] Iter[  2/  7]		Loss: 535575.7500 Acc@1: 57.000%
+| Epoch [  9/ 60] Iter[  3/  7]		Loss: 267465.4688 Acc@1: 56.000%
+| Epoch [  9/ 60] Iter[  4/  7]		Loss: 133884.4531 Acc@1: 56.000%
+| Epoch [  9/ 60] Iter[  5/  7]		Loss: 66896.4844 Acc@1: 57.000%
+| Epoch [  9/ 60] Iter[  6/  7]		Loss: 33460.9570 Acc@1: 57.000%
+| Epoch [  9/ 60] Iter[  7/  7]		Loss: 16734.4551 Acc@1: 57.000%
+{'Epoch': 9, 'Loss': tensor(16734.4551, device='cuda:0'), 'Accuracy': tensor(57)}
+overalll f1_score:0.5341614906832298
+overall precision:0.5961538461538461
+overall recall : 0.55
+ROC_AUC0.55
+False positive[0.  0.1 1. ]
+True positive[0.  0.2 1. ]
+True positive[2 1 0]
+Confusion Matrix[[45  5]
+ [20  5]]
+
+| Validation Epoch #9			Loss: 16710.6953 Acc@1: 62.00%
+| Saving Best model...			Top1 = 62.00%
+| Elapsed time : 0:05:28
+
+=> Training Epoch #10, LR=0.0000
+| Epoch [ 10/ 60] Iter[  1/  7]		Loss: 1070501.2500 Acc@1: 68.000%
+| Epoch [ 10/ 60] Iter[  2/  7]		Loss: 535441.0625 Acc@1: 67.000%
+| Epoch [ 10/ 60] Iter[  3/  7]		Loss: 267695.7188 Acc@1: 65.000%
+| Epoch [ 10/ 60] Iter[  4/  7]		Loss: 133930.0781 Acc@1: 65.000%
+| Epoch [ 10/ 60] Iter[  5/  7]		Loss: 66938.8047 Acc@1: 62.000%
+| Epoch [ 10/ 60] Iter[  6/  7]		Loss: 33458.7969 Acc@1: 62.000%
+| Epoch [ 10/ 60] Iter[  7/  7]		Loss: 16723.7656 Acc@1: 61.000%
+{'Epoch': 10, 'Loss': tensor(16723.7656, device='cuda:0'), 'Accuracy': tensor(61)}
+overalll f1_score:0.3697478991596639
+overall precision:0.5
+overall recall : 0.29333333333333333
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.41333333 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[44 31]
+ [ 0  0]]
+
+| Validation Epoch #10			Loss: 16716.2441 Acc@1: 55.00%
+| Elapsed time : 0:06:04
+
+=> Training Epoch #11, LR=0.0000
+| Epoch [ 11/ 60] Iter[  1/  7]		Loss: 1070603.5000 Acc@1: 54.000%
+| Epoch [ 11/ 60] Iter[  2/  7]		Loss: 535688.6250 Acc@1: 54.000%
+| Epoch [ 11/ 60] Iter[  3/  7]		Loss: 267513.2812 Acc@1: 57.000%
+| Epoch [ 11/ 60] Iter[  4/  7]		Loss: 134027.8125 Acc@1: 57.000%
+| Epoch [ 11/ 60] Iter[  5/  7]		Loss: 66902.5469 Acc@1: 57.000%
+| Epoch [ 11/ 60] Iter[  6/  7]		Loss: 33467.9805 Acc@1: 59.000%
+| Epoch [ 11/ 60] Iter[  7/  7]		Loss: 16740.4922 Acc@1: 58.000%
+{'Epoch': 11, 'Loss': tensor(16740.4922, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.3852459016393443
+overall precision:0.5
+overall recall : 0.31333333333333335
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.37333333 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[47 28]
+ [ 0  0]]
+
+| Validation Epoch #11			Loss: 16731.5410 Acc@1: 58.00%
+| Elapsed time : 0:06:40
+
+=> Training Epoch #12, LR=0.0000
+| Epoch [ 12/ 60] Iter[  1/  7]		Loss: 1071417.7500 Acc@1: 60.000%
+| Epoch [ 12/ 60] Iter[  2/  7]		Loss: 535303.3125 Acc@1: 59.000%
+| Epoch [ 12/ 60] Iter[  3/  7]		Loss: 267592.1875 Acc@1: 56.000%
+| Epoch [ 12/ 60] Iter[  4/  7]		Loss: 133876.7188 Acc@1: 55.000%
+| Epoch [ 12/ 60] Iter[  5/  7]		Loss: 66910.0703 Acc@1: 57.000%
+| Epoch [ 12/ 60] Iter[  6/  7]		Loss: 33443.9219 Acc@1: 58.000%
+| Epoch [ 12/ 60] Iter[  7/  7]		Loss: 16729.6191 Acc@1: 58.000%
+{'Epoch': 12, 'Loss': tensor(16729.6191, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.5098039215686274
+overall precision:0.5104515050167224
+overall recall : 0.51
+ROC_AUC0.51
+False positive[0.  0.3 1. ]
+True positive[0.   0.32 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[35 15]
+ [17  8]]
+
+| Validation Epoch #12			Loss: 16724.5391 Acc@1: 60.00%
+| Elapsed time : 0:07:16
+
+=> Training Epoch #13, LR=0.0000
+| Epoch [ 13/ 60] Iter[  1/  7]		Loss: 1070287.6250 Acc@1: 69.000%
+| Epoch [ 13/ 60] Iter[  2/  7]		Loss: 535388.4375 Acc@1: 71.000%
+| Epoch [ 13/ 60] Iter[  3/  7]		Loss: 267664.3750 Acc@1: 66.000%
+| Epoch [ 13/ 60] Iter[  4/  7]		Loss: 133723.9531 Acc@1: 65.000%
+| Epoch [ 13/ 60] Iter[  5/  7]		Loss: 66876.6953 Acc@1: 64.000%
+| Epoch [ 13/ 60] Iter[  6/  7]		Loss: 33471.3945 Acc@1: 64.000%
+| Epoch [ 13/ 60] Iter[  7/  7]		Loss: 16713.3184 Acc@1: 64.000%
+{'Epoch': 13, 'Loss': tensor(16713.3184, device='cuda:0'), 'Accuracy': tensor(64)}
+overalll f1_score:0.58
+overall precision:0.58
+overall recall : 0.58
+ROC_AUC0.58
+False positive[0.   0.28 1.  ]
+True positive[0.   0.44 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[36 14]
+ [14 11]]
+
+| Validation Epoch #13			Loss: 16719.7559 Acc@1: 57.00%
+| Elapsed time : 0:07:53
+
+=> Training Epoch #14, LR=0.0000
+| Epoch [ 14/ 60] Iter[  1/  7]		Loss: 1071340.1250 Acc@1: 54.000%
+| Epoch [ 14/ 60] Iter[  2/  7]		Loss: 535246.6250 Acc@1: 53.000%
+| Epoch [ 14/ 60] Iter[  3/  7]		Loss: 267553.1562 Acc@1: 54.000%
+| Epoch [ 14/ 60] Iter[  4/  7]		Loss: 133734.8438 Acc@1: 54.000%
+| Epoch [ 14/ 60] Iter[  5/  7]		Loss: 66918.8750 Acc@1: 55.000%
+| Epoch [ 14/ 60] Iter[  6/  7]		Loss: 33456.2461 Acc@1: 57.000%
+| Epoch [ 14/ 60] Iter[  7/  7]		Loss: 16722.7637 Acc@1: 57.000%
+{'Epoch': 14, 'Loss': tensor(16722.7637, device='cuda:0'), 'Accuracy': tensor(57)}
+overalll f1_score:0.49773755656108604
+overall precision:0.6666666666666667
+overall recall : 0.62
+ROC_AUC0.62
+False positive[0.   0.04 1.  ]
+True positive[0.   0.28 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[24  1]
+ [36 14]]
+
+| Validation Epoch #14			Loss: 16723.9609 Acc@1: 63.00%
+| Saving Best model...			Top1 = 63.00%
+| Elapsed time : 0:08:30
+
+=> Training Epoch #15, LR=0.0000
+| Epoch [ 15/ 60] Iter[  1/  7]		Loss: 1070722.0000 Acc@1: 51.000%
+| Epoch [ 15/ 60] Iter[  2/  7]		Loss: 535230.1875 Acc@1: 59.000%
+| Epoch [ 15/ 60] Iter[  3/  7]		Loss: 267587.5938 Acc@1: 60.000%
+| Epoch [ 15/ 60] Iter[  4/  7]		Loss: 133870.8125 Acc@1: 59.000%
+| Epoch [ 15/ 60] Iter[  5/  7]		Loss: 66900.7422 Acc@1: 59.000%
+| Epoch [ 15/ 60] Iter[  6/  7]		Loss: 33464.7734 Acc@1: 59.000%
+| Epoch [ 15/ 60] Iter[  7/  7]		Loss: 16724.4785 Acc@1: 58.000%
+{'Epoch': 15, 'Loss': tensor(16724.4785, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.5879120879120878
+overall precision:0.5868055555555556
+overall recall : 0.59
+ROC_AUC0.59
+False positive[0.  0.3 1. ]
+True positive[0.   0.48 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[35 15]
+ [13 12]]
+
+| Validation Epoch #15			Loss: 16731.1953 Acc@1: 57.00%
+| Elapsed time : 0:09:06
+
+=> Training Epoch #16, LR=0.0000
+| Epoch [ 16/ 60] Iter[  1/  7]		Loss: 1069633.7500 Acc@1: 56.000%
+| Epoch [ 16/ 60] Iter[  2/  7]		Loss: 534924.2500 Acc@1: 58.000%
+| Epoch [ 16/ 60] Iter[  3/  7]		Loss: 267555.7188 Acc@1: 57.000%
+| Epoch [ 16/ 60] Iter[  4/  7]		Loss: 133740.7344 Acc@1: 59.000%
+| Epoch [ 16/ 60] Iter[  5/  7]		Loss: 66972.9844 Acc@1: 58.000%
+| Epoch [ 16/ 60] Iter[  6/  7]		Loss: 33466.0508 Acc@1: 58.000%
+| Epoch [ 16/ 60] Iter[  7/  7]		Loss: 16715.9473 Acc@1: 58.000%
+{'Epoch': 16, 'Loss': tensor(16715.9473, device='cuda:0'), 'Accuracy': tensor(58)}
+overalll f1_score:0.43609022556390975
+overall precision:0.5
+overall recall : 0.38666666666666666
+Same class in targets. Error in computing ROC_AUC
+False positive[0.         0.22666667 1.        ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[58 17]
+ [ 0  0]]
+
+| Validation Epoch #16			Loss: 16724.0586 Acc@1: 59.00%
+| Elapsed time : 0:09:42
+
+=> Training Epoch #17, LR=0.0000
+| Epoch [ 17/ 60] Iter[  1/  7]		Loss: 1069166.6250 Acc@1: 65.000%
+| Epoch [ 17/ 60] Iter[  2/  7]		Loss: 535322.3125 Acc@1: 64.000%
+| Epoch [ 17/ 60] Iter[  3/  7]		Loss: 267829.3438 Acc@1: 63.000%
+| Epoch [ 17/ 60] Iter[  4/  7]		Loss: 133743.7188 Acc@1: 63.000%
+| Epoch [ 17/ 60] Iter[  5/  7]		Loss: 66930.3750 Acc@1: 63.000%
+| Epoch [ 17/ 60] Iter[  6/  7]		Loss: 33430.4766 Acc@1: 61.000%
+| Epoch [ 17/ 60] Iter[  7/  7]		Loss: 16715.8301 Acc@1: 60.000%
+{'Epoch': 17, 'Loss': tensor(16715.8301, device='cuda:0'), 'Accuracy': tensor(60)}
+overalll f1_score:0.37499999999999994
+overall precision:0.5
+overall recall : 0.3
+Same class in targets. Error in computing ROC_AUC
+False positive[0.  0.4 1. ]
+True positive[nan nan nan]
+True positive[2 1 0]
+Confusion Matrix[[45 30]
+ [ 0  0]]
+
+| Validation Epoch #17			Loss: 16731.2539 Acc@1: 54.00%
+| Elapsed time : 0:10:19
+
+=> Training Epoch #18, LR=0.0000
+| Epoch [ 18/ 60] Iter[  1/  7]		Loss: 1071020.0000 Acc@1: 56.000%
+| Epoch [ 18/ 60] Iter[  2/  7]		Loss: 535001.5625 Acc@1: 53.000%
+| Epoch [ 18/ 60] Iter[  3/  7]		Loss: 267716.7500 Acc@1: 56.000%
+| Epoch [ 18/ 60] Iter[  4/  7]		Loss: 133699.3906 Acc@1: 56.000%
+| Epoch [ 18/ 60] Iter[  5/  7]		Loss: 66876.3203 Acc@1: 57.000%
+| Epoch [ 18/ 60] Iter[  6/  7]		Loss: 33419.6445 Acc@1: 57.000%
+| Epoch [ 18/ 60] Iter[  7/  7]		Loss: 16731.5371 Acc@1: 57.000%
+{'Epoch': 18, 'Loss': tensor(16731.5371, device='cuda:0'), 'Accuracy': tensor(57)}
+overalll f1_score:0.4532590051457976
+overall precision:0.4530075187969925
+overall recall : 0.45999999999999996
+ROC_AUC0.46
+False positive[0.   0.28 1.  ]
+True positive[0.  0.2 1. ]
+True positive[2 1 0]
+Confusion Matrix[[36 14]
+ [20  5]]
+
+| Validation Epoch #18			Loss: 16730.5625 Acc@1: 62.00%
+| Elapsed time : 0:10:55
+
+=> Training Epoch #19, LR=0.0000
+| Epoch [ 19/ 60] Iter[  1/  7]		Loss: 1070912.8750 Acc@1: 60.000%
+| Epoch [ 19/ 60] Iter[  2/  7]		Loss: 534795.9375 Acc@1: 62.000%
+| Epoch [ 19/ 60] Iter[  3/  7]		Loss: 267620.0938 Acc@1: 62.000%
+| Epoch [ 19/ 60] Iter[  4/  7]		Loss: 133753.6250 Acc@1: 61.000%
+| Epoch [ 19/ 60] Iter[  5/  7]		Loss: 66865.6250 Acc@1: 60.000%
+| Epoch [ 19/ 60] Iter[  6/  7]		Loss: 33461.4883 Acc@1: 60.000%
+| Epoch [ 19/ 60] Iter[  7/  7]		Loss: 16730.6992 Acc@1: 60.000%
+{'Epoch': 19, 'Loss': tensor(16730.6992, device='cuda:0'), 'Accuracy': tensor(60)}
+overalll f1_score:0.47916666666666674
+overall precision:0.48125937031484256
+overall recall : 0.48
+ROC_AUC0.48
+False positive[0.  0.4 1. ]
+True positive[0.   0.36 1.  ]
+True positive[2 1 0]
+Confusion Matrix[[30 20]
+ [16  9]]
+
+| Validation Epoch #19			Loss: 16726.2051 Acc@1: 54.00%
+| Elapsed time : 0:11:31
+
+=> Training Epoch #20, LR=0.0000
+| Epoch [ 20/ 60] Iter[  1/  7]		Loss: 1069908.0000 Acc@1: 53.000%
+| Epoch [ 20/ 60] Iter[  2/  7]		Loss: 534858.2500 Acc@1: 56.000%
+| Epoch [ 20/ 60] Iter[  3/  7]		Loss: 267317.1562 Acc@1: 57.000%

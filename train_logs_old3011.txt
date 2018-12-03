@@ -1,0 +1,45 @@
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 0.0001
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0001
+| Epoch [  1/ 80] Iter[  1/  7]		Loss: 1071048.5000 Acc@1: 1.000%
+| Epoch [  1/ 80] Iter[  2/  7]		Loss: 535694.5000 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  3/  7]		Loss: 267717.6875 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  4/  7]		Loss: 133819.5156 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  5/  7]		Loss: 66967.3672 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  6/  7]		Loss: 33431.0547 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  7/  7]		Loss: 16740.9590 Acc@1: 2.000%
+{'Epoch': 1, 'Loss': tensor(16740.9590, device='cuda:0'), 'Accuracy': tensor(2)}
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 80
+| Initial Learning Rate = 0.0001
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0001
+| Epoch [  1/ 80] Iter[  1/  7]		Loss: 1072137.2500 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  2/  7]		Loss: 536187.7500 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  3/  7]		Loss: 267687.7188 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  4/  7]		Loss: 134006.3750 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  5/  7]		Loss: 66951.8672 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  6/  7]		Loss: 33449.8516 Acc@1: 2.000%
+| Epoch [  1/ 80] Iter[  7/  7]		Loss: 16737.7148 Acc@1: 2.000%
+{'Epoch': 1, 'Loss': tensor(16737.7148, device='cuda:0'), 'Accuracy': tensor(2)}
+
+| Validation Epoch #1			Loss: 5.8183 Acc@1: 1.00%
+| Saving Best model...			Top1 = 1.00%

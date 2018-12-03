@@ -1,0 +1,2517 @@
+
+[Phase 1] : Data Preparation
+| Preparing Origa dataset...
+
+[Phase 2] : Model setup
+| Building net type [alexnet]...
+
+[Phase 3] : Training model
+| Training Epochs = 100
+| Initial Learning Rate = 0.001
+| Optimizer = Adam
+
+=> Training Epoch #1, LR=0.0010
+| Epoch [  1/100] Iter[  1/ 19]		Loss: 708061.3125 Acc@1: 46.000%
+| Epoch [  1/100] Iter[  2/ 19]		Loss: 353566.3125 Acc@1: 56.000%
+| Epoch [  1/100] Iter[  3/ 19]		Loss: 176627.0781 Acc@1: 64.000%
+| Epoch [  1/100] Iter[  4/ 19]		Loss: 88247.3203 Acc@1: 65.000%
+| Epoch [  1/100] Iter[  5/ 19]		Loss: 44126.4297 Acc@1: 64.000%
+| Epoch [  1/100] Iter[  6/ 19]		Loss: 22046.4668 Acc@1: 62.000%
+| Epoch [  1/100] Iter[  7/ 19]		Loss: 11017.7705 Acc@1: 60.000%
+| Epoch [  1/100] Iter[  8/ 19]		Loss: 5509.2529 Acc@1: 58.000%
+| Epoch [  1/100] Iter[  9/ 19]		Loss: 2751.6543 Acc@1: 58.000%
+| Epoch [  1/100] Iter[ 10/ 19]		Loss: 1376.3217 Acc@1: 59.000%
+| Epoch [  1/100] Iter[ 11/ 19]		Loss: 688.2109 Acc@1: 60.000%
+| Epoch [  1/100] Iter[ 12/ 19]		Loss: 347.2143 Acc@1: 61.000%
+| Epoch [  1/100] Iter[ 13/ 19]		Loss: 175.3812 Acc@1: 60.000%
+| Epoch [  1/100] Iter[ 14/ 19]		Loss: 87.7123 Acc@1: 60.000%
+| Epoch [  1/100] Iter[ 15/ 19]		Loss: 45.2452 Acc@1: 60.000%
+| Epoch [  1/100] Iter[ 16/ 19]		Loss: 23.9645 Acc@1: 59.000%
+| Epoch [  1/100] Iter[ 17/ 19]		Loss: 13.3899 Acc@1: 58.000%
+| Epoch [  1/100] Iter[ 18/ 19]		Loss: 7.9280 Acc@1: 58.000%
+| Epoch [  1/100] Iter[ 19/ 19]		Loss: 4.5531 Acc@1: 58.000%
+{'Epoch': 1, 'Loss': tensor(4.5531, device='cuda:0'), 'Accuracy': tensor(58)}
+
+| Validation Epoch #1			Loss: 175784.3750 Acc@1: 58.00%
+| Saving Best model...			Top1 = 58.00%
+| Elapsed time : 0:00:09
+
+=> Training Epoch #2, LR=0.0010
+| Epoch [  2/100] Iter[  1/ 19]		Loss: 703728.3125 Acc@1: 52.000%
+| Epoch [  2/100] Iter[  2/ 19]		Loss: 351275.5000 Acc@1: 62.000%
+| Epoch [  2/100] Iter[  3/ 19]		Loss: 175302.3594 Acc@1: 67.000%
+| Epoch [  2/100] Iter[  4/ 19]		Loss: 87701.2266 Acc@1: 63.000%
+| Epoch [  2/100] Iter[  5/ 19]		Loss: 43739.3008 Acc@1: 61.000%
+| Epoch [  2/100] Iter[  6/ 19]		Loss: 21926.7070 Acc@1: 59.000%
+| Epoch [  2/100] Iter[  7/ 19]		Loss: 10944.8994 Acc@1: 59.000%
+| Epoch [  2/100] Iter[  8/ 19]		Loss: 5472.7520 Acc@1: 60.000%
+| Epoch [  2/100] Iter[  9/ 19]		Loss: 2731.9868 Acc@1: 60.000%
+| Epoch [  2/100] Iter[ 10/ 19]		Loss: 1366.3220 Acc@1: 61.000%
+| Epoch [  2/100] Iter[ 11/ 19]		Loss: 683.1511 Acc@1: 61.000%
+| Epoch [  2/100] Iter[ 12/ 19]		Loss: 342.2894 Acc@1: 61.000%
+| Epoch [  2/100] Iter[ 13/ 19]		Loss: 171.2141 Acc@1: 61.000%
+| Epoch [  2/100] Iter[ 14/ 19]		Loss: 85.8160 Acc@1: 61.000%
+| Epoch [  2/100] Iter[ 15/ 19]		Loss: 43.2084 Acc@1: 62.000%
+| Epoch [  2/100] Iter[ 16/ 19]		Loss: 21.8641 Acc@1: 63.000%
+| Epoch [  2/100] Iter[ 17/ 19]		Loss: 11.6804 Acc@1: 62.000%
+| Epoch [  2/100] Iter[ 18/ 19]		Loss: 5.8521 Acc@1: 63.000%
+| Epoch [  2/100] Iter[ 19/ 19]		Loss: 3.3513 Acc@1: 63.000%
+{'Epoch': 2, 'Loss': tensor(3.3513, device='cuda:0'), 'Accuracy': tensor(63)}
+
+| Validation Epoch #2			Loss: 174596.1406 Acc@1: 79.00%
+| Saving Best model...			Top1 = 79.00%
+| Elapsed time : 0:00:13
+
+=> Training Epoch #3, LR=0.0010
+| Epoch [  3/100] Iter[  1/ 19]		Loss: 697947.0000 Acc@1: 70.000%
+| Epoch [  3/100] Iter[  2/ 19]		Loss: 348574.0000 Acc@1: 74.000%
+| Epoch [  3/100] Iter[  3/ 19]		Loss: 174357.0625 Acc@1: 77.000%
+| Epoch [  3/100] Iter[  4/ 19]		Loss: 87068.7578 Acc@1: 76.000%
+| Epoch [  3/100] Iter[  5/ 19]		Loss: 43480.3789 Acc@1: 73.000%
+| Epoch [  3/100] Iter[  6/ 19]		Loss: 21741.3379 Acc@1: 72.000%
+| Epoch [  3/100] Iter[  7/ 19]		Loss: 10860.8555 Acc@1: 71.000%
+| Epoch [  3/100] Iter[  8/ 19]		Loss: 5427.6436 Acc@1: 72.000%
+| Epoch [  3/100] Iter[  9/ 19]		Loss: 2714.2500 Acc@1: 74.000%
+| Epoch [  3/100] Iter[ 10/ 19]		Loss: 1357.8971 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 11/ 19]		Loss: 678.5406 Acc@1: 74.000%
+| Epoch [  3/100] Iter[ 12/ 19]		Loss: 339.4272 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 13/ 19]		Loss: 169.8035 Acc@1: 72.000%
+| Epoch [  3/100] Iter[ 14/ 19]		Loss: 85.3663 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 15/ 19]		Loss: 42.9385 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 16/ 19]		Loss: 21.7171 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 17/ 19]		Loss: 11.2072 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 18/ 19]		Loss: 5.9199 Acc@1: 73.000%
+| Epoch [  3/100] Iter[ 19/ 19]		Loss: 3.2248 Acc@1: 73.000%
+{'Epoch': 3, 'Loss': tensor(3.2248, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #3			Loss: 173152.7812 Acc@1: 81.00%
+| Saving Best model...			Top1 = 81.00%
+| Elapsed time : 0:00:17
+
+=> Training Epoch #4, LR=0.0010
+| Epoch [  4/100] Iter[  1/ 19]		Loss: 693354.1250 Acc@1: 71.000%
+| Epoch [  4/100] Iter[  2/ 19]		Loss: 346441.2500 Acc@1: 71.000%
+| Epoch [  4/100] Iter[  3/ 19]		Loss: 172989.1406 Acc@1: 72.000%
+| Epoch [  4/100] Iter[  4/ 19]		Loss: 86517.8125 Acc@1: 71.000%
+| Epoch [  4/100] Iter[  5/ 19]		Loss: 43185.1836 Acc@1: 71.000%
+| Epoch [  4/100] Iter[  6/ 19]		Loss: 21608.8281 Acc@1: 72.000%
+| Epoch [  4/100] Iter[  7/ 19]		Loss: 10796.5957 Acc@1: 74.000%
+| Epoch [  4/100] Iter[  8/ 19]		Loss: 5396.0732 Acc@1: 73.000%
+| Epoch [  4/100] Iter[  9/ 19]		Loss: 2694.5610 Acc@1: 71.000%
+| Epoch [  4/100] Iter[ 10/ 19]		Loss: 1346.2043 Acc@1: 73.000%
+| Epoch [  4/100] Iter[ 11/ 19]		Loss: 673.9146 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 12/ 19]		Loss: 337.4748 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 13/ 19]		Loss: 168.7146 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 14/ 19]		Loss: 84.9350 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 15/ 19]		Loss: 42.6213 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 16/ 19]		Loss: 21.5821 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 17/ 19]		Loss: 11.0942 Acc@1: 74.000%
+| Epoch [  4/100] Iter[ 18/ 19]		Loss: 6.0057 Acc@1: 73.000%
+| Epoch [  4/100] Iter[ 19/ 19]		Loss: 3.1967 Acc@1: 73.000%
+{'Epoch': 4, 'Loss': tensor(3.1967, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #4			Loss: 172155.2031 Acc@1: 81.00%
+| Elapsed time : 0:00:21
+
+=> Training Epoch #5, LR=0.0010
+| Epoch [  5/100] Iter[  1/ 19]		Loss: 688225.8750 Acc@1: 62.000%
+| Epoch [  5/100] Iter[  2/ 19]		Loss: 343693.5312 Acc@1: 70.000%
+| Epoch [  5/100] Iter[  3/ 19]		Loss: 171644.0000 Acc@1: 67.000%
+| Epoch [  5/100] Iter[  4/ 19]		Loss: 85979.1719 Acc@1: 69.000%
+| Epoch [  5/100] Iter[  5/ 19]		Loss: 42899.7969 Acc@1: 70.000%
+| Epoch [  5/100] Iter[  6/ 19]		Loss: 21412.1094 Acc@1: 71.000%
+| Epoch [  5/100] Iter[  7/ 19]		Loss: 10700.5850 Acc@1: 72.000%
+| Epoch [  5/100] Iter[  8/ 19]		Loss: 5357.7417 Acc@1: 71.000%
+| Epoch [  5/100] Iter[  9/ 19]		Loss: 2677.7583 Acc@1: 72.000%
+| Epoch [  5/100] Iter[ 10/ 19]		Loss: 1338.9723 Acc@1: 71.000%
+| Epoch [  5/100] Iter[ 11/ 19]		Loss: 669.0677 Acc@1: 72.000%
+| Epoch [  5/100] Iter[ 12/ 19]		Loss: 334.6551 Acc@1: 72.000%
+| Epoch [  5/100] Iter[ 13/ 19]		Loss: 167.9984 Acc@1: 72.000%
+| Epoch [  5/100] Iter[ 14/ 19]		Loss: 84.1352 Acc@1: 72.000%
+| Epoch [  5/100] Iter[ 15/ 19]		Loss: 42.2267 Acc@1: 73.000%
+| Epoch [  5/100] Iter[ 16/ 19]		Loss: 21.5618 Acc@1: 72.000%
+| Epoch [  5/100] Iter[ 17/ 19]		Loss: 10.9215 Acc@1: 73.000%
+| Epoch [  5/100] Iter[ 18/ 19]		Loss: 5.7771 Acc@1: 73.000%
+| Epoch [  5/100] Iter[ 19/ 19]		Loss: 3.1381 Acc@1: 73.000%
+{'Epoch': 5, 'Loss': tensor(3.1381, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #5			Loss: 170933.0625 Acc@1: 81.00%
+| Elapsed time : 0:00:25
+
+=> Training Epoch #6, LR=0.0010
+| Epoch [  6/100] Iter[  1/ 19]		Loss: 683277.1875 Acc@1: 78.000%
+| Epoch [  6/100] Iter[  2/ 19]		Loss: 341554.9062 Acc@1: 76.000%
+| Epoch [  6/100] Iter[  3/ 19]		Loss: 170688.6094 Acc@1: 71.000%
+| Epoch [  6/100] Iter[  4/ 19]		Loss: 85337.8906 Acc@1: 74.000%
+| Epoch [  6/100] Iter[  5/ 19]		Loss: 42591.1719 Acc@1: 74.000%
+| Epoch [  6/100] Iter[  6/ 19]		Loss: 21309.1230 Acc@1: 73.000%
+| Epoch [  6/100] Iter[  7/ 19]		Loss: 10632.1436 Acc@1: 73.000%
+| Epoch [  6/100] Iter[  8/ 19]		Loss: 5315.3398 Acc@1: 72.000%
+| Epoch [  6/100] Iter[  9/ 19]		Loss: 2658.1365 Acc@1: 71.000%
+| Epoch [  6/100] Iter[ 10/ 19]		Loss: 1329.0356 Acc@1: 72.000%
+| Epoch [  6/100] Iter[ 11/ 19]		Loss: 664.6653 Acc@1: 72.000%
+| Epoch [  6/100] Iter[ 12/ 19]		Loss: 332.4119 Acc@1: 71.000%
+| Epoch [  6/100] Iter[ 13/ 19]		Loss: 166.5249 Acc@1: 73.000%
+| Epoch [  6/100] Iter[ 14/ 19]		Loss: 83.5440 Acc@1: 72.000%
+| Epoch [  6/100] Iter[ 15/ 19]		Loss: 42.0338 Acc@1: 73.000%
+| Epoch [  6/100] Iter[ 16/ 19]		Loss: 21.4570 Acc@1: 72.000%
+| Epoch [  6/100] Iter[ 17/ 19]		Loss: 10.8865 Acc@1: 72.000%
+| Epoch [  6/100] Iter[ 18/ 19]		Loss: 5.7133 Acc@1: 73.000%
+| Epoch [  6/100] Iter[ 19/ 19]		Loss: 3.0010 Acc@1: 73.000%
+{'Epoch': 6, 'Loss': tensor(3.0010, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #6			Loss: 169569.8125 Acc@1: 81.00%
+| Elapsed time : 0:00:28
+
+=> Training Epoch #7, LR=0.0010
+| Epoch [  7/100] Iter[  1/ 19]		Loss: 679217.0000 Acc@1: 81.000%
+| Epoch [  7/100] Iter[  2/ 19]		Loss: 339320.3438 Acc@1: 79.000%
+| Epoch [  7/100] Iter[  3/ 19]		Loss: 169406.8125 Acc@1: 79.000%
+| Epoch [  7/100] Iter[  4/ 19]		Loss: 84623.2969 Acc@1: 81.000%
+| Epoch [  7/100] Iter[  5/ 19]		Loss: 42303.9766 Acc@1: 80.000%
+| Epoch [  7/100] Iter[  6/ 19]		Loss: 21148.4609 Acc@1: 77.000%
+| Epoch [  7/100] Iter[  7/ 19]		Loss: 10564.6465 Acc@1: 76.000%
+| Epoch [  7/100] Iter[  8/ 19]		Loss: 5279.2456 Acc@1: 76.000%
+| Epoch [  7/100] Iter[  9/ 19]		Loss: 2638.3118 Acc@1: 75.000%
+| Epoch [  7/100] Iter[ 10/ 19]		Loss: 1320.4319 Acc@1: 75.000%
+| Epoch [  7/100] Iter[ 11/ 19]		Loss: 659.6353 Acc@1: 75.000%
+| Epoch [  7/100] Iter[ 12/ 19]		Loss: 330.4582 Acc@1: 75.000%
+| Epoch [  7/100] Iter[ 13/ 19]		Loss: 165.5961 Acc@1: 74.000%
+| Epoch [  7/100] Iter[ 14/ 19]		Loss: 82.9500 Acc@1: 74.000%
+| Epoch [  7/100] Iter[ 15/ 19]		Loss: 41.7844 Acc@1: 74.000%
+| Epoch [  7/100] Iter[ 16/ 19]		Loss: 21.2130 Acc@1: 73.000%
+| Epoch [  7/100] Iter[ 17/ 19]		Loss: 10.9566 Acc@1: 73.000%
+| Epoch [  7/100] Iter[ 18/ 19]		Loss: 5.7328 Acc@1: 73.000%
+| Epoch [  7/100] Iter[ 19/ 19]		Loss: 3.2123 Acc@1: 73.000%
+{'Epoch': 7, 'Loss': tensor(3.2123, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #7			Loss: 168411.5781 Acc@1: 81.00%
+| Elapsed time : 0:00:32
+
+=> Training Epoch #8, LR=0.0010
+| Epoch [  8/100] Iter[  1/ 19]		Loss: 673756.3125 Acc@1: 62.000%
+| Epoch [  8/100] Iter[  2/ 19]		Loss: 336744.2500 Acc@1: 68.000%
+| Epoch [  8/100] Iter[  3/ 19]		Loss: 168325.9375 Acc@1: 71.000%
+| Epoch [  8/100] Iter[  4/ 19]		Loss: 84135.4141 Acc@1: 74.000%
+| Epoch [  8/100] Iter[  5/ 19]		Loss: 41954.8906 Acc@1: 73.000%
+| Epoch [  8/100] Iter[  6/ 19]		Loss: 20987.4512 Acc@1: 73.000%
+| Epoch [  8/100] Iter[  7/ 19]		Loss: 10488.1807 Acc@1: 74.000%
+| Epoch [  8/100] Iter[  8/ 19]		Loss: 5248.4155 Acc@1: 73.000%
+| Epoch [  8/100] Iter[  9/ 19]		Loss: 2623.0332 Acc@1: 73.000%
+| Epoch [  8/100] Iter[ 10/ 19]		Loss: 1309.9208 Acc@1: 73.000%
+| Epoch [  8/100] Iter[ 11/ 19]		Loss: 655.2349 Acc@1: 73.000%
+| Epoch [  8/100] Iter[ 12/ 19]		Loss: 327.7950 Acc@1: 74.000%
+| Epoch [  8/100] Iter[ 13/ 19]		Loss: 164.4335 Acc@1: 73.000%
+| Epoch [  8/100] Iter[ 14/ 19]		Loss: 82.2354 Acc@1: 74.000%
+| Epoch [  8/100] Iter[ 15/ 19]		Loss: 41.5430 Acc@1: 73.000%
+| Epoch [  8/100] Iter[ 16/ 19]		Loss: 21.2049 Acc@1: 72.000%
+| Epoch [  8/100] Iter[ 17/ 19]		Loss: 10.8142 Acc@1: 72.000%
+| Epoch [  8/100] Iter[ 18/ 19]		Loss: 5.6511 Acc@1: 73.000%
+| Epoch [  8/100] Iter[ 19/ 19]		Loss: 3.0288 Acc@1: 73.000%
+{'Epoch': 8, 'Loss': tensor(3.0288, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #8			Loss: 167511.7344 Acc@1: 81.00%
+| Elapsed time : 0:00:36
+
+=> Training Epoch #9, LR=0.0010
+| Epoch [  9/100] Iter[  1/ 19]		Loss: 670002.1250 Acc@1: 68.000%
+| Epoch [  9/100] Iter[  2/ 19]		Loss: 333932.4375 Acc@1: 70.000%
+| Epoch [  9/100] Iter[  3/ 19]		Loss: 167119.2500 Acc@1: 71.000%
+| Epoch [  9/100] Iter[  4/ 19]		Loss: 83471.5781 Acc@1: 74.000%
+| Epoch [  9/100] Iter[  5/ 19]		Loss: 41660.0586 Acc@1: 75.000%
+| Epoch [  9/100] Iter[  6/ 19]		Loss: 20854.6641 Acc@1: 75.000%
+| Epoch [  9/100] Iter[  7/ 19]		Loss: 10432.7012 Acc@1: 74.000%
+| Epoch [  9/100] Iter[  8/ 19]		Loss: 5211.4116 Acc@1: 73.000%
+| Epoch [  9/100] Iter[  9/ 19]		Loss: 2601.4084 Acc@1: 73.000%
+| Epoch [  9/100] Iter[ 10/ 19]		Loss: 1301.0605 Acc@1: 74.000%
+| Epoch [  9/100] Iter[ 11/ 19]		Loss: 650.7046 Acc@1: 73.000%
+| Epoch [  9/100] Iter[ 12/ 19]		Loss: 325.7979 Acc@1: 72.000%
+| Epoch [  9/100] Iter[ 13/ 19]		Loss: 163.0579 Acc@1: 73.000%
+| Epoch [  9/100] Iter[ 14/ 19]		Loss: 81.8128 Acc@1: 73.000%
+| Epoch [  9/100] Iter[ 15/ 19]		Loss: 41.0495 Acc@1: 74.000%
+| Epoch [  9/100] Iter[ 16/ 19]		Loss: 20.8222 Acc@1: 74.000%
+| Epoch [  9/100] Iter[ 17/ 19]		Loss: 10.8439 Acc@1: 74.000%
+| Epoch [  9/100] Iter[ 18/ 19]		Loss: 5.7741 Acc@1: 73.000%
+| Epoch [  9/100] Iter[ 19/ 19]		Loss: 3.2982 Acc@1: 73.000%
+{'Epoch': 9, 'Loss': tensor(3.2982, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #9			Loss: 166182.8594 Acc@1: 81.00%
+| Elapsed time : 0:00:40
+
+=> Training Epoch #10, LR=0.0010
+| Epoch [ 10/100] Iter[  1/ 19]		Loss: 664304.1875 Acc@1: 75.000%
+| Epoch [ 10/100] Iter[  2/ 19]		Loss: 332216.8438 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[  3/ 19]		Loss: 165995.4844 Acc@1: 70.000%
+| Epoch [ 10/100] Iter[  4/ 19]		Loss: 82867.7734 Acc@1: 71.000%
+| Epoch [ 10/100] Iter[  5/ 19]		Loss: 41499.7969 Acc@1: 72.000%
+| Epoch [ 10/100] Iter[  6/ 19]		Loss: 20695.9238 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[  7/ 19]		Loss: 10344.1631 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[  8/ 19]		Loss: 5173.2217 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[  9/ 19]		Loss: 2585.1929 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[ 10/ 19]		Loss: 1291.2791 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[ 11/ 19]		Loss: 646.0134 Acc@1: 72.000%
+| Epoch [ 10/100] Iter[ 12/ 19]		Loss: 323.6033 Acc@1: 71.000%
+| Epoch [ 10/100] Iter[ 13/ 19]		Loss: 161.9122 Acc@1: 72.000%
+| Epoch [ 10/100] Iter[ 14/ 19]		Loss: 81.2309 Acc@1: 72.000%
+| Epoch [ 10/100] Iter[ 15/ 19]		Loss: 40.8503 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[ 16/ 19]		Loss: 20.8069 Acc@1: 72.000%
+| Epoch [ 10/100] Iter[ 17/ 19]		Loss: 10.6145 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[ 18/ 19]		Loss: 5.6371 Acc@1: 73.000%
+| Epoch [ 10/100] Iter[ 19/ 19]		Loss: 2.9171 Acc@1: 73.000%
+{'Epoch': 10, 'Loss': tensor(2.9171, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #10			Loss: 165179.7500 Acc@1: 81.00%
+| Elapsed time : 0:00:43
+
+=> Training Epoch #11, LR=0.0010
+| Epoch [ 11/100] Iter[  1/ 19]		Loss: 660906.2500 Acc@1: 59.000%
+| Epoch [ 11/100] Iter[  2/ 19]		Loss: 329510.1562 Acc@1: 62.000%
+| Epoch [ 11/100] Iter[  3/ 19]		Loss: 164601.8281 Acc@1: 70.000%
+| Epoch [ 11/100] Iter[  4/ 19]		Loss: 82434.4531 Acc@1: 71.000%
+| Epoch [ 11/100] Iter[  5/ 19]		Loss: 41128.1445 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[  6/ 19]		Loss: 20567.1621 Acc@1: 74.000%
+| Epoch [ 11/100] Iter[  7/ 19]		Loss: 10287.4170 Acc@1: 74.000%
+| Epoch [ 11/100] Iter[  8/ 19]		Loss: 5134.2271 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[  9/ 19]		Loss: 2566.3613 Acc@1: 72.000%
+| Epoch [ 11/100] Iter[ 10/ 19]		Loss: 1283.6674 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[ 11/ 19]		Loss: 641.6583 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[ 12/ 19]		Loss: 320.8698 Acc@1: 72.000%
+| Epoch [ 11/100] Iter[ 13/ 19]		Loss: 160.9063 Acc@1: 72.000%
+| Epoch [ 11/100] Iter[ 14/ 19]		Loss: 80.7937 Acc@1: 72.000%
+| Epoch [ 11/100] Iter[ 15/ 19]		Loss: 40.5748 Acc@1: 72.000%
+| Epoch [ 11/100] Iter[ 16/ 19]		Loss: 20.5857 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[ 17/ 19]		Loss: 10.4981 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[ 18/ 19]		Loss: 5.6091 Acc@1: 73.000%
+| Epoch [ 11/100] Iter[ 19/ 19]		Loss: 3.1897 Acc@1: 73.000%
+{'Epoch': 11, 'Loss': tensor(3.1897, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #11			Loss: 163794.3750 Acc@1: 81.00%
+| Elapsed time : 0:00:47
+
+=> Training Epoch #12, LR=0.0010
+| Epoch [ 12/100] Iter[  1/ 19]		Loss: 655721.9375 Acc@1: 62.000%
+| Epoch [ 12/100] Iter[  2/ 19]		Loss: 327832.3750 Acc@1: 64.000%
+| Epoch [ 12/100] Iter[  3/ 19]		Loss: 163745.0312 Acc@1: 67.000%
+| Epoch [ 12/100] Iter[  4/ 19]		Loss: 81723.6562 Acc@1: 69.000%
+| Epoch [ 12/100] Iter[  5/ 19]		Loss: 40792.7148 Acc@1: 71.000%
+| Epoch [ 12/100] Iter[  6/ 19]		Loss: 20426.4336 Acc@1: 70.000%
+| Epoch [ 12/100] Iter[  7/ 19]		Loss: 10189.9316 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[  8/ 19]		Loss: 5101.1758 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[  9/ 19]		Loss: 2548.8000 Acc@1: 73.000%
+| Epoch [ 12/100] Iter[ 10/ 19]		Loss: 1273.2533 Acc@1: 73.000%
+| Epoch [ 12/100] Iter[ 11/ 19]		Loss: 636.6470 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[ 12/ 19]		Loss: 318.4664 Acc@1: 71.000%
+| Epoch [ 12/100] Iter[ 13/ 19]		Loss: 159.7835 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[ 14/ 19]		Loss: 80.1355 Acc@1: 71.000%
+| Epoch [ 12/100] Iter[ 15/ 19]		Loss: 40.2905 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[ 16/ 19]		Loss: 20.4920 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[ 17/ 19]		Loss: 10.5371 Acc@1: 72.000%
+| Epoch [ 12/100] Iter[ 18/ 19]		Loss: 5.4353 Acc@1: 73.000%
+| Epoch [ 12/100] Iter[ 19/ 19]		Loss: 3.0242 Acc@1: 73.000%
+{'Epoch': 12, 'Loss': tensor(3.0242, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #12			Loss: 162698.3438 Acc@1: 81.00%
+| Elapsed time : 0:00:51
+
+=> Training Epoch #13, LR=0.0010
+| Epoch [ 13/100] Iter[  1/ 19]		Loss: 651018.5000 Acc@1: 81.000%
+| Epoch [ 13/100] Iter[  2/ 19]		Loss: 325104.1875 Acc@1: 82.000%
+| Epoch [ 13/100] Iter[  3/ 19]		Loss: 162595.2812 Acc@1: 76.000%
+| Epoch [ 13/100] Iter[  4/ 19]		Loss: 81173.3438 Acc@1: 75.000%
+| Epoch [ 13/100] Iter[  5/ 19]		Loss: 40492.4141 Acc@1: 73.000%
+| Epoch [ 13/100] Iter[  6/ 19]		Loss: 20284.1660 Acc@1: 71.000%
+| Epoch [ 13/100] Iter[  7/ 19]		Loss: 10129.5479 Acc@1: 70.000%
+| Epoch [ 13/100] Iter[  8/ 19]		Loss: 5056.9775 Acc@1: 70.000%
+| Epoch [ 13/100] Iter[  9/ 19]		Loss: 2528.5745 Acc@1: 69.000%
+| Epoch [ 13/100] Iter[ 10/ 19]		Loss: 1264.0635 Acc@1: 70.000%
+| Epoch [ 13/100] Iter[ 11/ 19]		Loss: 632.7097 Acc@1: 71.000%
+| Epoch [ 13/100] Iter[ 12/ 19]		Loss: 316.8961 Acc@1: 71.000%
+| Epoch [ 13/100] Iter[ 13/ 19]		Loss: 158.4425 Acc@1: 72.000%
+| Epoch [ 13/100] Iter[ 14/ 19]		Loss: 79.4873 Acc@1: 71.000%
+| Epoch [ 13/100] Iter[ 15/ 19]		Loss: 40.0029 Acc@1: 72.000%
+| Epoch [ 13/100] Iter[ 16/ 19]		Loss: 20.3641 Acc@1: 72.000%
+| Epoch [ 13/100] Iter[ 17/ 19]		Loss: 10.4290 Acc@1: 72.000%
+| Epoch [ 13/100] Iter[ 18/ 19]		Loss: 5.5093 Acc@1: 72.000%
+| Epoch [ 13/100] Iter[ 19/ 19]		Loss: 2.6850 Acc@1: 72.000%
+{'Epoch': 13, 'Loss': tensor(2.6850, device='cuda:0'), 'Accuracy': tensor(72)}
+
+| Validation Epoch #13			Loss: 161483.0781 Acc@1: 81.00%
+| Elapsed time : 0:00:54
+
+=> Training Epoch #14, LR=0.0010
+| Epoch [ 14/100] Iter[  1/ 19]		Loss: 646488.6875 Acc@1: 81.000%
+| Epoch [ 14/100] Iter[  2/ 19]		Loss: 322400.4375 Acc@1: 78.000%
+| Epoch [ 14/100] Iter[  3/ 19]		Loss: 161347.2031 Acc@1: 72.000%
+| Epoch [ 14/100] Iter[  4/ 19]		Loss: 80575.7188 Acc@1: 68.000%
+| Epoch [ 14/100] Iter[  5/ 19]		Loss: 40270.8008 Acc@1: 71.000%
+| Epoch [ 14/100] Iter[  6/ 19]		Loss: 20142.2832 Acc@1: 70.000%
+| Epoch [ 14/100] Iter[  7/ 19]		Loss: 10050.1367 Acc@1: 70.000%
+| Epoch [ 14/100] Iter[  8/ 19]		Loss: 5030.3110 Acc@1: 72.000%
+| Epoch [ 14/100] Iter[  9/ 19]		Loss: 2509.5640 Acc@1: 72.000%
+| Epoch [ 14/100] Iter[ 10/ 19]		Loss: 1254.6981 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 11/ 19]		Loss: 628.3101 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 12/ 19]		Loss: 314.2796 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 13/ 19]		Loss: 157.3220 Acc@1: 74.000%
+| Epoch [ 14/100] Iter[ 14/ 19]		Loss: 79.0806 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 15/ 19]		Loss: 39.7279 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 16/ 19]		Loss: 20.1137 Acc@1: 74.000%
+| Epoch [ 14/100] Iter[ 17/ 19]		Loss: 10.4175 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 18/ 19]		Loss: 5.5255 Acc@1: 73.000%
+| Epoch [ 14/100] Iter[ 19/ 19]		Loss: 3.1672 Acc@1: 73.000%
+{'Epoch': 14, 'Loss': tensor(3.1672, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #14			Loss: 160471.9688 Acc@1: 81.00%
+| Elapsed time : 0:00:58
+
+=> Training Epoch #15, LR=0.0010
+| Epoch [ 15/100] Iter[  1/ 19]		Loss: 641462.1250 Acc@1: 65.000%
+| Epoch [ 15/100] Iter[  2/ 19]		Loss: 320557.1875 Acc@1: 71.000%
+| Epoch [ 15/100] Iter[  3/ 19]		Loss: 160174.2188 Acc@1: 71.000%
+| Epoch [ 15/100] Iter[  4/ 19]		Loss: 80054.1328 Acc@1: 70.000%
+| Epoch [ 15/100] Iter[  5/ 19]		Loss: 39977.8711 Acc@1: 71.000%
+| Epoch [ 15/100] Iter[  6/ 19]		Loss: 19980.5332 Acc@1: 73.000%
+| Epoch [ 15/100] Iter[  7/ 19]		Loss: 9982.1729 Acc@1: 71.000%
+| Epoch [ 15/100] Iter[  8/ 19]		Loss: 4992.2183 Acc@1: 72.000%
+| Epoch [ 15/100] Iter[  9/ 19]		Loss: 2493.5771 Acc@1: 73.000%
+| Epoch [ 15/100] Iter[ 10/ 19]		Loss: 1247.9324 Acc@1: 73.000%
+| Epoch [ 15/100] Iter[ 11/ 19]		Loss: 623.6555 Acc@1: 72.000%
+| Epoch [ 15/100] Iter[ 12/ 19]		Loss: 311.8209 Acc@1: 73.000%
+| Epoch [ 15/100] Iter[ 13/ 19]		Loss: 156.0565 Acc@1: 73.000%
+| Epoch [ 15/100] Iter[ 14/ 19]		Loss: 78.5315 Acc@1: 72.000%
+| Epoch [ 15/100] Iter[ 15/ 19]		Loss: 39.5651 Acc@1: 72.000%
+| Epoch [ 15/100] Iter[ 16/ 19]		Loss: 20.0679 Acc@1: 72.000%
+| Epoch [ 15/100] Iter[ 17/ 19]		Loss: 10.2715 Acc@1: 72.000%
+| Epoch [ 15/100] Iter[ 18/ 19]		Loss: 5.3884 Acc@1: 73.000%
+| Epoch [ 15/100] Iter[ 19/ 19]		Loss: 2.9702 Acc@1: 73.000%
+{'Epoch': 15, 'Loss': tensor(2.9702, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #15			Loss: 159374.7656 Acc@1: 81.00%
+| Elapsed time : 0:01:03
+
+=> Training Epoch #16, LR=0.0010
+| Epoch [ 16/100] Iter[  1/ 19]		Loss: 636909.3125 Acc@1: 87.000%
+| Epoch [ 16/100] Iter[  2/ 19]		Loss: 318333.2500 Acc@1: 82.000%
+| Epoch [ 16/100] Iter[  3/ 19]		Loss: 158977.9375 Acc@1: 76.000%
+| Epoch [ 16/100] Iter[  4/ 19]		Loss: 79392.0234 Acc@1: 78.000%
+| Epoch [ 16/100] Iter[  5/ 19]		Loss: 39678.0195 Acc@1: 77.000%
+| Epoch [ 16/100] Iter[  6/ 19]		Loss: 19826.9961 Acc@1: 75.000%
+| Epoch [ 16/100] Iter[  7/ 19]		Loss: 9900.2949 Acc@1: 72.000%
+| Epoch [ 16/100] Iter[  8/ 19]		Loss: 4954.5752 Acc@1: 73.000%
+| Epoch [ 16/100] Iter[  9/ 19]		Loss: 2477.5430 Acc@1: 73.000%
+| Epoch [ 16/100] Iter[ 10/ 19]		Loss: 1237.3843 Acc@1: 74.000%
+| Epoch [ 16/100] Iter[ 11/ 19]		Loss: 618.0410 Acc@1: 74.000%
+| Epoch [ 16/100] Iter[ 12/ 19]		Loss: 309.4974 Acc@1: 75.000%
+| Epoch [ 16/100] Iter[ 13/ 19]		Loss: 155.0676 Acc@1: 74.000%
+| Epoch [ 16/100] Iter[ 14/ 19]		Loss: 77.8514 Acc@1: 74.000%
+| Epoch [ 16/100] Iter[ 15/ 19]		Loss: 39.2311 Acc@1: 73.000%
+| Epoch [ 16/100] Iter[ 16/ 19]		Loss: 19.7634 Acc@1: 74.000%
+| Epoch [ 16/100] Iter[ 17/ 19]		Loss: 10.2628 Acc@1: 74.000%
+| Epoch [ 16/100] Iter[ 18/ 19]		Loss: 5.5840 Acc@1: 73.000%
+| Epoch [ 16/100] Iter[ 19/ 19]		Loss: 2.9540 Acc@1: 73.000%
+{'Epoch': 16, 'Loss': tensor(2.9540, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #16			Loss: 158038.6719 Acc@1: 81.00%
+| Elapsed time : 0:01:07
+
+=> Training Epoch #17, LR=0.0010
+| Epoch [ 17/100] Iter[  1/ 19]		Loss: 632829.0625 Acc@1: 87.000%
+| Epoch [ 17/100] Iter[  2/ 19]		Loss: 315950.3750 Acc@1: 78.000%
+| Epoch [ 17/100] Iter[  3/ 19]		Loss: 157672.9688 Acc@1: 79.000%
+| Epoch [ 17/100] Iter[  4/ 19]		Loss: 78858.2969 Acc@1: 79.000%
+| Epoch [ 17/100] Iter[  5/ 19]		Loss: 39394.2773 Acc@1: 77.000%
+| Epoch [ 17/100] Iter[  6/ 19]		Loss: 19691.5547 Acc@1: 76.000%
+| Epoch [ 17/100] Iter[  7/ 19]		Loss: 9836.4375 Acc@1: 75.000%
+| Epoch [ 17/100] Iter[  8/ 19]		Loss: 4916.8359 Acc@1: 75.000%
+| Epoch [ 17/100] Iter[  9/ 19]		Loss: 2456.7527 Acc@1: 75.000%
+| Epoch [ 17/100] Iter[ 10/ 19]		Loss: 1227.5022 Acc@1: 74.000%
+| Epoch [ 17/100] Iter[ 11/ 19]		Loss: 614.8736 Acc@1: 74.000%
+| Epoch [ 17/100] Iter[ 12/ 19]		Loss: 307.4455 Acc@1: 73.000%
+| Epoch [ 17/100] Iter[ 13/ 19]		Loss: 153.9877 Acc@1: 73.000%
+| Epoch [ 17/100] Iter[ 14/ 19]		Loss: 77.3205 Acc@1: 73.000%
+| Epoch [ 17/100] Iter[ 15/ 19]		Loss: 39.0718 Acc@1: 73.000%
+| Epoch [ 17/100] Iter[ 16/ 19]		Loss: 19.8115 Acc@1: 73.000%
+| Epoch [ 17/100] Iter[ 17/ 19]		Loss: 10.1869 Acc@1: 72.000%
+| Epoch [ 17/100] Iter[ 18/ 19]		Loss: 5.3317 Acc@1: 73.000%
+| Epoch [ 17/100] Iter[ 19/ 19]		Loss: 3.0300 Acc@1: 73.000%
+{'Epoch': 17, 'Loss': tensor(3.0300, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #17			Loss: 156691.0156 Acc@1: 81.00%
+| Elapsed time : 0:01:10
+
+=> Training Epoch #18, LR=0.0010
+| Epoch [ 18/100] Iter[  1/ 19]		Loss: 627570.3125 Acc@1: 78.000%
+| Epoch [ 18/100] Iter[  2/ 19]		Loss: 313294.3750 Acc@1: 79.000%
+| Epoch [ 18/100] Iter[  3/ 19]		Loss: 156687.4688 Acc@1: 78.000%
+| Epoch [ 18/100] Iter[  4/ 19]		Loss: 78330.2266 Acc@1: 75.000%
+| Epoch [ 18/100] Iter[  5/ 19]		Loss: 39103.7695 Acc@1: 71.000%
+| Epoch [ 18/100] Iter[  6/ 19]		Loss: 19534.4199 Acc@1: 71.000%
+| Epoch [ 18/100] Iter[  7/ 19]		Loss: 9765.4951 Acc@1: 71.000%
+| Epoch [ 18/100] Iter[  8/ 19]		Loss: 4877.1709 Acc@1: 73.000%
+| Epoch [ 18/100] Iter[  9/ 19]		Loss: 2437.0061 Acc@1: 72.000%
+| Epoch [ 18/100] Iter[ 10/ 19]		Loss: 1220.7855 Acc@1: 71.000%
+| Epoch [ 18/100] Iter[ 11/ 19]		Loss: 610.0878 Acc@1: 71.000%
+| Epoch [ 18/100] Iter[ 12/ 19]		Loss: 305.1136 Acc@1: 71.000%
+| Epoch [ 18/100] Iter[ 13/ 19]		Loss: 152.9159 Acc@1: 72.000%
+| Epoch [ 18/100] Iter[ 14/ 19]		Loss: 76.8457 Acc@1: 72.000%
+| Epoch [ 18/100] Iter[ 15/ 19]		Loss: 38.6082 Acc@1: 72.000%
+| Epoch [ 18/100] Iter[ 16/ 19]		Loss: 19.5626 Acc@1: 73.000%
+| Epoch [ 18/100] Iter[ 17/ 19]		Loss: 10.1585 Acc@1: 72.000%
+| Epoch [ 18/100] Iter[ 18/ 19]		Loss: 5.2785 Acc@1: 73.000%
+| Epoch [ 18/100] Iter[ 19/ 19]		Loss: 2.9259 Acc@1: 73.000%
+{'Epoch': 18, 'Loss': tensor(2.9259, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #18			Loss: 155695.9375 Acc@1: 81.00%
+| Elapsed time : 0:01:14
+
+=> Training Epoch #19, LR=0.0010
+| Epoch [ 19/100] Iter[  1/ 19]		Loss: 622841.4375 Acc@1: 87.000%
+| Epoch [ 19/100] Iter[  2/ 19]		Loss: 311229.0938 Acc@1: 84.000%
+| Epoch [ 19/100] Iter[  3/ 19]		Loss: 155059.7344 Acc@1: 81.000%
+| Epoch [ 19/100] Iter[  4/ 19]		Loss: 77645.7109 Acc@1: 79.000%
+| Epoch [ 19/100] Iter[  5/ 19]		Loss: 38879.2617 Acc@1: 78.000%
+| Epoch [ 19/100] Iter[  6/ 19]		Loss: 19413.0156 Acc@1: 77.000%
+| Epoch [ 19/100] Iter[  7/ 19]		Loss: 9692.4570 Acc@1: 76.000%
+| Epoch [ 19/100] Iter[  8/ 19]		Loss: 4843.4243 Acc@1: 76.000%
+| Epoch [ 19/100] Iter[  9/ 19]		Loss: 2421.1064 Acc@1: 76.000%
+| Epoch [ 19/100] Iter[ 10/ 19]		Loss: 1211.6506 Acc@1: 76.000%
+| Epoch [ 19/100] Iter[ 11/ 19]		Loss: 605.5208 Acc@1: 76.000%
+| Epoch [ 19/100] Iter[ 12/ 19]		Loss: 302.6408 Acc@1: 76.000%
+| Epoch [ 19/100] Iter[ 13/ 19]		Loss: 151.7044 Acc@1: 75.000%
+| Epoch [ 19/100] Iter[ 14/ 19]		Loss: 76.1525 Acc@1: 75.000%
+| Epoch [ 19/100] Iter[ 15/ 19]		Loss: 38.3837 Acc@1: 75.000%
+| Epoch [ 19/100] Iter[ 16/ 19]		Loss: 19.5437 Acc@1: 74.000%
+| Epoch [ 19/100] Iter[ 17/ 19]		Loss: 10.0440 Acc@1: 74.000%
+| Epoch [ 19/100] Iter[ 18/ 19]		Loss: 5.4359 Acc@1: 73.000%
+| Epoch [ 19/100] Iter[ 19/ 19]		Loss: 2.9303 Acc@1: 73.000%
+{'Epoch': 19, 'Loss': tensor(2.9303, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #19			Loss: 154621.9688 Acc@1: 81.00%
+| Elapsed time : 0:01:18
+
+=> Training Epoch #20, LR=0.0010
+| Epoch [ 20/100] Iter[  1/ 19]		Loss: 618221.0625 Acc@1: 75.000%
+| Epoch [ 20/100] Iter[  2/ 19]		Loss: 308731.4688 Acc@1: 75.000%
+| Epoch [ 20/100] Iter[  3/ 19]		Loss: 154106.9375 Acc@1: 70.000%
+| Epoch [ 20/100] Iter[  4/ 19]		Loss: 77182.7656 Acc@1: 69.000%
+| Epoch [ 20/100] Iter[  5/ 19]		Loss: 38553.2773 Acc@1: 70.000%
+| Epoch [ 20/100] Iter[  6/ 19]		Loss: 19252.5723 Acc@1: 71.000%
+| Epoch [ 20/100] Iter[  7/ 19]		Loss: 9620.4336 Acc@1: 72.000%
+| Epoch [ 20/100] Iter[  8/ 19]		Loss: 4807.5942 Acc@1: 72.000%
+| Epoch [ 20/100] Iter[  9/ 19]		Loss: 2403.6445 Acc@1: 72.000%
+| Epoch [ 20/100] Iter[ 10/ 19]		Loss: 1202.7632 Acc@1: 71.000%
+| Epoch [ 20/100] Iter[ 11/ 19]		Loss: 601.5555 Acc@1: 72.000%
+| Epoch [ 20/100] Iter[ 12/ 19]		Loss: 300.9510 Acc@1: 72.000%
+| Epoch [ 20/100] Iter[ 13/ 19]		Loss: 150.5844 Acc@1: 73.000%
+| Epoch [ 20/100] Iter[ 14/ 19]		Loss: 75.5060 Acc@1: 73.000%
+| Epoch [ 20/100] Iter[ 15/ 19]		Loss: 38.1747 Acc@1: 73.000%
+| Epoch [ 20/100] Iter[ 16/ 19]		Loss: 19.5581 Acc@1: 72.000%
+| Epoch [ 20/100] Iter[ 17/ 19]		Loss: 9.8630 Acc@1: 73.000%
+| Epoch [ 20/100] Iter[ 18/ 19]		Loss: 5.2257 Acc@1: 73.000%
+| Epoch [ 20/100] Iter[ 19/ 19]		Loss: 2.9883 Acc@1: 73.000%
+{'Epoch': 20, 'Loss': tensor(2.9883, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #20			Loss: 153363.3906 Acc@1: 81.00%
+| Elapsed time : 0:01:21
+
+=> Training Epoch #21, LR=0.0010
+| Epoch [ 21/100] Iter[  1/ 19]		Loss: 614630.4375 Acc@1: 75.000%
+| Epoch [ 21/100] Iter[  2/ 19]		Loss: 306309.8438 Acc@1: 68.000%
+| Epoch [ 21/100] Iter[  3/ 19]		Loss: 153264.6094 Acc@1: 71.000%
+| Epoch [ 21/100] Iter[  4/ 19]		Loss: 76491.3047 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[  5/ 19]		Loss: 38216.5625 Acc@1: 70.000%
+| Epoch [ 21/100] Iter[  6/ 19]		Loss: 19130.8809 Acc@1: 69.000%
+| Epoch [ 21/100] Iter[  7/ 19]		Loss: 9540.6709 Acc@1: 70.000%
+| Epoch [ 21/100] Iter[  8/ 19]		Loss: 4773.3911 Acc@1: 71.000%
+| Epoch [ 21/100] Iter[  9/ 19]		Loss: 2384.5747 Acc@1: 72.000%
+| Epoch [ 21/100] Iter[ 10/ 19]		Loss: 1193.6763 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 11/ 19]		Loss: 596.8134 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 12/ 19]		Loss: 298.3517 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 13/ 19]		Loss: 149.6504 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 14/ 19]		Loss: 74.9653 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 15/ 19]		Loss: 37.9006 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 16/ 19]		Loss: 19.2371 Acc@1: 72.000%
+| Epoch [ 21/100] Iter[ 17/ 19]		Loss: 9.8494 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 18/ 19]		Loss: 5.2354 Acc@1: 73.000%
+| Epoch [ 21/100] Iter[ 19/ 19]		Loss: 2.8884 Acc@1: 73.000%
+{'Epoch': 21, 'Loss': tensor(2.8884, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #21			Loss: 152124.3594 Acc@1: 81.00%
+| Elapsed time : 0:01:25
+
+=> Training Epoch #22, LR=0.0010
+| Epoch [ 22/100] Iter[  1/ 19]		Loss: 609299.8125 Acc@1: 65.000%
+| Epoch [ 22/100] Iter[  2/ 19]		Loss: 304005.7500 Acc@1: 70.000%
+| Epoch [ 22/100] Iter[  3/ 19]		Loss: 152081.9688 Acc@1: 71.000%
+| Epoch [ 22/100] Iter[  4/ 19]		Loss: 76056.0000 Acc@1: 72.000%
+| Epoch [ 22/100] Iter[  5/ 19]		Loss: 37903.6680 Acc@1: 75.000%
+| Epoch [ 22/100] Iter[  6/ 19]		Loss: 18945.9473 Acc@1: 76.000%
+| Epoch [ 22/100] Iter[  7/ 19]		Loss: 9477.4697 Acc@1: 76.000%
+| Epoch [ 22/100] Iter[  8/ 19]		Loss: 4733.6831 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[  9/ 19]		Loss: 2366.3765 Acc@1: 75.000%
+| Epoch [ 22/100] Iter[ 10/ 19]		Loss: 1184.6896 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 11/ 19]		Loss: 592.4096 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 12/ 19]		Loss: 296.2374 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 13/ 19]		Loss: 148.5851 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 14/ 19]		Loss: 74.4814 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 15/ 19]		Loss: 37.4945 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 16/ 19]		Loss: 19.0114 Acc@1: 74.000%
+| Epoch [ 22/100] Iter[ 17/ 19]		Loss: 9.9155 Acc@1: 73.000%
+| Epoch [ 22/100] Iter[ 18/ 19]		Loss: 5.2646 Acc@1: 73.000%
+| Epoch [ 22/100] Iter[ 19/ 19]		Loss: 2.8585 Acc@1: 73.000%
+{'Epoch': 22, 'Loss': tensor(2.8585, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #22			Loss: 151266.9531 Acc@1: 81.00%
+| Elapsed time : 0:01:29
+
+=> Training Epoch #23, LR=0.0010
+| Epoch [ 23/100] Iter[  1/ 19]		Loss: 603933.9375 Acc@1: 71.000%
+| Epoch [ 23/100] Iter[  2/ 19]		Loss: 302147.7812 Acc@1: 70.000%
+| Epoch [ 23/100] Iter[  3/ 19]		Loss: 150859.9375 Acc@1: 69.000%
+| Epoch [ 23/100] Iter[  4/ 19]		Loss: 75403.9766 Acc@1: 72.000%
+| Epoch [ 23/100] Iter[  5/ 19]		Loss: 37716.0469 Acc@1: 73.000%
+| Epoch [ 23/100] Iter[  6/ 19]		Loss: 18830.6621 Acc@1: 72.000%
+| Epoch [ 23/100] Iter[  7/ 19]		Loss: 9414.2842 Acc@1: 73.000%
+| Epoch [ 23/100] Iter[  8/ 19]		Loss: 4706.0474 Acc@1: 73.000%
+| Epoch [ 23/100] Iter[  9/ 19]		Loss: 2349.3367 Acc@1: 73.000%
+| Epoch [ 23/100] Iter[ 10/ 19]		Loss: 1175.9388 Acc@1: 75.000%
+| Epoch [ 23/100] Iter[ 11/ 19]		Loss: 587.0892 Acc@1: 75.000%
+| Epoch [ 23/100] Iter[ 12/ 19]		Loss: 294.4228 Acc@1: 75.000%
+| Epoch [ 23/100] Iter[ 13/ 19]		Loss: 147.2854 Acc@1: 74.000%
+| Epoch [ 23/100] Iter[ 14/ 19]		Loss: 73.9106 Acc@1: 74.000%
+| Epoch [ 23/100] Iter[ 15/ 19]		Loss: 37.2374 Acc@1: 74.000%
+| Epoch [ 23/100] Iter[ 16/ 19]		Loss: 18.9458 Acc@1: 74.000%
+| Epoch [ 23/100] Iter[ 17/ 19]		Loss: 9.7726 Acc@1: 74.000%
+| Epoch [ 23/100] Iter[ 18/ 19]		Loss: 5.2260 Acc@1: 73.000%
+| Epoch [ 23/100] Iter[ 19/ 19]		Loss: 2.9877 Acc@1: 73.000%
+{'Epoch': 23, 'Loss': tensor(2.9877, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #23			Loss: 149927.3594 Acc@1: 81.00%
+| Elapsed time : 0:01:33
+
+=> Training Epoch #24, LR=0.0010
+| Epoch [ 24/100] Iter[  1/ 19]		Loss: 600295.3750 Acc@1: 71.000%
+| Epoch [ 24/100] Iter[  2/ 19]		Loss: 299788.3750 Acc@1: 68.000%
+| Epoch [ 24/100] Iter[  3/ 19]		Loss: 149572.2812 Acc@1: 72.000%
+| Epoch [ 24/100] Iter[  4/ 19]		Loss: 74755.8359 Acc@1: 73.000%
+| Epoch [ 24/100] Iter[  5/ 19]		Loss: 37404.7227 Acc@1: 73.000%
+| Epoch [ 24/100] Iter[  6/ 19]		Loss: 18666.5273 Acc@1: 73.000%
+| Epoch [ 24/100] Iter[  7/ 19]		Loss: 9333.2607 Acc@1: 73.000%
+| Epoch [ 24/100] Iter[  8/ 19]		Loss: 4666.8159 Acc@1: 74.000%
+| Epoch [ 24/100] Iter[  9/ 19]		Loss: 2332.0186 Acc@1: 75.000%
+| Epoch [ 24/100] Iter[ 10/ 19]		Loss: 1166.9575 Acc@1: 75.000%
+| Epoch [ 24/100] Iter[ 11/ 19]		Loss: 584.3375 Acc@1: 74.000%
+| Epoch [ 24/100] Iter[ 12/ 19]		Loss: 291.8061 Acc@1: 74.000%
+| Epoch [ 24/100] Iter[ 13/ 19]		Loss: 146.0656 Acc@1: 75.000%
+| Epoch [ 24/100] Iter[ 14/ 19]		Loss: 73.3271 Acc@1: 75.000%
+| Epoch [ 24/100] Iter[ 15/ 19]		Loss: 36.9917 Acc@1: 75.000%
+| Epoch [ 24/100] Iter[ 16/ 19]		Loss: 18.8473 Acc@1: 74.000%
+| Epoch [ 24/100] Iter[ 17/ 19]		Loss: 9.7112 Acc@1: 74.000%
+| Epoch [ 24/100] Iter[ 18/ 19]		Loss: 5.1722 Acc@1: 73.000%
+| Epoch [ 24/100] Iter[ 19/ 19]		Loss: 3.0455 Acc@1: 73.000%
+{'Epoch': 24, 'Loss': tensor(3.0455, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #24			Loss: 148705.9219 Acc@1: 81.00%
+| Elapsed time : 0:01:36
+
+=> Training Epoch #25, LR=0.0010
+| Epoch [ 25/100] Iter[  1/ 19]		Loss: 595912.6250 Acc@1: 68.000%
+| Epoch [ 25/100] Iter[  2/ 19]		Loss: 297523.0312 Acc@1: 71.000%
+| Epoch [ 25/100] Iter[  3/ 19]		Loss: 148610.6719 Acc@1: 74.000%
+| Epoch [ 25/100] Iter[  4/ 19]		Loss: 74235.7578 Acc@1: 73.000%
+| Epoch [ 25/100] Iter[  5/ 19]		Loss: 37099.0859 Acc@1: 70.000%
+| Epoch [ 25/100] Iter[  6/ 19]		Loss: 18528.9453 Acc@1: 72.000%
+| Epoch [ 25/100] Iter[  7/ 19]		Loss: 9272.9131 Acc@1: 71.000%
+| Epoch [ 25/100] Iter[  8/ 19]		Loss: 4628.6470 Acc@1: 72.000%
+| Epoch [ 25/100] Iter[  9/ 19]		Loss: 2318.7605 Acc@1: 71.000%
+| Epoch [ 25/100] Iter[ 10/ 19]		Loss: 1157.8291 Acc@1: 71.000%
+| Epoch [ 25/100] Iter[ 11/ 19]		Loss: 578.9009 Acc@1: 71.000%
+| Epoch [ 25/100] Iter[ 12/ 19]		Loss: 289.8272 Acc@1: 71.000%
+| Epoch [ 25/100] Iter[ 13/ 19]		Loss: 145.0300 Acc@1: 72.000%
+| Epoch [ 25/100] Iter[ 14/ 19]		Loss: 72.5790 Acc@1: 73.000%
+| Epoch [ 25/100] Iter[ 15/ 19]		Loss: 36.9167 Acc@1: 73.000%
+| Epoch [ 25/100] Iter[ 16/ 19]		Loss: 19.0418 Acc@1: 72.000%
+| Epoch [ 25/100] Iter[ 17/ 19]		Loss: 9.5902 Acc@1: 72.000%
+| Epoch [ 25/100] Iter[ 18/ 19]		Loss: 4.9900 Acc@1: 73.000%
+| Epoch [ 25/100] Iter[ 19/ 19]		Loss: 2.8988 Acc@1: 73.000%
+{'Epoch': 25, 'Loss': tensor(2.8988, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #25			Loss: 147867.5312 Acc@1: 81.00%
+| Elapsed time : 0:01:40
+
+=> Training Epoch #26, LR=0.0010
+| Epoch [ 26/100] Iter[  1/ 19]		Loss: 590907.3750 Acc@1: 65.000%
+| Epoch [ 26/100] Iter[  2/ 19]		Loss: 295275.8438 Acc@1: 71.000%
+| Epoch [ 26/100] Iter[  3/ 19]		Loss: 147231.0156 Acc@1: 68.000%
+| Epoch [ 26/100] Iter[  4/ 19]		Loss: 73595.0078 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[  5/ 19]		Loss: 36784.5977 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[  6/ 19]		Loss: 18413.3516 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[  7/ 19]		Loss: 9193.5615 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[  8/ 19]		Loss: 4601.1929 Acc@1: 73.000%
+| Epoch [ 26/100] Iter[  9/ 19]		Loss: 2295.9377 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[ 10/ 19]		Loss: 1148.3079 Acc@1: 73.000%
+| Epoch [ 26/100] Iter[ 11/ 19]		Loss: 573.5363 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[ 12/ 19]		Loss: 287.6444 Acc@1: 73.000%
+| Epoch [ 26/100] Iter[ 13/ 19]		Loss: 144.0525 Acc@1: 74.000%
+| Epoch [ 26/100] Iter[ 14/ 19]		Loss: 72.5242 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[ 15/ 19]		Loss: 36.3441 Acc@1: 73.000%
+| Epoch [ 26/100] Iter[ 16/ 19]		Loss: 18.4954 Acc@1: 73.000%
+| Epoch [ 26/100] Iter[ 17/ 19]		Loss: 9.5424 Acc@1: 73.000%
+| Epoch [ 26/100] Iter[ 18/ 19]		Loss: 5.1418 Acc@1: 72.000%
+| Epoch [ 26/100] Iter[ 19/ 19]		Loss: 2.5990 Acc@1: 73.000%
+{'Epoch': 26, 'Loss': tensor(2.5990, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #26			Loss: 146815.4688 Acc@1: 81.00%
+| Elapsed time : 0:01:44
+
+=> Training Epoch #27, LR=0.0010
+| Epoch [ 27/100] Iter[  1/ 19]		Loss: 587311.0625 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[  2/ 19]		Loss: 292665.8750 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[  3/ 19]		Loss: 146227.2812 Acc@1: 76.000%
+| Epoch [ 27/100] Iter[  4/ 19]		Loss: 73054.2500 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[  5/ 19]		Loss: 36501.7305 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[  6/ 19]		Loss: 18266.3574 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[  7/ 19]		Loss: 9118.3984 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[  8/ 19]		Loss: 4561.4937 Acc@1: 76.000%
+| Epoch [ 27/100] Iter[  9/ 19]		Loss: 2277.3289 Acc@1: 76.000%
+| Epoch [ 27/100] Iter[ 10/ 19]		Loss: 1140.7970 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[ 11/ 19]		Loss: 569.6119 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[ 12/ 19]		Loss: 285.0503 Acc@1: 76.000%
+| Epoch [ 27/100] Iter[ 13/ 19]		Loss: 142.7788 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[ 14/ 19]		Loss: 71.6051 Acc@1: 75.000%
+| Epoch [ 27/100] Iter[ 15/ 19]		Loss: 36.1965 Acc@1: 74.000%
+| Epoch [ 27/100] Iter[ 16/ 19]		Loss: 18.4639 Acc@1: 73.000%
+| Epoch [ 27/100] Iter[ 17/ 19]		Loss: 9.5042 Acc@1: 73.000%
+| Epoch [ 27/100] Iter[ 18/ 19]		Loss: 5.0345 Acc@1: 73.000%
+| Epoch [ 27/100] Iter[ 19/ 19]		Loss: 2.9243 Acc@1: 73.000%
+{'Epoch': 27, 'Loss': tensor(2.9243, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #27			Loss: 145506.4531 Acc@1: 81.00%
+| Elapsed time : 0:01:47
+
+=> Training Epoch #28, LR=0.0010
+| Epoch [ 28/100] Iter[  1/ 19]		Loss: 582263.1250 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[  2/ 19]		Loss: 290783.3750 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[  3/ 19]		Loss: 145273.8281 Acc@1: 78.000%
+| Epoch [ 28/100] Iter[  4/ 19]		Loss: 72596.7734 Acc@1: 77.000%
+| Epoch [ 28/100] Iter[  5/ 19]		Loss: 36245.0430 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[  6/ 19]		Loss: 18121.1699 Acc@1: 76.000%
+| Epoch [ 28/100] Iter[  7/ 19]		Loss: 9049.3984 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[  8/ 19]		Loss: 4523.7085 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[  9/ 19]		Loss: 2262.2998 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[ 10/ 19]		Loss: 1131.0469 Acc@1: 74.000%
+| Epoch [ 28/100] Iter[ 11/ 19]		Loss: 566.9191 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[ 12/ 19]		Loss: 282.9437 Acc@1: 76.000%
+| Epoch [ 28/100] Iter[ 13/ 19]		Loss: 141.8374 Acc@1: 76.000%
+| Epoch [ 28/100] Iter[ 14/ 19]		Loss: 71.1878 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[ 15/ 19]		Loss: 35.6964 Acc@1: 76.000%
+| Epoch [ 28/100] Iter[ 16/ 19]		Loss: 18.4369 Acc@1: 75.000%
+| Epoch [ 28/100] Iter[ 17/ 19]		Loss: 9.5028 Acc@1: 74.000%
+| Epoch [ 28/100] Iter[ 18/ 19]		Loss: 5.0942 Acc@1: 73.000%
+| Epoch [ 28/100] Iter[ 19/ 19]		Loss: 3.1039 Acc@1: 73.000%
+{'Epoch': 28, 'Loss': tensor(3.1039, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #28			Loss: 144369.6250 Acc@1: 81.00%
+| Elapsed time : 0:01:52
+
+=> Training Epoch #29, LR=0.0010
+| Epoch [ 29/100] Iter[  1/ 19]		Loss: 577724.3750 Acc@1: 68.000%
+| Epoch [ 29/100] Iter[  2/ 19]		Loss: 288521.4062 Acc@1: 76.000%
+| Epoch [ 29/100] Iter[  3/ 19]		Loss: 144161.5156 Acc@1: 77.000%
+| Epoch [ 29/100] Iter[  4/ 19]		Loss: 72055.5547 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[  5/ 19]		Loss: 35964.8984 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[  6/ 19]		Loss: 17947.3320 Acc@1: 75.000%
+| Epoch [ 29/100] Iter[  7/ 19]		Loss: 8991.4287 Acc@1: 76.000%
+| Epoch [ 29/100] Iter[  8/ 19]		Loss: 4487.1934 Acc@1: 76.000%
+| Epoch [ 29/100] Iter[  9/ 19]		Loss: 2242.0791 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[ 10/ 19]		Loss: 1123.9547 Acc@1: 72.000%
+| Epoch [ 29/100] Iter[ 11/ 19]		Loss: 561.5063 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[ 12/ 19]		Loss: 280.4653 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[ 13/ 19]		Loss: 140.6340 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[ 14/ 19]		Loss: 70.6285 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[ 15/ 19]		Loss: 35.6934 Acc@1: 72.000%
+| Epoch [ 29/100] Iter[ 16/ 19]		Loss: 18.1513 Acc@1: 72.000%
+| Epoch [ 29/100] Iter[ 17/ 19]		Loss: 9.2926 Acc@1: 72.000%
+| Epoch [ 29/100] Iter[ 18/ 19]		Loss: 4.8472 Acc@1: 73.000%
+| Epoch [ 29/100] Iter[ 19/ 19]		Loss: 2.7223 Acc@1: 73.000%
+{'Epoch': 29, 'Loss': tensor(2.7223, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #29			Loss: 143286.7969 Acc@1: 81.00%
+| Elapsed time : 0:01:56
+
+=> Training Epoch #30, LR=0.0010
+| Epoch [ 30/100] Iter[  1/ 19]		Loss: 573251.8125 Acc@1: 68.000%
+| Epoch [ 30/100] Iter[  2/ 19]		Loss: 285906.9062 Acc@1: 75.000%
+| Epoch [ 30/100] Iter[  3/ 19]		Loss: 142845.6875 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[  4/ 19]		Loss: 71455.5703 Acc@1: 75.000%
+| Epoch [ 30/100] Iter[  5/ 19]		Loss: 35723.9766 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[  6/ 19]		Loss: 17842.2363 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[  7/ 19]		Loss: 8920.1963 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[  8/ 19]		Loss: 4457.9282 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[  9/ 19]		Loss: 2222.2903 Acc@1: 74.000%
+| Epoch [ 30/100] Iter[ 10/ 19]		Loss: 1113.7858 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[ 11/ 19]		Loss: 556.2515 Acc@1: 75.000%
+| Epoch [ 30/100] Iter[ 12/ 19]		Loss: 278.6978 Acc@1: 74.000%
+| Epoch [ 30/100] Iter[ 13/ 19]		Loss: 139.4346 Acc@1: 74.000%
+| Epoch [ 30/100] Iter[ 14/ 19]		Loss: 70.0174 Acc@1: 74.000%
+| Epoch [ 30/100] Iter[ 15/ 19]		Loss: 35.4224 Acc@1: 74.000%
+| Epoch [ 30/100] Iter[ 16/ 19]		Loss: 18.0059 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[ 17/ 19]		Loss: 9.1959 Acc@1: 74.000%
+| Epoch [ 30/100] Iter[ 18/ 19]		Loss: 5.0482 Acc@1: 73.000%
+| Epoch [ 30/100] Iter[ 19/ 19]		Loss: 2.6779 Acc@1: 73.000%
+{'Epoch': 30, 'Loss': tensor(2.6779, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #30			Loss: 142039.8281 Acc@1: 81.00%
+| Elapsed time : 0:02:00
+
+=> Training Epoch #31, LR=0.0010
+| Epoch [ 31/100] Iter[  1/ 19]		Loss: 569178.4375 Acc@1: 84.000%
+| Epoch [ 31/100] Iter[  2/ 19]		Loss: 283945.2188 Acc@1: 82.000%
+| Epoch [ 31/100] Iter[  3/ 19]		Loss: 141921.1250 Acc@1: 82.000%
+| Epoch [ 31/100] Iter[  4/ 19]		Loss: 70829.6641 Acc@1: 78.000%
+| Epoch [ 31/100] Iter[  5/ 19]		Loss: 35468.0352 Acc@1: 75.000%
+| Epoch [ 31/100] Iter[  6/ 19]		Loss: 17712.8086 Acc@1: 74.000%
+| Epoch [ 31/100] Iter[  7/ 19]		Loss: 8847.7559 Acc@1: 75.000%
+| Epoch [ 31/100] Iter[  8/ 19]		Loss: 4416.1030 Acc@1: 76.000%
+| Epoch [ 31/100] Iter[  9/ 19]		Loss: 2208.2615 Acc@1: 75.000%
+| Epoch [ 31/100] Iter[ 10/ 19]		Loss: 1105.1832 Acc@1: 74.000%
+| Epoch [ 31/100] Iter[ 11/ 19]		Loss: 552.7443 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 12/ 19]		Loss: 276.6788 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 13/ 19]		Loss: 138.5473 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 14/ 19]		Loss: 69.5470 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 15/ 19]		Loss: 34.9838 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 16/ 19]		Loss: 17.8057 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 17/ 19]		Loss: 9.2757 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 18/ 19]		Loss: 4.8823 Acc@1: 73.000%
+| Epoch [ 31/100] Iter[ 19/ 19]		Loss: 2.9127 Acc@1: 73.000%
+{'Epoch': 31, 'Loss': tensor(2.9127, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #31			Loss: 140982.3906 Acc@1: 81.00%
+| Elapsed time : 0:02:05
+
+=> Training Epoch #32, LR=0.0010
+| Epoch [ 32/100] Iter[  1/ 19]		Loss: 563751.0000 Acc@1: 81.000%
+| Epoch [ 32/100] Iter[  2/ 19]		Loss: 281963.9062 Acc@1: 73.000%
+| Epoch [ 32/100] Iter[  3/ 19]		Loss: 140734.8125 Acc@1: 71.000%
+| Epoch [ 32/100] Iter[  4/ 19]		Loss: 70365.1094 Acc@1: 72.000%
+| Epoch [ 32/100] Iter[  5/ 19]		Loss: 35166.1133 Acc@1: 75.000%
+| Epoch [ 32/100] Iter[  6/ 19]		Loss: 17575.4492 Acc@1: 76.000%
+| Epoch [ 32/100] Iter[  7/ 19]		Loss: 8758.7031 Acc@1: 78.000%
+| Epoch [ 32/100] Iter[  8/ 19]		Loss: 4386.2710 Acc@1: 78.000%
+| Epoch [ 32/100] Iter[  9/ 19]		Loss: 2192.5908 Acc@1: 77.000%
+| Epoch [ 32/100] Iter[ 10/ 19]		Loss: 1096.6499 Acc@1: 75.000%
+| Epoch [ 32/100] Iter[ 11/ 19]		Loss: 548.3980 Acc@1: 76.000%
+| Epoch [ 32/100] Iter[ 12/ 19]		Loss: 274.0551 Acc@1: 75.000%
+| Epoch [ 32/100] Iter[ 13/ 19]		Loss: 137.4203 Acc@1: 75.000%
+| Epoch [ 32/100] Iter[ 14/ 19]		Loss: 69.1358 Acc@1: 74.000%
+| Epoch [ 32/100] Iter[ 15/ 19]		Loss: 34.8121 Acc@1: 74.000%
+| Epoch [ 32/100] Iter[ 16/ 19]		Loss: 17.6943 Acc@1: 74.000%
+| Epoch [ 32/100] Iter[ 17/ 19]		Loss: 9.1505 Acc@1: 74.000%
+| Epoch [ 32/100] Iter[ 18/ 19]		Loss: 4.9194 Acc@1: 73.000%
+| Epoch [ 32/100] Iter[ 19/ 19]		Loss: 2.8451 Acc@1: 73.000%
+{'Epoch': 32, 'Loss': tensor(2.8451, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #32			Loss: 139857.1250 Acc@1: 81.00%
+| Elapsed time : 0:02:11
+
+=> Training Epoch #33, LR=0.0010
+| Epoch [ 33/100] Iter[  1/ 19]		Loss: 558942.5000 Acc@1: 81.000%
+| Epoch [ 33/100] Iter[  2/ 19]		Loss: 279498.3125 Acc@1: 70.000%
+| Epoch [ 33/100] Iter[  3/ 19]		Loss: 139544.9531 Acc@1: 77.000%
+| Epoch [ 33/100] Iter[  4/ 19]		Loss: 69786.7969 Acc@1: 76.000%
+| Epoch [ 33/100] Iter[  5/ 19]		Loss: 34896.7656 Acc@1: 76.000%
+| Epoch [ 33/100] Iter[  6/ 19]		Loss: 17415.8594 Acc@1: 77.000%
+| Epoch [ 33/100] Iter[  7/ 19]		Loss: 8705.8135 Acc@1: 76.000%
+| Epoch [ 33/100] Iter[  8/ 19]		Loss: 4348.5312 Acc@1: 76.000%
+| Epoch [ 33/100] Iter[  9/ 19]		Loss: 2173.7820 Acc@1: 76.000%
+| Epoch [ 33/100] Iter[ 10/ 19]		Loss: 1087.9087 Acc@1: 75.000%
+| Epoch [ 33/100] Iter[ 11/ 19]		Loss: 544.4564 Acc@1: 75.000%
+| Epoch [ 33/100] Iter[ 12/ 19]		Loss: 272.0388 Acc@1: 74.000%
+| Epoch [ 33/100] Iter[ 13/ 19]		Loss: 136.4285 Acc@1: 74.000%
+| Epoch [ 33/100] Iter[ 14/ 19]		Loss: 68.5316 Acc@1: 74.000%
+| Epoch [ 33/100] Iter[ 15/ 19]		Loss: 34.5278 Acc@1: 73.000%
+| Epoch [ 33/100] Iter[ 16/ 19]		Loss: 17.5590 Acc@1: 73.000%
+| Epoch [ 33/100] Iter[ 17/ 19]		Loss: 9.1434 Acc@1: 73.000%
+| Epoch [ 33/100] Iter[ 18/ 19]		Loss: 4.8065 Acc@1: 73.000%
+| Epoch [ 33/100] Iter[ 19/ 19]		Loss: 2.6733 Acc@1: 73.000%
+{'Epoch': 33, 'Loss': tensor(2.6733, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #33			Loss: 138869.9531 Acc@1: 81.00%
+| Elapsed time : 0:02:14
+
+=> Training Epoch #34, LR=0.0010
+| Epoch [ 34/100] Iter[  1/ 19]		Loss: 555241.5000 Acc@1: 71.000%
+| Epoch [ 34/100] Iter[  2/ 19]		Loss: 277309.2500 Acc@1: 81.000%
+| Epoch [ 34/100] Iter[  3/ 19]		Loss: 138676.9844 Acc@1: 79.000%
+| Epoch [ 34/100] Iter[  4/ 19]		Loss: 69277.3125 Acc@1: 78.000%
+| Epoch [ 34/100] Iter[  5/ 19]		Loss: 34543.2188 Acc@1: 78.000%
+| Epoch [ 34/100] Iter[  6/ 19]		Loss: 17265.1699 Acc@1: 77.000%
+| Epoch [ 34/100] Iter[  7/ 19]		Loss: 8633.3516 Acc@1: 76.000%
+| Epoch [ 34/100] Iter[  8/ 19]		Loss: 4322.6025 Acc@1: 75.000%
+| Epoch [ 34/100] Iter[  9/ 19]		Loss: 2158.0901 Acc@1: 73.000%
+| Epoch [ 34/100] Iter[ 10/ 19]		Loss: 1078.5647 Acc@1: 74.000%
+| Epoch [ 34/100] Iter[ 11/ 19]		Loss: 539.4429 Acc@1: 75.000%
+| Epoch [ 34/100] Iter[ 12/ 19]		Loss: 270.0919 Acc@1: 75.000%
+| Epoch [ 34/100] Iter[ 13/ 19]		Loss: 135.2827 Acc@1: 74.000%
+| Epoch [ 34/100] Iter[ 14/ 19]		Loss: 67.9338 Acc@1: 74.000%
+| Epoch [ 34/100] Iter[ 15/ 19]		Loss: 34.1453 Acc@1: 74.000%
+| Epoch [ 34/100] Iter[ 16/ 19]		Loss: 17.4989 Acc@1: 74.000%
+| Epoch [ 34/100] Iter[ 17/ 19]		Loss: 9.0996 Acc@1: 73.000%
+| Epoch [ 34/100] Iter[ 18/ 19]		Loss: 4.7740 Acc@1: 73.000%
+| Epoch [ 34/100] Iter[ 19/ 19]		Loss: 2.9579 Acc@1: 73.000%
+{'Epoch': 34, 'Loss': tensor(2.9579, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #34			Loss: 137703.5938 Acc@1: 81.00%
+| Elapsed time : 0:02:19
+
+=> Training Epoch #35, LR=0.0010
+| Epoch [ 35/100] Iter[  1/ 19]		Loss: 550634.7500 Acc@1: 68.000%
+| Epoch [ 35/100] Iter[  2/ 19]		Loss: 275111.6875 Acc@1: 73.000%
+| Epoch [ 35/100] Iter[  3/ 19]		Loss: 137445.9375 Acc@1: 71.000%
+| Epoch [ 35/100] Iter[  4/ 19]		Loss: 68544.6406 Acc@1: 74.000%
+| Epoch [ 35/100] Iter[  5/ 19]		Loss: 34328.0742 Acc@1: 73.000%
+| Epoch [ 35/100] Iter[  6/ 19]		Loss: 17153.8086 Acc@1: 75.000%
+| Epoch [ 35/100] Iter[  7/ 19]		Loss: 8570.3477 Acc@1: 76.000%
+| Epoch [ 35/100] Iter[  8/ 19]		Loss: 4282.7246 Acc@1: 76.000%
+| Epoch [ 35/100] Iter[  9/ 19]		Loss: 2138.6753 Acc@1: 76.000%
+| Epoch [ 35/100] Iter[ 10/ 19]		Loss: 1069.1307 Acc@1: 76.000%
+| Epoch [ 35/100] Iter[ 11/ 19]		Loss: 534.9891 Acc@1: 75.000%
+| Epoch [ 35/100] Iter[ 12/ 19]		Loss: 268.0667 Acc@1: 75.000%
+| Epoch [ 35/100] Iter[ 13/ 19]		Loss: 134.1956 Acc@1: 75.000%
+| Epoch [ 35/100] Iter[ 14/ 19]		Loss: 67.3445 Acc@1: 74.000%
+| Epoch [ 35/100] Iter[ 15/ 19]		Loss: 33.9928 Acc@1: 73.000%
+| Epoch [ 35/100] Iter[ 16/ 19]		Loss: 17.2567 Acc@1: 73.000%
+| Epoch [ 35/100] Iter[ 17/ 19]		Loss: 8.9063 Acc@1: 74.000%
+| Epoch [ 35/100] Iter[ 18/ 19]		Loss: 4.8110 Acc@1: 73.000%
+| Epoch [ 35/100] Iter[ 19/ 19]		Loss: 2.7935 Acc@1: 73.000%
+{'Epoch': 35, 'Loss': tensor(2.7935, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #35			Loss: 136454.5000 Acc@1: 81.00%
+| Elapsed time : 0:02:23
+
+=> Training Epoch #36, LR=0.0010
+| Epoch [ 36/100] Iter[  1/ 19]		Loss: 546297.1250 Acc@1: 75.000%
+| Epoch [ 36/100] Iter[  2/ 19]		Loss: 272652.8750 Acc@1: 76.000%
+| Epoch [ 36/100] Iter[  3/ 19]		Loss: 136621.0312 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[  4/ 19]		Loss: 68272.0547 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[  5/ 19]		Loss: 34031.4805 Acc@1: 75.000%
+| Epoch [ 36/100] Iter[  6/ 19]		Loss: 16997.3418 Acc@1: 75.000%
+| Epoch [ 36/100] Iter[  7/ 19]		Loss: 8501.3066 Acc@1: 75.000%
+| Epoch [ 36/100] Iter[  8/ 19]		Loss: 4243.6021 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[  9/ 19]		Loss: 2120.3118 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[ 10/ 19]		Loss: 1063.3202 Acc@1: 72.000%
+| Epoch [ 36/100] Iter[ 11/ 19]		Loss: 531.0922 Acc@1: 71.000%
+| Epoch [ 36/100] Iter[ 12/ 19]		Loss: 265.7961 Acc@1: 72.000%
+| Epoch [ 36/100] Iter[ 13/ 19]		Loss: 133.1775 Acc@1: 72.000%
+| Epoch [ 36/100] Iter[ 14/ 19]		Loss: 66.6771 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[ 15/ 19]		Loss: 33.6077 Acc@1: 74.000%
+| Epoch [ 36/100] Iter[ 16/ 19]		Loss: 17.3558 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[ 17/ 19]		Loss: 8.9297 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[ 18/ 19]		Loss: 4.6686 Acc@1: 73.000%
+| Epoch [ 36/100] Iter[ 19/ 19]		Loss: 2.7229 Acc@1: 73.000%
+{'Epoch': 36, 'Loss': tensor(2.7229, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #36			Loss: 135513.5625 Acc@1: 81.00%
+| Elapsed time : 0:02:26
+
+=> Training Epoch #37, LR=0.0010
+| Epoch [ 37/100] Iter[  1/ 19]		Loss: 542062.8750 Acc@1: 68.000%
+| Epoch [ 37/100] Iter[  2/ 19]		Loss: 270950.6250 Acc@1: 65.000%
+| Epoch [ 37/100] Iter[  3/ 19]		Loss: 135139.1719 Acc@1: 68.000%
+| Epoch [ 37/100] Iter[  4/ 19]		Loss: 67647.6172 Acc@1: 70.000%
+| Epoch [ 37/100] Iter[  5/ 19]		Loss: 33752.5586 Acc@1: 70.000%
+| Epoch [ 37/100] Iter[  6/ 19]		Loss: 16866.9453 Acc@1: 71.000%
+| Epoch [ 37/100] Iter[  7/ 19]		Loss: 8438.5820 Acc@1: 71.000%
+| Epoch [ 37/100] Iter[  8/ 19]		Loss: 4216.4653 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[  9/ 19]		Loss: 2103.7505 Acc@1: 75.000%
+| Epoch [ 37/100] Iter[ 10/ 19]		Loss: 1055.1349 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 11/ 19]		Loss: 527.7511 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 12/ 19]		Loss: 263.3461 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 13/ 19]		Loss: 132.1182 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 14/ 19]		Loss: 66.1614 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 15/ 19]		Loss: 33.4414 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 16/ 19]		Loss: 16.9228 Acc@1: 74.000%
+| Epoch [ 37/100] Iter[ 17/ 19]		Loss: 8.8788 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 18/ 19]		Loss: 4.6630 Acc@1: 73.000%
+| Epoch [ 37/100] Iter[ 19/ 19]		Loss: 2.8082 Acc@1: 73.000%
+{'Epoch': 37, 'Loss': tensor(2.8082, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #37			Loss: 134230.0625 Acc@1: 81.00%
+| Elapsed time : 0:02:30
+
+=> Training Epoch #38, LR=0.0010
+| Epoch [ 38/100] Iter[  1/ 19]		Loss: 536918.8125 Acc@1: 81.000%
+| Epoch [ 38/100] Iter[  2/ 19]		Loss: 268486.4375 Acc@1: 78.000%
+| Epoch [ 38/100] Iter[  3/ 19]		Loss: 134151.0000 Acc@1: 77.000%
+| Epoch [ 38/100] Iter[  4/ 19]		Loss: 67006.7344 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[  5/ 19]		Loss: 33446.7461 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[  6/ 19]		Loss: 16732.3672 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[  7/ 19]		Loss: 8363.9785 Acc@1: 75.000%
+| Epoch [ 38/100] Iter[  8/ 19]		Loss: 4177.8418 Acc@1: 74.000%
+| Epoch [ 38/100] Iter[  9/ 19]		Loss: 2089.3784 Acc@1: 75.000%
+| Epoch [ 38/100] Iter[ 10/ 19]		Loss: 1044.9454 Acc@1: 75.000%
+| Epoch [ 38/100] Iter[ 11/ 19]		Loss: 521.8402 Acc@1: 74.000%
+| Epoch [ 38/100] Iter[ 12/ 19]		Loss: 261.2441 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[ 13/ 19]		Loss: 130.9926 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[ 14/ 19]		Loss: 65.8041 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[ 15/ 19]		Loss: 33.2443 Acc@1: 72.000%
+| Epoch [ 38/100] Iter[ 16/ 19]		Loss: 16.8821 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[ 17/ 19]		Loss: 8.6923 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[ 18/ 19]		Loss: 4.6629 Acc@1: 73.000%
+| Epoch [ 38/100] Iter[ 19/ 19]		Loss: 2.5819 Acc@1: 73.000%
+{'Epoch': 38, 'Loss': tensor(2.5819, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #38			Loss: 133362.5312 Acc@1: 81.00%
+| Elapsed time : 0:02:35
+
+=> Training Epoch #39, LR=0.0010
+| Epoch [ 39/100] Iter[  1/ 19]		Loss: 533059.5625 Acc@1: 62.000%
+| Epoch [ 39/100] Iter[  2/ 19]		Loss: 266065.8750 Acc@1: 62.000%
+| Epoch [ 39/100] Iter[  3/ 19]		Loss: 133050.5781 Acc@1: 67.000%
+| Epoch [ 39/100] Iter[  4/ 19]		Loss: 66497.2656 Acc@1: 68.000%
+| Epoch [ 39/100] Iter[  5/ 19]		Loss: 33231.7969 Acc@1: 68.000%
+| Epoch [ 39/100] Iter[  6/ 19]		Loss: 16605.4434 Acc@1: 69.000%
+| Epoch [ 39/100] Iter[  7/ 19]		Loss: 8294.0186 Acc@1: 68.000%
+| Epoch [ 39/100] Iter[  8/ 19]		Loss: 4144.6772 Acc@1: 68.000%
+| Epoch [ 39/100] Iter[  9/ 19]		Loss: 2071.6272 Acc@1: 69.000%
+| Epoch [ 39/100] Iter[ 10/ 19]		Loss: 1036.0134 Acc@1: 70.000%
+| Epoch [ 39/100] Iter[ 11/ 19]		Loss: 518.2797 Acc@1: 70.000%
+| Epoch [ 39/100] Iter[ 12/ 19]		Loss: 259.0123 Acc@1: 71.000%
+| Epoch [ 39/100] Iter[ 13/ 19]		Loss: 129.7198 Acc@1: 72.000%
+| Epoch [ 39/100] Iter[ 14/ 19]		Loss: 65.0656 Acc@1: 72.000%
+| Epoch [ 39/100] Iter[ 15/ 19]		Loss: 32.9823 Acc@1: 72.000%
+| Epoch [ 39/100] Iter[ 16/ 19]		Loss: 16.8265 Acc@1: 72.000%
+| Epoch [ 39/100] Iter[ 17/ 19]		Loss: 8.6590 Acc@1: 72.000%
+| Epoch [ 39/100] Iter[ 18/ 19]		Loss: 4.6031 Acc@1: 72.000%
+| Epoch [ 39/100] Iter[ 19/ 19]		Loss: 2.4558 Acc@1: 73.000%
+{'Epoch': 39, 'Loss': tensor(2.4558, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #39			Loss: 132348.2969 Acc@1: 81.00%
+| Elapsed time : 0:02:39
+
+=> Training Epoch #40, LR=0.0010
+| Epoch [ 40/100] Iter[  1/ 19]		Loss: 529014.5625 Acc@1: 81.000%
+| Epoch [ 40/100] Iter[  2/ 19]		Loss: 263998.8438 Acc@1: 76.000%
+| Epoch [ 40/100] Iter[  3/ 19]		Loss: 131999.0781 Acc@1: 76.000%
+| Epoch [ 40/100] Iter[  4/ 19]		Loss: 65917.4062 Acc@1: 71.000%
+| Epoch [ 40/100] Iter[  5/ 19]		Loss: 32925.4961 Acc@1: 70.000%
+| Epoch [ 40/100] Iter[  6/ 19]		Loss: 16467.5098 Acc@1: 71.000%
+| Epoch [ 40/100] Iter[  7/ 19]		Loss: 8228.7930 Acc@1: 72.000%
+| Epoch [ 40/100] Iter[  8/ 19]		Loss: 4107.9673 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[  9/ 19]		Loss: 2051.4548 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[ 10/ 19]		Loss: 1028.0732 Acc@1: 72.000%
+| Epoch [ 40/100] Iter[ 11/ 19]		Loss: 513.9679 Acc@1: 72.000%
+| Epoch [ 40/100] Iter[ 12/ 19]		Loss: 257.2420 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[ 13/ 19]		Loss: 128.9786 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[ 14/ 19]		Loss: 64.6622 Acc@1: 74.000%
+| Epoch [ 40/100] Iter[ 15/ 19]		Loss: 32.5865 Acc@1: 74.000%
+| Epoch [ 40/100] Iter[ 16/ 19]		Loss: 16.6655 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[ 17/ 19]		Loss: 8.6285 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[ 18/ 19]		Loss: 4.6614 Acc@1: 73.000%
+| Epoch [ 40/100] Iter[ 19/ 19]		Loss: 2.5526 Acc@1: 73.000%
+{'Epoch': 40, 'Loss': tensor(2.5526, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #40			Loss: 131122.0312 Acc@1: 81.00%
+| Elapsed time : 0:02:43
+
+=> Training Epoch #41, LR=0.0010
+| Epoch [ 41/100] Iter[  1/ 19]		Loss: 524535.9375 Acc@1: 84.000%
+| Epoch [ 41/100] Iter[  2/ 19]		Loss: 262099.5625 Acc@1: 84.000%
+| Epoch [ 41/100] Iter[  3/ 19]		Loss: 130974.9219 Acc@1: 79.000%
+| Epoch [ 41/100] Iter[  4/ 19]		Loss: 65345.4766 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[  5/ 19]		Loss: 32694.2109 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[  6/ 19]		Loss: 16326.4238 Acc@1: 73.000%
+| Epoch [ 41/100] Iter[  7/ 19]		Loss: 8148.2891 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[  8/ 19]		Loss: 4086.2361 Acc@1: 72.000%
+| Epoch [ 41/100] Iter[  9/ 19]		Loss: 2040.2081 Acc@1: 73.000%
+| Epoch [ 41/100] Iter[ 10/ 19]		Loss: 1019.3085 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[ 11/ 19]		Loss: 510.2792 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[ 12/ 19]		Loss: 254.8656 Acc@1: 75.000%
+| Epoch [ 41/100] Iter[ 13/ 19]		Loss: 127.6879 Acc@1: 75.000%
+| Epoch [ 41/100] Iter[ 14/ 19]		Loss: 64.3064 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[ 15/ 19]		Loss: 32.3824 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[ 16/ 19]		Loss: 16.4658 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[ 17/ 19]		Loss: 8.6161 Acc@1: 74.000%
+| Epoch [ 41/100] Iter[ 18/ 19]		Loss: 4.7161 Acc@1: 73.000%
+| Epoch [ 41/100] Iter[ 19/ 19]		Loss: 2.5356 Acc@1: 73.000%
+{'Epoch': 41, 'Loss': tensor(2.5356, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #41			Loss: 129739.5000 Acc@1: 81.00%
+| Elapsed time : 0:02:47
+
+=> Training Epoch #42, LR=0.0010
+| Epoch [ 42/100] Iter[  1/ 19]		Loss: 520549.1250 Acc@1: 68.000%
+| Epoch [ 42/100] Iter[  2/ 19]		Loss: 260127.6094 Acc@1: 76.000%
+| Epoch [ 42/100] Iter[  3/ 19]		Loss: 129771.2734 Acc@1: 78.000%
+| Epoch [ 42/100] Iter[  4/ 19]		Loss: 64809.9453 Acc@1: 76.000%
+| Epoch [ 42/100] Iter[  5/ 19]		Loss: 32454.2402 Acc@1: 76.000%
+| Epoch [ 42/100] Iter[  6/ 19]		Loss: 16168.2480 Acc@1: 77.000%
+| Epoch [ 42/100] Iter[  7/ 19]		Loss: 8096.4951 Acc@1: 77.000%
+| Epoch [ 42/100] Iter[  8/ 19]		Loss: 4039.0459 Acc@1: 76.000%
+| Epoch [ 42/100] Iter[  9/ 19]		Loss: 2019.0242 Acc@1: 75.000%
+| Epoch [ 42/100] Iter[ 10/ 19]		Loss: 1010.2704 Acc@1: 74.000%
+| Epoch [ 42/100] Iter[ 11/ 19]		Loss: 505.3580 Acc@1: 73.000%
+| Epoch [ 42/100] Iter[ 12/ 19]		Loss: 252.4628 Acc@1: 73.000%
+| Epoch [ 42/100] Iter[ 13/ 19]		Loss: 126.7096 Acc@1: 73.000%
+| Epoch [ 42/100] Iter[ 14/ 19]		Loss: 63.6274 Acc@1: 73.000%
+| Epoch [ 42/100] Iter[ 15/ 19]		Loss: 32.1429 Acc@1: 73.000%
+| Epoch [ 42/100] Iter[ 16/ 19]		Loss: 16.4049 Acc@1: 72.000%
+| Epoch [ 42/100] Iter[ 17/ 19]		Loss: 8.4645 Acc@1: 72.000%
+| Epoch [ 42/100] Iter[ 18/ 19]		Loss: 4.4982 Acc@1: 73.000%
+| Epoch [ 42/100] Iter[ 19/ 19]		Loss: 2.5335 Acc@1: 73.000%
+{'Epoch': 42, 'Loss': tensor(2.5335, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #42			Loss: 128820.0156 Acc@1: 81.00%
+| Elapsed time : 0:02:53
+
+=> Training Epoch #43, LR=0.0010
+| Epoch [ 43/100] Iter[  1/ 19]		Loss: 516239.7812 Acc@1: 81.000%
+| Epoch [ 43/100] Iter[  2/ 19]		Loss: 257703.0469 Acc@1: 78.000%
+| Epoch [ 43/100] Iter[  3/ 19]		Loss: 128611.1172 Acc@1: 78.000%
+| Epoch [ 43/100] Iter[  4/ 19]		Loss: 64402.4961 Acc@1: 76.000%
+| Epoch [ 43/100] Iter[  5/ 19]		Loss: 32123.8906 Acc@1: 75.000%
+| Epoch [ 43/100] Iter[  6/ 19]		Loss: 16067.7666 Acc@1: 77.000%
+| Epoch [ 43/100] Iter[  7/ 19]		Loss: 8024.2871 Acc@1: 75.000%
+| Epoch [ 43/100] Iter[  8/ 19]		Loss: 4004.5181 Acc@1: 74.000%
+| Epoch [ 43/100] Iter[  9/ 19]		Loss: 2002.9344 Acc@1: 74.000%
+| Epoch [ 43/100] Iter[ 10/ 19]		Loss: 1001.8870 Acc@1: 74.000%
+| Epoch [ 43/100] Iter[ 11/ 19]		Loss: 501.2601 Acc@1: 74.000%
+| Epoch [ 43/100] Iter[ 12/ 19]		Loss: 250.6429 Acc@1: 71.000%
+| Epoch [ 43/100] Iter[ 13/ 19]		Loss: 125.4430 Acc@1: 71.000%
+| Epoch [ 43/100] Iter[ 14/ 19]		Loss: 63.0738 Acc@1: 72.000%
+| Epoch [ 43/100] Iter[ 15/ 19]		Loss: 31.7903 Acc@1: 72.000%
+| Epoch [ 43/100] Iter[ 16/ 19]		Loss: 16.2145 Acc@1: 72.000%
+| Epoch [ 43/100] Iter[ 17/ 19]		Loss: 8.2768 Acc@1: 73.000%
+| Epoch [ 43/100] Iter[ 18/ 19]		Loss: 4.5516 Acc@1: 73.000%
+| Epoch [ 43/100] Iter[ 19/ 19]		Loss: 2.5945 Acc@1: 73.000%
+{'Epoch': 43, 'Loss': tensor(2.5945, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #43			Loss: 127581.2891 Acc@1: 81.00%
+| Elapsed time : 0:02:57
+
+=> Training Epoch #44, LR=0.0010
+| Epoch [ 44/100] Iter[  1/ 19]		Loss: 511498.1875 Acc@1: 78.000%
+| Epoch [ 44/100] Iter[  2/ 19]		Loss: 256067.3281 Acc@1: 78.000%
+| Epoch [ 44/100] Iter[  3/ 19]		Loss: 127669.8750 Acc@1: 81.000%
+| Epoch [ 44/100] Iter[  4/ 19]		Loss: 63820.8711 Acc@1: 76.000%
+| Epoch [ 44/100] Iter[  5/ 19]		Loss: 31881.4258 Acc@1: 78.000%
+| Epoch [ 44/100] Iter[  6/ 19]		Loss: 15917.5654 Acc@1: 78.000%
+| Epoch [ 44/100] Iter[  7/ 19]		Loss: 7946.0874 Acc@1: 75.000%
+| Epoch [ 44/100] Iter[  8/ 19]		Loss: 3978.4434 Acc@1: 76.000%
+| Epoch [ 44/100] Iter[  9/ 19]		Loss: 1983.1571 Acc@1: 75.000%
+| Epoch [ 44/100] Iter[ 10/ 19]		Loss: 994.0645 Acc@1: 75.000%
+| Epoch [ 44/100] Iter[ 11/ 19]		Loss: 497.2416 Acc@1: 75.000%
+| Epoch [ 44/100] Iter[ 12/ 19]		Loss: 248.5874 Acc@1: 75.000%
+| Epoch [ 44/100] Iter[ 13/ 19]		Loss: 124.5300 Acc@1: 75.000%
+| Epoch [ 44/100] Iter[ 14/ 19]		Loss: 62.7675 Acc@1: 74.000%
+| Epoch [ 44/100] Iter[ 15/ 19]		Loss: 31.6265 Acc@1: 73.000%
+| Epoch [ 44/100] Iter[ 16/ 19]		Loss: 16.1402 Acc@1: 73.000%
+| Epoch [ 44/100] Iter[ 17/ 19]		Loss: 8.3467 Acc@1: 73.000%
+| Epoch [ 44/100] Iter[ 18/ 19]		Loss: 4.4417 Acc@1: 73.000%
+| Epoch [ 44/100] Iter[ 19/ 19]		Loss: 2.5683 Acc@1: 73.000%
+{'Epoch': 44, 'Loss': tensor(2.5683, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #44			Loss: 126717.7500 Acc@1: 81.00%
+| Elapsed time : 0:03:02
+
+=> Training Epoch #45, LR=0.0010
+| Epoch [ 45/100] Iter[  1/ 19]		Loss: 508082.4375 Acc@1: 81.000%
+| Epoch [ 45/100] Iter[  2/ 19]		Loss: 253178.4375 Acc@1: 82.000%
+| Epoch [ 45/100] Iter[  3/ 19]		Loss: 126572.7344 Acc@1: 84.000%
+| Epoch [ 45/100] Iter[  4/ 19]		Loss: 63209.7305 Acc@1: 82.000%
+| Epoch [ 45/100] Iter[  5/ 19]		Loss: 31589.4102 Acc@1: 80.000%
+| Epoch [ 45/100] Iter[  6/ 19]		Loss: 15790.4365 Acc@1: 78.000%
+| Epoch [ 45/100] Iter[  7/ 19]		Loss: 7900.6577 Acc@1: 77.000%
+| Epoch [ 45/100] Iter[  8/ 19]		Loss: 3939.3477 Acc@1: 79.000%
+| Epoch [ 45/100] Iter[  9/ 19]		Loss: 1973.8971 Acc@1: 78.000%
+| Epoch [ 45/100] Iter[ 10/ 19]		Loss: 984.8524 Acc@1: 76.000%
+| Epoch [ 45/100] Iter[ 11/ 19]		Loss: 492.6904 Acc@1: 75.000%
+| Epoch [ 45/100] Iter[ 12/ 19]		Loss: 246.7482 Acc@1: 74.000%
+| Epoch [ 45/100] Iter[ 13/ 19]		Loss: 123.7723 Acc@1: 73.000%
+| Epoch [ 45/100] Iter[ 14/ 19]		Loss: 62.1479 Acc@1: 72.000%
+| Epoch [ 45/100] Iter[ 15/ 19]		Loss: 31.3234 Acc@1: 73.000%
+| Epoch [ 45/100] Iter[ 16/ 19]		Loss: 15.9743 Acc@1: 73.000%
+| Epoch [ 45/100] Iter[ 17/ 19]		Loss: 8.2752 Acc@1: 73.000%
+| Epoch [ 45/100] Iter[ 18/ 19]		Loss: 4.4678 Acc@1: 73.000%
+| Epoch [ 45/100] Iter[ 19/ 19]		Loss: 2.5636 Acc@1: 73.000%
+{'Epoch': 45, 'Loss': tensor(2.5636, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #45			Loss: 125789.2500 Acc@1: 81.00%
+| Elapsed time : 0:03:07
+
+=> Training Epoch #46, LR=0.0010
+| Epoch [ 46/100] Iter[  1/ 19]		Loss: 503113.6875 Acc@1: 84.000%
+| Epoch [ 46/100] Iter[  2/ 19]		Loss: 251314.9375 Acc@1: 75.000%
+| Epoch [ 46/100] Iter[  3/ 19]		Loss: 125556.1797 Acc@1: 69.000%
+| Epoch [ 46/100] Iter[  4/ 19]		Loss: 62653.5273 Acc@1: 67.000%
+| Epoch [ 46/100] Iter[  5/ 19]		Loss: 31308.5723 Acc@1: 68.000%
+| Epoch [ 46/100] Iter[  6/ 19]		Loss: 15654.6602 Acc@1: 70.000%
+| Epoch [ 46/100] Iter[  7/ 19]		Loss: 7825.1011 Acc@1: 71.000%
+| Epoch [ 46/100] Iter[  8/ 19]		Loss: 3910.5129 Acc@1: 71.000%
+| Epoch [ 46/100] Iter[  9/ 19]		Loss: 1954.1274 Acc@1: 70.000%
+| Epoch [ 46/100] Iter[ 10/ 19]		Loss: 977.6425 Acc@1: 70.000%
+| Epoch [ 46/100] Iter[ 11/ 19]		Loss: 488.1275 Acc@1: 72.000%
+| Epoch [ 46/100] Iter[ 12/ 19]		Loss: 244.8323 Acc@1: 71.000%
+| Epoch [ 46/100] Iter[ 13/ 19]		Loss: 122.4785 Acc@1: 72.000%
+| Epoch [ 46/100] Iter[ 14/ 19]		Loss: 61.6000 Acc@1: 71.000%
+| Epoch [ 46/100] Iter[ 15/ 19]		Loss: 30.9714 Acc@1: 72.000%
+| Epoch [ 46/100] Iter[ 16/ 19]		Loss: 15.8149 Acc@1: 72.000%
+| Epoch [ 46/100] Iter[ 17/ 19]		Loss: 8.1112 Acc@1: 73.000%
+| Epoch [ 46/100] Iter[ 18/ 19]		Loss: 4.3011 Acc@1: 73.000%
+| Epoch [ 46/100] Iter[ 19/ 19]		Loss: 2.7239 Acc@1: 73.000%
+{'Epoch': 46, 'Loss': tensor(2.7239, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #46			Loss: 124703.6016 Acc@1: 81.00%
+| Elapsed time : 0:03:11
+
+=> Training Epoch #47, LR=0.0010
+| Epoch [ 47/100] Iter[  1/ 19]		Loss: 498399.5938 Acc@1: 75.000%
+| Epoch [ 47/100] Iter[  2/ 19]		Loss: 249637.5781 Acc@1: 78.000%
+| Epoch [ 47/100] Iter[  3/ 19]		Loss: 124148.2812 Acc@1: 72.000%
+| Epoch [ 47/100] Iter[  4/ 19]		Loss: 62159.6406 Acc@1: 75.000%
+| Epoch [ 47/100] Iter[  5/ 19]		Loss: 31061.3633 Acc@1: 74.000%
+| Epoch [ 47/100] Iter[  6/ 19]		Loss: 15520.0098 Acc@1: 76.000%
+| Epoch [ 47/100] Iter[  7/ 19]		Loss: 7748.7485 Acc@1: 75.000%
+| Epoch [ 47/100] Iter[  8/ 19]		Loss: 3882.2659 Acc@1: 74.000%
+| Epoch [ 47/100] Iter[  9/ 19]		Loss: 1939.9147 Acc@1: 75.000%
+| Epoch [ 47/100] Iter[ 10/ 19]		Loss: 969.5910 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 11/ 19]		Loss: 484.2656 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 12/ 19]		Loss: 242.6085 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 13/ 19]		Loss: 121.5435 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 14/ 19]		Loss: 61.0340 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 15/ 19]		Loss: 30.8097 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 16/ 19]		Loss: 15.7378 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 17/ 19]		Loss: 8.1821 Acc@1: 72.000%
+| Epoch [ 47/100] Iter[ 18/ 19]		Loss: 4.3077 Acc@1: 73.000%
+| Epoch [ 47/100] Iter[ 19/ 19]		Loss: 2.4334 Acc@1: 73.000%
+{'Epoch': 47, 'Loss': tensor(2.4334, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #47			Loss: 123614.0078 Acc@1: 81.00%
+| Elapsed time : 0:03:17
+
+=> Training Epoch #48, LR=0.0010
+| Epoch [ 48/100] Iter[  1/ 19]		Loss: 494733.8438 Acc@1: 78.000%
+| Epoch [ 48/100] Iter[  2/ 19]		Loss: 246698.2969 Acc@1: 75.000%
+| Epoch [ 48/100] Iter[  3/ 19]		Loss: 123322.8438 Acc@1: 77.000%
+| Epoch [ 48/100] Iter[  4/ 19]		Loss: 61672.4883 Acc@1: 75.000%
+| Epoch [ 48/100] Iter[  5/ 19]		Loss: 30782.9727 Acc@1: 73.000%
+| Epoch [ 48/100] Iter[  6/ 19]		Loss: 15414.2031 Acc@1: 70.000%
+| Epoch [ 48/100] Iter[  7/ 19]		Loss: 7695.4653 Acc@1: 70.000%
+| Epoch [ 48/100] Iter[  8/ 19]		Loss: 3839.4050 Acc@1: 69.000%
+| Epoch [ 48/100] Iter[  9/ 19]		Loss: 1922.9515 Acc@1: 71.000%
+| Epoch [ 48/100] Iter[ 10/ 19]		Loss: 959.9662 Acc@1: 72.000%
+| Epoch [ 48/100] Iter[ 11/ 19]		Loss: 480.8858 Acc@1: 72.000%
+| Epoch [ 48/100] Iter[ 12/ 19]		Loss: 240.3026 Acc@1: 72.000%
+| Epoch [ 48/100] Iter[ 13/ 19]		Loss: 120.4703 Acc@1: 72.000%
+| Epoch [ 48/100] Iter[ 14/ 19]		Loss: 60.5361 Acc@1: 73.000%
+| Epoch [ 48/100] Iter[ 15/ 19]		Loss: 30.5665 Acc@1: 73.000%
+| Epoch [ 48/100] Iter[ 16/ 19]		Loss: 15.6579 Acc@1: 72.000%
+| Epoch [ 48/100] Iter[ 17/ 19]		Loss: 8.0792 Acc@1: 72.000%
+| Epoch [ 48/100] Iter[ 18/ 19]		Loss: 4.3106 Acc@1: 73.000%
+| Epoch [ 48/100] Iter[ 19/ 19]		Loss: 2.4343 Acc@1: 73.000%
+{'Epoch': 48, 'Loss': tensor(2.4343, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #48			Loss: 122563.7188 Acc@1: 81.00%
+| Elapsed time : 0:03:21
+
+=> Training Epoch #49, LR=0.0010
+| Epoch [ 49/100] Iter[  1/ 19]		Loss: 489979.6250 Acc@1: 81.000%
+| Epoch [ 49/100] Iter[  2/ 19]		Loss: 245080.1562 Acc@1: 78.000%
+| Epoch [ 49/100] Iter[  3/ 19]		Loss: 122369.1406 Acc@1: 79.000%
+| Epoch [ 49/100] Iter[  4/ 19]		Loss: 61147.5078 Acc@1: 76.000%
+| Epoch [ 49/100] Iter[  5/ 19]		Loss: 30500.9902 Acc@1: 78.000%
+| Epoch [ 49/100] Iter[  6/ 19]		Loss: 15227.4785 Acc@1: 73.000%
+| Epoch [ 49/100] Iter[  7/ 19]		Loss: 7621.5786 Acc@1: 74.000%
+| Epoch [ 49/100] Iter[  8/ 19]		Loss: 3802.4316 Acc@1: 75.000%
+| Epoch [ 49/100] Iter[  9/ 19]		Loss: 1901.9116 Acc@1: 74.000%
+| Epoch [ 49/100] Iter[ 10/ 19]		Loss: 952.0902 Acc@1: 75.000%
+| Epoch [ 49/100] Iter[ 11/ 19]		Loss: 475.7784 Acc@1: 76.000%
+| Epoch [ 49/100] Iter[ 12/ 19]		Loss: 238.3231 Acc@1: 76.000%
+| Epoch [ 49/100] Iter[ 13/ 19]		Loss: 119.3626 Acc@1: 75.000%
+| Epoch [ 49/100] Iter[ 14/ 19]		Loss: 60.1160 Acc@1: 74.000%
+| Epoch [ 49/100] Iter[ 15/ 19]		Loss: 30.2013 Acc@1: 75.000%
+| Epoch [ 49/100] Iter[ 16/ 19]		Loss: 15.6272 Acc@1: 73.000%
+| Epoch [ 49/100] Iter[ 17/ 19]		Loss: 8.0225 Acc@1: 73.000%
+| Epoch [ 49/100] Iter[ 18/ 19]		Loss: 4.3103 Acc@1: 73.000%
+| Epoch [ 49/100] Iter[ 19/ 19]		Loss: 2.5998 Acc@1: 73.000%
+{'Epoch': 49, 'Loss': tensor(2.5998, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #49			Loss: 121459.4297 Acc@1: 81.00%
+| Elapsed time : 0:03:26
+
+=> Training Epoch #50, LR=0.0010
+| Epoch [ 50/100] Iter[  1/ 19]		Loss: 485758.9688 Acc@1: 71.000%
+| Epoch [ 50/100] Iter[  2/ 19]		Loss: 242950.2969 Acc@1: 70.000%
+| Epoch [ 50/100] Iter[  3/ 19]		Loss: 121200.8672 Acc@1: 72.000%
+| Epoch [ 50/100] Iter[  4/ 19]		Loss: 60570.6484 Acc@1: 71.000%
+| Epoch [ 50/100] Iter[  5/ 19]		Loss: 30254.7773 Acc@1: 71.000%
+| Epoch [ 50/100] Iter[  6/ 19]		Loss: 15106.2354 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[  7/ 19]		Loss: 7562.7393 Acc@1: 74.000%
+| Epoch [ 50/100] Iter[  8/ 19]		Loss: 3779.5684 Acc@1: 74.000%
+| Epoch [ 50/100] Iter[  9/ 19]		Loss: 1889.2596 Acc@1: 74.000%
+| Epoch [ 50/100] Iter[ 10/ 19]		Loss: 942.0340 Acc@1: 74.000%
+| Epoch [ 50/100] Iter[ 11/ 19]		Loss: 472.7787 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[ 12/ 19]		Loss: 236.2294 Acc@1: 72.000%
+| Epoch [ 50/100] Iter[ 13/ 19]		Loss: 118.2535 Acc@1: 72.000%
+| Epoch [ 50/100] Iter[ 14/ 19]		Loss: 61.1858 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[ 15/ 19]		Loss: 29.9658 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[ 16/ 19]		Loss: 15.2762 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[ 17/ 19]		Loss: 7.9905 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[ 18/ 19]		Loss: 4.3224 Acc@1: 73.000%
+| Epoch [ 50/100] Iter[ 19/ 19]		Loss: 2.3809 Acc@1: 73.000%
+{'Epoch': 50, 'Loss': tensor(2.3809, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #50			Loss: 120428.2656 Acc@1: 81.00%
+| Elapsed time : 0:03:30
+
+=> Training Epoch #51, LR=0.0010
+| Epoch [ 51/100] Iter[  1/ 19]		Loss: 481312.3750 Acc@1: 71.000%
+| Epoch [ 51/100] Iter[  2/ 19]		Loss: 240392.5000 Acc@1: 75.000%
+| Epoch [ 51/100] Iter[  3/ 19]		Loss: 120232.4844 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[  4/ 19]		Loss: 60046.2383 Acc@1: 70.000%
+| Epoch [ 51/100] Iter[  5/ 19]		Loss: 29990.7461 Acc@1: 71.000%
+| Epoch [ 51/100] Iter[  6/ 19]		Loss: 14994.9502 Acc@1: 71.000%
+| Epoch [ 51/100] Iter[  7/ 19]		Loss: 7493.1172 Acc@1: 72.000%
+| Epoch [ 51/100] Iter[  8/ 19]		Loss: 3745.3899 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[  9/ 19]		Loss: 1873.1791 Acc@1: 72.000%
+| Epoch [ 51/100] Iter[ 10/ 19]		Loss: 935.5222 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[ 11/ 19]		Loss: 467.5391 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[ 12/ 19]		Loss: 234.0802 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[ 13/ 19]		Loss: 117.2878 Acc@1: 74.000%
+| Epoch [ 51/100] Iter[ 14/ 19]		Loss: 59.0758 Acc@1: 74.000%
+| Epoch [ 51/100] Iter[ 15/ 19]		Loss: 29.8676 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[ 16/ 19]		Loss: 15.1717 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[ 17/ 19]		Loss: 8.0486 Acc@1: 72.000%
+| Epoch [ 51/100] Iter[ 18/ 19]		Loss: 4.1558 Acc@1: 73.000%
+| Epoch [ 51/100] Iter[ 19/ 19]		Loss: 2.2789 Acc@1: 73.000%
+{'Epoch': 51, 'Loss': tensor(2.2789, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #51			Loss: 119529.4531 Acc@1: 81.00%
+| Elapsed time : 0:03:34
+
+=> Training Epoch #52, LR=0.0010
+| Epoch [ 52/100] Iter[  1/ 19]		Loss: 476876.8750 Acc@1: 84.000%
+| Epoch [ 52/100] Iter[  2/ 19]		Loss: 238260.7500 Acc@1: 84.000%
+| Epoch [ 52/100] Iter[  3/ 19]		Loss: 119021.3438 Acc@1: 83.000%
+| Epoch [ 52/100] Iter[  4/ 19]		Loss: 59515.2227 Acc@1: 82.000%
+| Epoch [ 52/100] Iter[  5/ 19]		Loss: 29721.7266 Acc@1: 79.000%
+| Epoch [ 52/100] Iter[  6/ 19]		Loss: 14877.1465 Acc@1: 78.000%
+| Epoch [ 52/100] Iter[  7/ 19]		Loss: 7424.2046 Acc@1: 76.000%
+| Epoch [ 52/100] Iter[  8/ 19]		Loss: 3713.9348 Acc@1: 75.000%
+| Epoch [ 52/100] Iter[  9/ 19]		Loss: 1854.7092 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 10/ 19]		Loss: 928.3403 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 11/ 19]		Loss: 463.6061 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 12/ 19]		Loss: 232.0611 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 13/ 19]		Loss: 116.4438 Acc@1: 73.000%
+| Epoch [ 52/100] Iter[ 14/ 19]		Loss: 58.3655 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 15/ 19]		Loss: 29.4981 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 16/ 19]		Loss: 15.0250 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 17/ 19]		Loss: 7.8029 Acc@1: 74.000%
+| Epoch [ 52/100] Iter[ 18/ 19]		Loss: 4.3635 Acc@1: 73.000%
+| Epoch [ 52/100] Iter[ 19/ 19]		Loss: 2.6841 Acc@1: 73.000%
+{'Epoch': 52, 'Loss': tensor(2.6841, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #52			Loss: 118104.6719 Acc@1: 81.00%
+| Elapsed time : 0:03:38
+
+=> Training Epoch #53, LR=0.0010
+| Epoch [ 53/100] Iter[  1/ 19]		Loss: 473794.5938 Acc@1: 84.000%
+| Epoch [ 53/100] Iter[  2/ 19]		Loss: 236554.7031 Acc@1: 71.000%
+| Epoch [ 53/100] Iter[  3/ 19]		Loss: 118165.2891 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[  4/ 19]		Loss: 59022.8516 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[  5/ 19]		Loss: 29512.8789 Acc@1: 75.000%
+| Epoch [ 53/100] Iter[  6/ 19]		Loss: 14729.2920 Acc@1: 71.000%
+| Epoch [ 53/100] Iter[  7/ 19]		Loss: 7364.9663 Acc@1: 72.000%
+| Epoch [ 53/100] Iter[  8/ 19]		Loss: 3676.6968 Acc@1: 72.000%
+| Epoch [ 53/100] Iter[  9/ 19]		Loss: 1837.3143 Acc@1: 72.000%
+| Epoch [ 53/100] Iter[ 10/ 19]		Loss: 918.8718 Acc@1: 70.000%
+| Epoch [ 53/100] Iter[ 11/ 19]		Loss: 459.5012 Acc@1: 71.000%
+| Epoch [ 53/100] Iter[ 12/ 19]		Loss: 230.1199 Acc@1: 72.000%
+| Epoch [ 53/100] Iter[ 13/ 19]		Loss: 115.3125 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[ 14/ 19]		Loss: 57.8764 Acc@1: 74.000%
+| Epoch [ 53/100] Iter[ 15/ 19]		Loss: 29.3806 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[ 16/ 19]		Loss: 14.9248 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[ 17/ 19]		Loss: 7.6923 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[ 18/ 19]		Loss: 4.1477 Acc@1: 73.000%
+| Epoch [ 53/100] Iter[ 19/ 19]		Loss: 2.5776 Acc@1: 73.000%
+{'Epoch': 53, 'Loss': tensor(2.5776, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #53			Loss: 117152.8594 Acc@1: 81.00%
+| Elapsed time : 0:03:42
+
+=> Training Epoch #54, LR=0.0010
+| Epoch [ 54/100] Iter[  1/ 19]		Loss: 469368.7188 Acc@1: 62.000%
+| Epoch [ 54/100] Iter[  2/ 19]		Loss: 234353.7344 Acc@1: 71.000%
+| Epoch [ 54/100] Iter[  3/ 19]		Loss: 117076.5781 Acc@1: 69.000%
+| Epoch [ 54/100] Iter[  4/ 19]		Loss: 58527.8906 Acc@1: 70.000%
+| Epoch [ 54/100] Iter[  5/ 19]		Loss: 29212.9219 Acc@1: 70.000%
+| Epoch [ 54/100] Iter[  6/ 19]		Loss: 14594.1982 Acc@1: 67.000%
+| Epoch [ 54/100] Iter[  7/ 19]		Loss: 7306.1582 Acc@1: 70.000%
+| Epoch [ 54/100] Iter[  8/ 19]		Loss: 3646.1169 Acc@1: 69.000%
+| Epoch [ 54/100] Iter[  9/ 19]		Loss: 1823.3868 Acc@1: 70.000%
+| Epoch [ 54/100] Iter[ 10/ 19]		Loss: 909.1372 Acc@1: 70.000%
+| Epoch [ 54/100] Iter[ 11/ 19]		Loss: 456.2724 Acc@1: 71.000%
+| Epoch [ 54/100] Iter[ 12/ 19]		Loss: 227.9282 Acc@1: 70.000%
+| Epoch [ 54/100] Iter[ 13/ 19]		Loss: 114.1474 Acc@1: 71.000%
+| Epoch [ 54/100] Iter[ 14/ 19]		Loss: 57.2155 Acc@1: 72.000%
+| Epoch [ 54/100] Iter[ 15/ 19]		Loss: 29.0422 Acc@1: 72.000%
+| Epoch [ 54/100] Iter[ 16/ 19]		Loss: 14.8194 Acc@1: 72.000%
+| Epoch [ 54/100] Iter[ 17/ 19]		Loss: 7.6371 Acc@1: 73.000%
+| Epoch [ 54/100] Iter[ 18/ 19]		Loss: 4.1573 Acc@1: 73.000%
+| Epoch [ 54/100] Iter[ 19/ 19]		Loss: 2.1740 Acc@1: 73.000%
+{'Epoch': 54, 'Loss': tensor(2.1740, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #54			Loss: 116385.1953 Acc@1: 81.00%
+| Elapsed time : 0:03:45
+
+=> Training Epoch #55, LR=0.0010
+| Epoch [ 55/100] Iter[  1/ 19]		Loss: 465482.7500 Acc@1: 71.000%
+| Epoch [ 55/100] Iter[  2/ 19]		Loss: 232000.1719 Acc@1: 76.000%
+| Epoch [ 55/100] Iter[  3/ 19]		Loss: 115815.7734 Acc@1: 72.000%
+| Epoch [ 55/100] Iter[  4/ 19]		Loss: 58032.3828 Acc@1: 72.000%
+| Epoch [ 55/100] Iter[  5/ 19]		Loss: 28915.1621 Acc@1: 71.000%
+| Epoch [ 55/100] Iter[  6/ 19]		Loss: 14463.5635 Acc@1: 72.000%
+| Epoch [ 55/100] Iter[  7/ 19]		Loss: 7247.6841 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[  8/ 19]		Loss: 3612.6980 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[  9/ 19]		Loss: 1808.1511 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 10/ 19]		Loss: 903.9893 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 11/ 19]		Loss: 451.5465 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 12/ 19]		Loss: 226.3965 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 13/ 19]		Loss: 113.3312 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 14/ 19]		Loss: 56.8984 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 15/ 19]		Loss: 28.7534 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 16/ 19]		Loss: 14.5981 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 17/ 19]		Loss: 7.5798 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 18/ 19]		Loss: 4.1223 Acc@1: 73.000%
+| Epoch [ 55/100] Iter[ 19/ 19]		Loss: 2.6498 Acc@1: 73.000%
+{'Epoch': 55, 'Loss': tensor(2.6498, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #55			Loss: 115230.2344 Acc@1: 81.00%
+| Elapsed time : 0:03:50
+
+=> Training Epoch #56, LR=0.0010
+| Epoch [ 56/100] Iter[  1/ 19]		Loss: 459722.2500 Acc@1: 59.000%
+| Epoch [ 56/100] Iter[  2/ 19]		Loss: 230333.0781 Acc@1: 67.000%
+| Epoch [ 56/100] Iter[  3/ 19]		Loss: 115034.0156 Acc@1: 68.000%
+| Epoch [ 56/100] Iter[  4/ 19]		Loss: 57529.0039 Acc@1: 68.000%
+| Epoch [ 56/100] Iter[  5/ 19]		Loss: 28691.5703 Acc@1: 70.000%
+| Epoch [ 56/100] Iter[  6/ 19]		Loss: 14335.9922 Acc@1: 68.000%
+| Epoch [ 56/100] Iter[  7/ 19]		Loss: 7160.5215 Acc@1: 70.000%
+| Epoch [ 56/100] Iter[  8/ 19]		Loss: 3577.6472 Acc@1: 72.000%
+| Epoch [ 56/100] Iter[  9/ 19]		Loss: 1787.0411 Acc@1: 73.000%
+| Epoch [ 56/100] Iter[ 10/ 19]		Loss: 893.5556 Acc@1: 74.000%
+| Epoch [ 56/100] Iter[ 11/ 19]		Loss: 447.3836 Acc@1: 73.000%
+| Epoch [ 56/100] Iter[ 12/ 19]		Loss: 224.0673 Acc@1: 72.000%
+| Epoch [ 56/100] Iter[ 13/ 19]		Loss: 112.3504 Acc@1: 71.000%
+| Epoch [ 56/100] Iter[ 14/ 19]		Loss: 56.2942 Acc@1: 72.000%
+| Epoch [ 56/100] Iter[ 15/ 19]		Loss: 28.3955 Acc@1: 72.000%
+| Epoch [ 56/100] Iter[ 16/ 19]		Loss: 14.5124 Acc@1: 73.000%
+| Epoch [ 56/100] Iter[ 17/ 19]		Loss: 7.4946 Acc@1: 73.000%
+| Epoch [ 56/100] Iter[ 18/ 19]		Loss: 4.0651 Acc@1: 73.000%
+| Epoch [ 56/100] Iter[ 19/ 19]		Loss: 2.5093 Acc@1: 73.000%
+{'Epoch': 56, 'Loss': tensor(2.5093, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #56			Loss: 114126.0078 Acc@1: 81.00%
+| Elapsed time : 0:03:54
+
+=> Training Epoch #57, LR=0.0010
+| Epoch [ 57/100] Iter[  1/ 19]		Loss: 456344.5938 Acc@1: 81.000%
+| Epoch [ 57/100] Iter[  2/ 19]		Loss: 227704.1250 Acc@1: 75.000%
+| Epoch [ 57/100] Iter[  3/ 19]		Loss: 113819.9375 Acc@1: 76.000%
+| Epoch [ 57/100] Iter[  4/ 19]		Loss: 57009.8359 Acc@1: 74.000%
+| Epoch [ 57/100] Iter[  5/ 19]		Loss: 28458.8730 Acc@1: 72.000%
+| Epoch [ 57/100] Iter[  6/ 19]		Loss: 14248.9648 Acc@1: 72.000%
+| Epoch [ 57/100] Iter[  7/ 19]		Loss: 7087.3882 Acc@1: 74.000%
+| Epoch [ 57/100] Iter[  8/ 19]		Loss: 3549.5718 Acc@1: 75.000%
+| Epoch [ 57/100] Iter[  9/ 19]		Loss: 1774.6909 Acc@1: 74.000%
+| Epoch [ 57/100] Iter[ 10/ 19]		Loss: 888.2100 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 11/ 19]		Loss: 443.2593 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 12/ 19]		Loss: 222.1544 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 13/ 19]		Loss: 111.1711 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 14/ 19]		Loss: 55.8100 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 15/ 19]		Loss: 28.1386 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 16/ 19]		Loss: 14.3369 Acc@1: 74.000%
+| Epoch [ 57/100] Iter[ 17/ 19]		Loss: 7.6571 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 18/ 19]		Loss: 3.9953 Acc@1: 73.000%
+| Epoch [ 57/100] Iter[ 19/ 19]		Loss: 2.5119 Acc@1: 73.000%
+{'Epoch': 57, 'Loss': tensor(2.5119, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #57			Loss: 113227.2031 Acc@1: 81.00%
+| Elapsed time : 0:03:57
+
+=> Training Epoch #58, LR=0.0010
+| Epoch [ 58/100] Iter[  1/ 19]		Loss: 452736.7188 Acc@1: 75.000%
+| Epoch [ 58/100] Iter[  2/ 19]		Loss: 226568.3281 Acc@1: 75.000%
+| Epoch [ 58/100] Iter[  3/ 19]		Loss: 112913.2812 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[  4/ 19]		Loss: 56353.2500 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[  5/ 19]		Loss: 28202.5488 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[  6/ 19]		Loss: 14079.3369 Acc@1: 72.000%
+| Epoch [ 58/100] Iter[  7/ 19]		Loss: 7042.6899 Acc@1: 74.000%
+| Epoch [ 58/100] Iter[  8/ 19]		Loss: 3515.0259 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[  9/ 19]		Loss: 1758.2266 Acc@1: 75.000%
+| Epoch [ 58/100] Iter[ 10/ 19]		Loss: 878.0021 Acc@1: 74.000%
+| Epoch [ 58/100] Iter[ 11/ 19]		Loss: 439.6043 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[ 12/ 19]		Loss: 220.0381 Acc@1: 74.000%
+| Epoch [ 58/100] Iter[ 13/ 19]		Loss: 110.2999 Acc@1: 75.000%
+| Epoch [ 58/100] Iter[ 14/ 19]		Loss: 55.4675 Acc@1: 75.000%
+| Epoch [ 58/100] Iter[ 15/ 19]		Loss: 28.0295 Acc@1: 74.000%
+| Epoch [ 58/100] Iter[ 16/ 19]		Loss: 14.6820 Acc@1: 72.000%
+| Epoch [ 58/100] Iter[ 17/ 19]		Loss: 7.3726 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[ 18/ 19]		Loss: 3.9649 Acc@1: 73.000%
+| Epoch [ 58/100] Iter[ 19/ 19]		Loss: 2.3594 Acc@1: 73.000%
+{'Epoch': 58, 'Loss': tensor(2.3594, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #58			Loss: 111999.4531 Acc@1: 81.00%
+| Elapsed time : 0:04:01
+
+=> Training Epoch #59, LR=0.0010
+| Epoch [ 59/100] Iter[  1/ 19]		Loss: 447897.0000 Acc@1: 78.000%
+| Epoch [ 59/100] Iter[  2/ 19]		Loss: 224232.7344 Acc@1: 73.000%
+| Epoch [ 59/100] Iter[  3/ 19]		Loss: 111828.3203 Acc@1: 75.000%
+| Epoch [ 59/100] Iter[  4/ 19]		Loss: 55923.1719 Acc@1: 73.000%
+| Epoch [ 59/100] Iter[  5/ 19]		Loss: 27979.5781 Acc@1: 73.000%
+| Epoch [ 59/100] Iter[  6/ 19]		Loss: 13962.6719 Acc@1: 72.000%
+| Epoch [ 59/100] Iter[  7/ 19]		Loss: 6977.2065 Acc@1: 73.000%
+| Epoch [ 59/100] Iter[  8/ 19]		Loss: 3483.2317 Acc@1: 72.000%
+| Epoch [ 59/100] Iter[  9/ 19]		Loss: 1745.2634 Acc@1: 72.000%
+| Epoch [ 59/100] Iter[ 10/ 19]		Loss: 870.4683 Acc@1: 71.000%
+| Epoch [ 59/100] Iter[ 11/ 19]		Loss: 435.9473 Acc@1: 71.000%
+| Epoch [ 59/100] Iter[ 12/ 19]		Loss: 217.9662 Acc@1: 71.000%
+| Epoch [ 59/100] Iter[ 13/ 19]		Loss: 109.1220 Acc@1: 72.000%
+| Epoch [ 59/100] Iter[ 14/ 19]		Loss: 54.9098 Acc@1: 72.000%
+| Epoch [ 59/100] Iter[ 15/ 19]		Loss: 27.7973 Acc@1: 71.000%
+| Epoch [ 59/100] Iter[ 16/ 19]		Loss: 14.2074 Acc@1: 71.000%
+| Epoch [ 59/100] Iter[ 17/ 19]		Loss: 7.2963 Acc@1: 72.000%
+| Epoch [ 59/100] Iter[ 18/ 19]		Loss: 3.8423 Acc@1: 73.000%
+| Epoch [ 59/100] Iter[ 19/ 19]		Loss: 2.0829 Acc@1: 73.000%
+{'Epoch': 59, 'Loss': tensor(2.0829, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #59			Loss: 110992.7891 Acc@1: 81.00%
+| Elapsed time : 0:04:05
+
+=> Training Epoch #60, LR=0.0010
+| Epoch [ 60/100] Iter[  1/ 19]		Loss: 444060.4688 Acc@1: 81.000%
+| Epoch [ 60/100] Iter[  2/ 19]		Loss: 221537.5781 Acc@1: 81.000%
+| Epoch [ 60/100] Iter[  3/ 19]		Loss: 111007.6016 Acc@1: 77.000%
+| Epoch [ 60/100] Iter[  4/ 19]		Loss: 55442.9297 Acc@1: 78.000%
+| Epoch [ 60/100] Iter[  5/ 19]		Loss: 27671.8613 Acc@1: 78.000%
+| Epoch [ 60/100] Iter[  6/ 19]		Loss: 13799.5869 Acc@1: 77.000%
+| Epoch [ 60/100] Iter[  7/ 19]		Loss: 6917.6064 Acc@1: 76.000%
+| Epoch [ 60/100] Iter[  8/ 19]		Loss: 3457.0051 Acc@1: 75.000%
+| Epoch [ 60/100] Iter[  9/ 19]		Loss: 1724.8192 Acc@1: 75.000%
+| Epoch [ 60/100] Iter[ 10/ 19]		Loss: 864.7912 Acc@1: 74.000%
+| Epoch [ 60/100] Iter[ 11/ 19]		Loss: 431.7950 Acc@1: 75.000%
+| Epoch [ 60/100] Iter[ 12/ 19]		Loss: 215.3801 Acc@1: 74.000%
+| Epoch [ 60/100] Iter[ 13/ 19]		Loss: 108.0534 Acc@1: 74.000%
+| Epoch [ 60/100] Iter[ 14/ 19]		Loss: 54.4596 Acc@1: 73.000%
+| Epoch [ 60/100] Iter[ 15/ 19]		Loss: 27.5587 Acc@1: 73.000%
+| Epoch [ 60/100] Iter[ 16/ 19]		Loss: 14.0497 Acc@1: 72.000%
+| Epoch [ 60/100] Iter[ 17/ 19]		Loss: 7.2453 Acc@1: 73.000%
+| Epoch [ 60/100] Iter[ 18/ 19]		Loss: 3.9891 Acc@1: 73.000%
+| Epoch [ 60/100] Iter[ 19/ 19]		Loss: 2.1473 Acc@1: 73.000%
+{'Epoch': 60, 'Loss': tensor(2.1473, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #60			Loss: 110184.7578 Acc@1: 81.00%
+| Elapsed time : 0:04:09
+
+=> Training Epoch #61, LR=0.0002
+| Epoch [ 61/100] Iter[  1/ 19]		Loss: 440776.6562 Acc@1: 68.000%
+| Epoch [ 61/100] Iter[  2/ 19]		Loss: 220080.1562 Acc@1: 70.000%
+| Epoch [ 61/100] Iter[  3/ 19]		Loss: 110253.0391 Acc@1: 72.000%
+| Epoch [ 61/100] Iter[  4/ 19]		Loss: 54960.3633 Acc@1: 67.000%
+| Epoch [ 61/100] Iter[  5/ 19]		Loss: 27484.9824 Acc@1: 65.000%
+| Epoch [ 61/100] Iter[  6/ 19]		Loss: 13725.9072 Acc@1: 68.000%
+| Epoch [ 61/100] Iter[  7/ 19]		Loss: 6866.8911 Acc@1: 70.000%
+| Epoch [ 61/100] Iter[  8/ 19]		Loss: 3435.1389 Acc@1: 69.000%
+| Epoch [ 61/100] Iter[  9/ 19]		Loss: 1717.9229 Acc@1: 70.000%
+| Epoch [ 61/100] Iter[ 10/ 19]		Loss: 860.1167 Acc@1: 69.000%
+| Epoch [ 61/100] Iter[ 11/ 19]		Loss: 429.3388 Acc@1: 69.000%
+| Epoch [ 61/100] Iter[ 12/ 19]		Loss: 215.6088 Acc@1: 69.000%
+| Epoch [ 61/100] Iter[ 13/ 19]		Loss: 107.8656 Acc@1: 69.000%
+| Epoch [ 61/100] Iter[ 14/ 19]		Loss: 54.3249 Acc@1: 70.000%
+| Epoch [ 61/100] Iter[ 15/ 19]		Loss: 27.2922 Acc@1: 71.000%
+| Epoch [ 61/100] Iter[ 16/ 19]		Loss: 13.8638 Acc@1: 72.000%
+| Epoch [ 61/100] Iter[ 17/ 19]		Loss: 7.1824 Acc@1: 72.000%
+| Epoch [ 61/100] Iter[ 18/ 19]		Loss: 3.9031 Acc@1: 73.000%
+| Epoch [ 61/100] Iter[ 19/ 19]		Loss: 2.2252 Acc@1: 73.000%
+{'Epoch': 61, 'Loss': tensor(2.2252, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #61			Loss: 109673.2109 Acc@1: 81.00%
+| Elapsed time : 0:04:13
+
+=> Training Epoch #62, LR=0.0002
+| Epoch [ 62/100] Iter[  1/ 19]		Loss: 439652.6250 Acc@1: 65.000%
+| Epoch [ 62/100] Iter[  2/ 19]		Loss: 219972.6875 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[  3/ 19]		Loss: 109852.4922 Acc@1: 71.000%
+| Epoch [ 62/100] Iter[  4/ 19]		Loss: 54815.3828 Acc@1: 71.000%
+| Epoch [ 62/100] Iter[  5/ 19]		Loss: 27355.3535 Acc@1: 71.000%
+| Epoch [ 62/100] Iter[  6/ 19]		Loss: 13715.2910 Acc@1: 72.000%
+| Epoch [ 62/100] Iter[  7/ 19]		Loss: 6860.9971 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[  8/ 19]		Loss: 3430.1064 Acc@1: 72.000%
+| Epoch [ 62/100] Iter[  9/ 19]		Loss: 1713.0487 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[ 10/ 19]		Loss: 857.6884 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[ 11/ 19]		Loss: 429.1308 Acc@1: 72.000%
+| Epoch [ 62/100] Iter[ 12/ 19]		Loss: 214.8887 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[ 13/ 19]		Loss: 107.7303 Acc@1: 72.000%
+| Epoch [ 62/100] Iter[ 14/ 19]		Loss: 54.1047 Acc@1: 72.000%
+| Epoch [ 62/100] Iter[ 15/ 19]		Loss: 27.3864 Acc@1: 72.000%
+| Epoch [ 62/100] Iter[ 16/ 19]		Loss: 13.8716 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[ 17/ 19]		Loss: 7.2675 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[ 18/ 19]		Loss: 3.9087 Acc@1: 73.000%
+| Epoch [ 62/100] Iter[ 19/ 19]		Loss: 2.5649 Acc@1: 73.000%
+{'Epoch': 62, 'Loss': tensor(2.5649, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #62			Loss: 109555.5078 Acc@1: 81.00%
+| Elapsed time : 0:04:17
+
+=> Training Epoch #63, LR=0.0002
+| Epoch [ 63/100] Iter[  1/ 19]		Loss: 439301.4062 Acc@1: 71.000%
+| Epoch [ 63/100] Iter[  2/ 19]		Loss: 219202.4688 Acc@1: 68.000%
+| Epoch [ 63/100] Iter[  3/ 19]		Loss: 109589.8516 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[  4/ 19]		Loss: 54835.4805 Acc@1: 75.000%
+| Epoch [ 63/100] Iter[  5/ 19]		Loss: 27457.4082 Acc@1: 76.000%
+| Epoch [ 63/100] Iter[  6/ 19]		Loss: 13707.9922 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[  7/ 19]		Loss: 6857.2822 Acc@1: 74.000%
+| Epoch [ 63/100] Iter[  8/ 19]		Loss: 3421.3926 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[  9/ 19]		Loss: 1711.4110 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[ 10/ 19]		Loss: 856.4091 Acc@1: 75.000%
+| Epoch [ 63/100] Iter[ 11/ 19]		Loss: 428.0032 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[ 12/ 19]		Loss: 213.9599 Acc@1: 74.000%
+| Epoch [ 63/100] Iter[ 13/ 19]		Loss: 107.2969 Acc@1: 74.000%
+| Epoch [ 63/100] Iter[ 14/ 19]		Loss: 54.0957 Acc@1: 74.000%
+| Epoch [ 63/100] Iter[ 15/ 19]		Loss: 27.4043 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[ 16/ 19]		Loss: 14.1381 Acc@1: 72.000%
+| Epoch [ 63/100] Iter[ 17/ 19]		Loss: 7.1153 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[ 18/ 19]		Loss: 4.0037 Acc@1: 73.000%
+| Epoch [ 63/100] Iter[ 19/ 19]		Loss: 2.2169 Acc@1: 73.000%
+{'Epoch': 63, 'Loss': tensor(2.2169, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #63			Loss: 109487.8516 Acc@1: 81.00%
+| Elapsed time : 0:04:21
+
+=> Training Epoch #64, LR=0.0002
+| Epoch [ 64/100] Iter[  1/ 19]		Loss: 438376.0938 Acc@1: 75.000%
+| Epoch [ 64/100] Iter[  2/ 19]		Loss: 218956.3438 Acc@1: 75.000%
+| Epoch [ 64/100] Iter[  3/ 19]		Loss: 109532.8047 Acc@1: 75.000%
+| Epoch [ 64/100] Iter[  4/ 19]		Loss: 54626.9805 Acc@1: 74.000%
+| Epoch [ 64/100] Iter[  5/ 19]		Loss: 27361.9961 Acc@1: 72.000%
+| Epoch [ 64/100] Iter[  6/ 19]		Loss: 13680.1074 Acc@1: 70.000%
+| Epoch [ 64/100] Iter[  7/ 19]		Loss: 6836.1382 Acc@1: 69.000%
+| Epoch [ 64/100] Iter[  8/ 19]		Loss: 3418.1553 Acc@1: 70.000%
+| Epoch [ 64/100] Iter[  9/ 19]		Loss: 1708.7626 Acc@1: 72.000%
+| Epoch [ 64/100] Iter[ 10/ 19]		Loss: 854.9061 Acc@1: 72.000%
+| Epoch [ 64/100] Iter[ 11/ 19]		Loss: 427.6080 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 12/ 19]		Loss: 213.8401 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 13/ 19]		Loss: 107.3739 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 14/ 19]		Loss: 53.9072 Acc@1: 72.000%
+| Epoch [ 64/100] Iter[ 15/ 19]		Loss: 27.2145 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 16/ 19]		Loss: 13.8628 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 17/ 19]		Loss: 7.2101 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 18/ 19]		Loss: 3.9874 Acc@1: 73.000%
+| Epoch [ 64/100] Iter[ 19/ 19]		Loss: 2.2134 Acc@1: 73.000%
+{'Epoch': 64, 'Loss': tensor(2.2134, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #64			Loss: 109347.6250 Acc@1: 81.00%
+| Elapsed time : 0:04:24
+
+=> Training Epoch #65, LR=0.0002
+| Epoch [ 65/100] Iter[  1/ 19]		Loss: 437161.7500 Acc@1: 68.000%
+| Epoch [ 65/100] Iter[  2/ 19]		Loss: 218075.6250 Acc@1: 67.000%
+| Epoch [ 65/100] Iter[  3/ 19]		Loss: 109070.6875 Acc@1: 70.000%
+| Epoch [ 65/100] Iter[  4/ 19]		Loss: 54642.0781 Acc@1: 71.000%
+| Epoch [ 65/100] Iter[  5/ 19]		Loss: 27240.3125 Acc@1: 70.000%
+| Epoch [ 65/100] Iter[  6/ 19]		Loss: 13623.7480 Acc@1: 70.000%
+| Epoch [ 65/100] Iter[  7/ 19]		Loss: 6819.6890 Acc@1: 70.000%
+| Epoch [ 65/100] Iter[  8/ 19]		Loss: 3407.7891 Acc@1: 69.000%
+| Epoch [ 65/100] Iter[  9/ 19]		Loss: 1705.5693 Acc@1: 70.000%
+| Epoch [ 65/100] Iter[ 10/ 19]		Loss: 854.4736 Acc@1: 70.000%
+| Epoch [ 65/100] Iter[ 11/ 19]		Loss: 426.5964 Acc@1: 71.000%
+| Epoch [ 65/100] Iter[ 12/ 19]		Loss: 213.3342 Acc@1: 71.000%
+| Epoch [ 65/100] Iter[ 13/ 19]		Loss: 106.9885 Acc@1: 72.000%
+| Epoch [ 65/100] Iter[ 14/ 19]		Loss: 53.7172 Acc@1: 72.000%
+| Epoch [ 65/100] Iter[ 15/ 19]		Loss: 27.3602 Acc@1: 72.000%
+| Epoch [ 65/100] Iter[ 16/ 19]		Loss: 13.8466 Acc@1: 72.000%
+| Epoch [ 65/100] Iter[ 17/ 19]		Loss: 7.2083 Acc@1: 72.000%
+| Epoch [ 65/100] Iter[ 18/ 19]		Loss: 3.7526 Acc@1: 73.000%
+| Epoch [ 65/100] Iter[ 19/ 19]		Loss: 2.3540 Acc@1: 73.000%
+{'Epoch': 65, 'Loss': tensor(2.3540, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #65			Loss: 108936.5781 Acc@1: 81.00%
+| Elapsed time : 0:04:28
+
+=> Training Epoch #66, LR=0.0002
+| Epoch [ 66/100] Iter[  1/ 19]		Loss: 436786.5000 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[  2/ 19]		Loss: 218110.9219 Acc@1: 79.000%
+| Epoch [ 66/100] Iter[  3/ 19]		Loss: 109004.3125 Acc@1: 76.000%
+| Epoch [ 66/100] Iter[  4/ 19]		Loss: 54435.0234 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[  5/ 19]		Loss: 27245.3691 Acc@1: 73.000%
+| Epoch [ 66/100] Iter[  6/ 19]		Loss: 13571.5234 Acc@1: 73.000%
+| Epoch [ 66/100] Iter[  7/ 19]		Loss: 6810.4868 Acc@1: 74.000%
+| Epoch [ 66/100] Iter[  8/ 19]		Loss: 3400.8921 Acc@1: 73.000%
+| Epoch [ 66/100] Iter[  9/ 19]		Loss: 1700.2902 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[ 10/ 19]		Loss: 852.2616 Acc@1: 76.000%
+| Epoch [ 66/100] Iter[ 11/ 19]		Loss: 425.8055 Acc@1: 76.000%
+| Epoch [ 66/100] Iter[ 12/ 19]		Loss: 212.9769 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[ 13/ 19]		Loss: 106.8321 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[ 14/ 19]		Loss: 53.5633 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[ 15/ 19]		Loss: 27.2130 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[ 16/ 19]		Loss: 13.8002 Acc@1: 75.000%
+| Epoch [ 66/100] Iter[ 17/ 19]		Loss: 7.3762 Acc@1: 74.000%
+| Epoch [ 66/100] Iter[ 18/ 19]		Loss: 4.0821 Acc@1: 73.000%
+| Epoch [ 66/100] Iter[ 19/ 19]		Loss: 2.3181 Acc@1: 73.000%
+{'Epoch': 66, 'Loss': tensor(2.3181, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #66			Loss: 108684.8828 Acc@1: 81.00%
+| Elapsed time : 0:04:32
+
+=> Training Epoch #67, LR=0.0002
+| Epoch [ 67/100] Iter[  1/ 19]		Loss: 434873.3125 Acc@1: 68.000%
+| Epoch [ 67/100] Iter[  2/ 19]		Loss: 217435.7344 Acc@1: 75.000%
+| Epoch [ 67/100] Iter[  3/ 19]		Loss: 108788.7109 Acc@1: 76.000%
+| Epoch [ 67/100] Iter[  4/ 19]		Loss: 54381.5781 Acc@1: 77.000%
+| Epoch [ 67/100] Iter[  5/ 19]		Loss: 27205.2402 Acc@1: 76.000%
+| Epoch [ 67/100] Iter[  6/ 19]		Loss: 13612.2705 Acc@1: 75.000%
+| Epoch [ 67/100] Iter[  7/ 19]		Loss: 6787.5264 Acc@1: 74.000%
+| Epoch [ 67/100] Iter[  8/ 19]		Loss: 3402.1384 Acc@1: 74.000%
+| Epoch [ 67/100] Iter[  9/ 19]		Loss: 1695.2202 Acc@1: 73.000%
+| Epoch [ 67/100] Iter[ 10/ 19]		Loss: 849.2938 Acc@1: 71.000%
+| Epoch [ 67/100] Iter[ 11/ 19]		Loss: 425.9374 Acc@1: 71.000%
+| Epoch [ 67/100] Iter[ 12/ 19]		Loss: 212.6056 Acc@1: 71.000%
+| Epoch [ 67/100] Iter[ 13/ 19]		Loss: 106.5574 Acc@1: 72.000%
+| Epoch [ 67/100] Iter[ 14/ 19]		Loss: 53.5879 Acc@1: 72.000%
+| Epoch [ 67/100] Iter[ 15/ 19]		Loss: 27.0305 Acc@1: 72.000%
+| Epoch [ 67/100] Iter[ 16/ 19]		Loss: 13.8257 Acc@1: 73.000%
+| Epoch [ 67/100] Iter[ 17/ 19]		Loss: 7.2228 Acc@1: 73.000%
+| Epoch [ 67/100] Iter[ 18/ 19]		Loss: 3.8906 Acc@1: 73.000%
+| Epoch [ 67/100] Iter[ 19/ 19]		Loss: 2.2030 Acc@1: 73.000%
+{'Epoch': 67, 'Loss': tensor(2.2030, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #67			Loss: 108648.8594 Acc@1: 81.00%
+| Elapsed time : 0:04:36
+
+=> Training Epoch #68, LR=0.0002
+| Epoch [ 68/100] Iter[  1/ 19]		Loss: 435045.7188 Acc@1: 68.000%
+| Epoch [ 68/100] Iter[  2/ 19]		Loss: 217276.7969 Acc@1: 71.000%
+| Epoch [ 68/100] Iter[  3/ 19]		Loss: 108645.2969 Acc@1: 72.000%
+| Epoch [ 68/100] Iter[  4/ 19]		Loss: 54412.0312 Acc@1: 75.000%
+| Epoch [ 68/100] Iter[  5/ 19]		Loss: 27140.4883 Acc@1: 74.000%
+| Epoch [ 68/100] Iter[  6/ 19]		Loss: 13566.8477 Acc@1: 73.000%
+| Epoch [ 68/100] Iter[  7/ 19]		Loss: 6776.0186 Acc@1: 73.000%
+| Epoch [ 68/100] Iter[  8/ 19]		Loss: 3391.5227 Acc@1: 73.000%
+| Epoch [ 68/100] Iter[  9/ 19]		Loss: 1697.1462 Acc@1: 72.000%
+| Epoch [ 68/100] Iter[ 10/ 19]		Loss: 846.8278 Acc@1: 73.000%
+| Epoch [ 68/100] Iter[ 11/ 19]		Loss: 423.9776 Acc@1: 74.000%
+| Epoch [ 68/100] Iter[ 12/ 19]		Loss: 212.1164 Acc@1: 75.000%
+| Epoch [ 68/100] Iter[ 13/ 19]		Loss: 106.2170 Acc@1: 75.000%
+| Epoch [ 68/100] Iter[ 14/ 19]		Loss: 53.6034 Acc@1: 74.000%
+| Epoch [ 68/100] Iter[ 15/ 19]		Loss: 27.0316 Acc@1: 74.000%
+| Epoch [ 68/100] Iter[ 16/ 19]		Loss: 13.6630 Acc@1: 75.000%
+| Epoch [ 68/100] Iter[ 17/ 19]		Loss: 7.4027 Acc@1: 73.000%
+| Epoch [ 68/100] Iter[ 18/ 19]		Loss: 4.0151 Acc@1: 73.000%
+| Epoch [ 68/100] Iter[ 19/ 19]		Loss: 2.1973 Acc@1: 73.000%
+{'Epoch': 68, 'Loss': tensor(2.1973, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #68			Loss: 108678.2188 Acc@1: 81.00%
+| Elapsed time : 0:04:42
+
+=> Training Epoch #69, LR=0.0002
+| Epoch [ 69/100] Iter[  1/ 19]		Loss: 433110.3125 Acc@1: 68.000%
+| Epoch [ 69/100] Iter[  2/ 19]		Loss: 216637.3906 Acc@1: 73.000%
+| Epoch [ 69/100] Iter[  3/ 19]		Loss: 108149.3281 Acc@1: 73.000%
+| Epoch [ 69/100] Iter[  4/ 19]		Loss: 54166.0234 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[  5/ 19]		Loss: 27056.3457 Acc@1: 76.000%
+| Epoch [ 69/100] Iter[  6/ 19]		Loss: 13539.0498 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[  7/ 19]		Loss: 6766.7407 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[  8/ 19]		Loss: 3383.6384 Acc@1: 73.000%
+| Epoch [ 69/100] Iter[  9/ 19]		Loss: 1691.8451 Acc@1: 72.000%
+| Epoch [ 69/100] Iter[ 10/ 19]		Loss: 846.3781 Acc@1: 73.000%
+| Epoch [ 69/100] Iter[ 11/ 19]		Loss: 423.0559 Acc@1: 74.000%
+| Epoch [ 69/100] Iter[ 12/ 19]		Loss: 211.7682 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[ 13/ 19]		Loss: 106.3477 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[ 14/ 19]		Loss: 53.3326 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[ 15/ 19]		Loss: 27.0270 Acc@1: 75.000%
+| Epoch [ 69/100] Iter[ 16/ 19]		Loss: 13.8841 Acc@1: 74.000%
+| Epoch [ 69/100] Iter[ 17/ 19]		Loss: 7.4506 Acc@1: 73.000%
+| Epoch [ 69/100] Iter[ 18/ 19]		Loss: 3.8995 Acc@1: 73.000%
+| Epoch [ 69/100] Iter[ 19/ 19]		Loss: 2.0761 Acc@1: 73.000%
+{'Epoch': 69, 'Loss': tensor(2.0761, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #69			Loss: 108136.4297 Acc@1: 81.00%
+| Elapsed time : 0:04:48
+
+=> Training Epoch #70, LR=0.0002
+| Epoch [ 70/100] Iter[  1/ 19]		Loss: 432918.1875 Acc@1: 81.000%
+| Epoch [ 70/100] Iter[  2/ 19]		Loss: 216323.1719 Acc@1: 79.000%
+| Epoch [ 70/100] Iter[  3/ 19]		Loss: 108367.5391 Acc@1: 71.000%
+| Epoch [ 70/100] Iter[  4/ 19]		Loss: 54074.2383 Acc@1: 73.000%
+| Epoch [ 70/100] Iter[  5/ 19]		Loss: 27018.2695 Acc@1: 70.000%
+| Epoch [ 70/100] Iter[  6/ 19]		Loss: 13513.9531 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[  7/ 19]		Loss: 6744.7964 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[  8/ 19]		Loss: 3384.0361 Acc@1: 71.000%
+| Epoch [ 70/100] Iter[  9/ 19]		Loss: 1690.9194 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[ 10/ 19]		Loss: 844.6035 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[ 11/ 19]		Loss: 422.7670 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[ 12/ 19]		Loss: 211.6358 Acc@1: 70.000%
+| Epoch [ 70/100] Iter[ 13/ 19]		Loss: 105.9049 Acc@1: 71.000%
+| Epoch [ 70/100] Iter[ 14/ 19]		Loss: 53.2621 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[ 15/ 19]		Loss: 26.9983 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[ 16/ 19]		Loss: 13.6910 Acc@1: 72.000%
+| Epoch [ 70/100] Iter[ 17/ 19]		Loss: 7.0979 Acc@1: 73.000%
+| Epoch [ 70/100] Iter[ 18/ 19]		Loss: 3.8102 Acc@1: 73.000%
+| Epoch [ 70/100] Iter[ 19/ 19]		Loss: 2.4877 Acc@1: 73.000%
+{'Epoch': 70, 'Loss': tensor(2.4877, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #70			Loss: 107888.6875 Acc@1: 81.00%
+| Elapsed time : 0:04:51
+
+=> Training Epoch #71, LR=0.0002
+| Epoch [ 71/100] Iter[  1/ 19]		Loss: 431795.0938 Acc@1: 75.000%
+| Epoch [ 71/100] Iter[  2/ 19]		Loss: 215671.9219 Acc@1: 78.000%
+| Epoch [ 71/100] Iter[  3/ 19]		Loss: 107974.3750 Acc@1: 76.000%
+| Epoch [ 71/100] Iter[  4/ 19]		Loss: 54031.8477 Acc@1: 75.000%
+| Epoch [ 71/100] Iter[  5/ 19]		Loss: 26962.5117 Acc@1: 71.000%
+| Epoch [ 71/100] Iter[  6/ 19]		Loss: 13472.7568 Acc@1: 70.000%
+| Epoch [ 71/100] Iter[  7/ 19]		Loss: 6733.3975 Acc@1: 72.000%
+| Epoch [ 71/100] Iter[  8/ 19]		Loss: 3366.9822 Acc@1: 73.000%
+| Epoch [ 71/100] Iter[  9/ 19]		Loss: 1683.3024 Acc@1: 73.000%
+| Epoch [ 71/100] Iter[ 10/ 19]		Loss: 842.5912 Acc@1: 73.000%
+| Epoch [ 71/100] Iter[ 11/ 19]		Loss: 421.6456 Acc@1: 73.000%
+| Epoch [ 71/100] Iter[ 12/ 19]		Loss: 211.0406 Acc@1: 74.000%
+| Epoch [ 71/100] Iter[ 13/ 19]		Loss: 105.5816 Acc@1: 74.000%
+| Epoch [ 71/100] Iter[ 14/ 19]		Loss: 53.0790 Acc@1: 75.000%
+| Epoch [ 71/100] Iter[ 15/ 19]		Loss: 27.0045 Acc@1: 74.000%
+| Epoch [ 71/100] Iter[ 16/ 19]		Loss: 13.6583 Acc@1: 75.000%
+| Epoch [ 71/100] Iter[ 17/ 19]		Loss: 7.3225 Acc@1: 74.000%
+| Epoch [ 71/100] Iter[ 18/ 19]		Loss: 3.9957 Acc@1: 73.000%
+| Epoch [ 71/100] Iter[ 19/ 19]		Loss: 2.4150 Acc@1: 73.000%
+{'Epoch': 71, 'Loss': tensor(2.4150, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #71			Loss: 107570.3359 Acc@1: 81.00%
+| Elapsed time : 0:04:55
+
+=> Training Epoch #72, LR=0.0002
+| Epoch [ 72/100] Iter[  1/ 19]		Loss: 430834.8750 Acc@1: 59.000%
+| Epoch [ 72/100] Iter[  2/ 19]		Loss: 215724.0000 Acc@1: 64.000%
+| Epoch [ 72/100] Iter[  3/ 19]		Loss: 107671.0938 Acc@1: 60.000%
+| Epoch [ 72/100] Iter[  4/ 19]		Loss: 53901.8477 Acc@1: 64.000%
+| Epoch [ 72/100] Iter[  5/ 19]		Loss: 26930.9668 Acc@1: 66.000%
+| Epoch [ 72/100] Iter[  6/ 19]		Loss: 13462.8330 Acc@1: 68.000%
+| Epoch [ 72/100] Iter[  7/ 19]		Loss: 6723.7495 Acc@1: 70.000%
+| Epoch [ 72/100] Iter[  8/ 19]		Loss: 3361.6831 Acc@1: 69.000%
+| Epoch [ 72/100] Iter[  9/ 19]		Loss: 1683.3616 Acc@1: 70.000%
+| Epoch [ 72/100] Iter[ 10/ 19]		Loss: 841.0768 Acc@1: 70.000%
+| Epoch [ 72/100] Iter[ 11/ 19]		Loss: 420.9711 Acc@1: 71.000%
+| Epoch [ 72/100] Iter[ 12/ 19]		Loss: 210.4120 Acc@1: 72.000%
+| Epoch [ 72/100] Iter[ 13/ 19]		Loss: 105.6103 Acc@1: 73.000%
+| Epoch [ 72/100] Iter[ 14/ 19]		Loss: 53.1849 Acc@1: 73.000%
+| Epoch [ 72/100] Iter[ 15/ 19]		Loss: 26.9358 Acc@1: 72.000%
+| Epoch [ 72/100] Iter[ 16/ 19]		Loss: 13.5903 Acc@1: 73.000%
+| Epoch [ 72/100] Iter[ 17/ 19]		Loss: 7.1913 Acc@1: 73.000%
+| Epoch [ 72/100] Iter[ 18/ 19]		Loss: 3.8741 Acc@1: 73.000%
+| Epoch [ 72/100] Iter[ 19/ 19]		Loss: 2.1845 Acc@1: 73.000%
+{'Epoch': 72, 'Loss': tensor(2.1845, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #72			Loss: 107689.2656 Acc@1: 81.00%
+| Elapsed time : 0:04:59
+
+=> Training Epoch #73, LR=0.0002
+| Epoch [ 73/100] Iter[  1/ 19]		Loss: 430604.2188 Acc@1: 78.000%
+| Epoch [ 73/100] Iter[  2/ 19]		Loss: 215057.8125 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[  3/ 19]		Loss: 107333.3281 Acc@1: 75.000%
+| Epoch [ 73/100] Iter[  4/ 19]		Loss: 53815.9766 Acc@1: 75.000%
+| Epoch [ 73/100] Iter[  5/ 19]		Loss: 26862.4297 Acc@1: 76.000%
+| Epoch [ 73/100] Iter[  6/ 19]		Loss: 13455.2168 Acc@1: 75.000%
+| Epoch [ 73/100] Iter[  7/ 19]		Loss: 6721.6304 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[  8/ 19]		Loss: 3357.3083 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[  9/ 19]		Loss: 1678.2574 Acc@1: 72.000%
+| Epoch [ 73/100] Iter[ 10/ 19]		Loss: 840.6051 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 11/ 19]		Loss: 419.6456 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 12/ 19]		Loss: 210.7038 Acc@1: 72.000%
+| Epoch [ 73/100] Iter[ 13/ 19]		Loss: 105.3571 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 14/ 19]		Loss: 52.9539 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 15/ 19]		Loss: 26.8510 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 16/ 19]		Loss: 13.6403 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 17/ 19]		Loss: 7.2913 Acc@1: 72.000%
+| Epoch [ 73/100] Iter[ 18/ 19]		Loss: 3.8242 Acc@1: 73.000%
+| Epoch [ 73/100] Iter[ 19/ 19]		Loss: 2.0780 Acc@1: 73.000%
+{'Epoch': 73, 'Loss': tensor(2.0780, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #73			Loss: 107291.1562 Acc@1: 81.00%
+| Elapsed time : 0:05:02
+
+=> Training Epoch #74, LR=0.0002
+| Epoch [ 74/100] Iter[  1/ 19]		Loss: 428961.0312 Acc@1: 71.000%
+| Epoch [ 74/100] Iter[  2/ 19]		Loss: 214554.8438 Acc@1: 67.000%
+| Epoch [ 74/100] Iter[  3/ 19]		Loss: 107266.5938 Acc@1: 70.000%
+| Epoch [ 74/100] Iter[  4/ 19]		Loss: 53597.0234 Acc@1: 70.000%
+| Epoch [ 74/100] Iter[  5/ 19]		Loss: 26852.4863 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[  6/ 19]		Loss: 13402.5508 Acc@1: 74.000%
+| Epoch [ 74/100] Iter[  7/ 19]		Loss: 6693.9819 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[  8/ 19]		Loss: 3353.4810 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[  9/ 19]		Loss: 1678.6655 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[ 10/ 19]		Loss: 836.7396 Acc@1: 74.000%
+| Epoch [ 74/100] Iter[ 11/ 19]		Loss: 418.4282 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[ 12/ 19]		Loss: 209.9770 Acc@1: 72.000%
+| Epoch [ 74/100] Iter[ 13/ 19]		Loss: 105.3482 Acc@1: 71.000%
+| Epoch [ 74/100] Iter[ 14/ 19]		Loss: 52.7579 Acc@1: 72.000%
+| Epoch [ 74/100] Iter[ 15/ 19]		Loss: 26.7628 Acc@1: 72.000%
+| Epoch [ 74/100] Iter[ 16/ 19]		Loss: 13.5829 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[ 17/ 19]		Loss: 7.0404 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[ 18/ 19]		Loss: 3.8661 Acc@1: 73.000%
+| Epoch [ 74/100] Iter[ 19/ 19]		Loss: 2.2821 Acc@1: 73.000%
+{'Epoch': 74, 'Loss': tensor(2.2821, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #74			Loss: 106861.7266 Acc@1: 81.00%
+| Elapsed time : 0:05:07
+
+=> Training Epoch #75, LR=0.0002
+| Epoch [ 75/100] Iter[  1/ 19]		Loss: 427791.0938 Acc@1: 78.000%
+| Epoch [ 75/100] Iter[  2/ 19]		Loss: 214617.9219 Acc@1: 76.000%
+| Epoch [ 75/100] Iter[  3/ 19]		Loss: 106810.6641 Acc@1: 76.000%
+| Epoch [ 75/100] Iter[  4/ 19]		Loss: 53553.8086 Acc@1: 75.000%
+| Epoch [ 75/100] Iter[  5/ 19]		Loss: 26818.1914 Acc@1: 71.000%
+| Epoch [ 75/100] Iter[  6/ 19]		Loss: 13397.0010 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[  7/ 19]		Loss: 6679.4751 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[  8/ 19]		Loss: 3343.0564 Acc@1: 71.000%
+| Epoch [ 75/100] Iter[  9/ 19]		Loss: 1672.8535 Acc@1: 71.000%
+| Epoch [ 75/100] Iter[ 10/ 19]		Loss: 835.1423 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[ 11/ 19]		Loss: 417.9079 Acc@1: 73.000%
+| Epoch [ 75/100] Iter[ 12/ 19]		Loss: 209.1863 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[ 13/ 19]		Loss: 104.7204 Acc@1: 73.000%
+| Epoch [ 75/100] Iter[ 14/ 19]		Loss: 52.6919 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[ 15/ 19]		Loss: 26.6926 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[ 16/ 19]		Loss: 13.6095 Acc@1: 73.000%
+| Epoch [ 75/100] Iter[ 17/ 19]		Loss: 7.1884 Acc@1: 72.000%
+| Epoch [ 75/100] Iter[ 18/ 19]		Loss: 3.7743 Acc@1: 73.000%
+| Epoch [ 75/100] Iter[ 19/ 19]		Loss: 2.0837 Acc@1: 73.000%
+{'Epoch': 75, 'Loss': tensor(2.0837, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #75			Loss: 106869.8203 Acc@1: 81.00%
+| Elapsed time : 0:05:10
+
+=> Training Epoch #76, LR=0.0002
+| Epoch [ 76/100] Iter[  1/ 19]		Loss: 427546.8750 Acc@1: 78.000%
+| Epoch [ 76/100] Iter[  2/ 19]		Loss: 213850.7500 Acc@1: 68.000%
+| Epoch [ 76/100] Iter[  3/ 19]		Loss: 106976.3203 Acc@1: 71.000%
+| Epoch [ 76/100] Iter[  4/ 19]		Loss: 53427.0664 Acc@1: 71.000%
+| Epoch [ 76/100] Iter[  5/ 19]		Loss: 26721.8047 Acc@1: 72.000%
+| Epoch [ 76/100] Iter[  6/ 19]		Loss: 13325.5811 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[  7/ 19]		Loss: 6668.3633 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[  8/ 19]		Loss: 3336.7322 Acc@1: 71.000%
+| Epoch [ 76/100] Iter[  9/ 19]		Loss: 1669.5029 Acc@1: 71.000%
+| Epoch [ 76/100] Iter[ 10/ 19]		Loss: 833.3162 Acc@1: 71.000%
+| Epoch [ 76/100] Iter[ 11/ 19]		Loss: 417.7277 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[ 12/ 19]		Loss: 209.0893 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[ 13/ 19]		Loss: 104.9062 Acc@1: 72.000%
+| Epoch [ 76/100] Iter[ 14/ 19]		Loss: 52.8341 Acc@1: 72.000%
+| Epoch [ 76/100] Iter[ 15/ 19]		Loss: 26.5523 Acc@1: 72.000%
+| Epoch [ 76/100] Iter[ 16/ 19]		Loss: 13.5086 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[ 17/ 19]		Loss: 7.1732 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[ 18/ 19]		Loss: 3.7900 Acc@1: 73.000%
+| Epoch [ 76/100] Iter[ 19/ 19]		Loss: 2.2735 Acc@1: 73.000%
+{'Epoch': 76, 'Loss': tensor(2.2735, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #76			Loss: 106573.2266 Acc@1: 81.00%
+| Elapsed time : 0:05:14
+
+=> Training Epoch #77, LR=0.0002
+| Epoch [ 77/100] Iter[  1/ 19]		Loss: 427178.7500 Acc@1: 87.000%
+| Epoch [ 77/100] Iter[  2/ 19]		Loss: 213329.7344 Acc@1: 75.000%
+| Epoch [ 77/100] Iter[  3/ 19]		Loss: 106496.3594 Acc@1: 76.000%
+| Epoch [ 77/100] Iter[  4/ 19]		Loss: 53401.9219 Acc@1: 75.000%
+| Epoch [ 77/100] Iter[  5/ 19]		Loss: 26651.0176 Acc@1: 77.000%
+| Epoch [ 77/100] Iter[  6/ 19]		Loss: 13308.5479 Acc@1: 76.000%
+| Epoch [ 77/100] Iter[  7/ 19]		Loss: 6663.6567 Acc@1: 75.000%
+| Epoch [ 77/100] Iter[  8/ 19]		Loss: 3335.2532 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[  9/ 19]		Loss: 1664.4009 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 10/ 19]		Loss: 832.9059 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 11/ 19]		Loss: 416.6526 Acc@1: 72.000%
+| Epoch [ 77/100] Iter[ 12/ 19]		Loss: 208.3343 Acc@1: 73.000%
+| Epoch [ 77/100] Iter[ 13/ 19]		Loss: 104.5769 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 14/ 19]		Loss: 52.5901 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 15/ 19]		Loss: 26.5217 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 16/ 19]		Loss: 13.5501 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 17/ 19]		Loss: 7.0899 Acc@1: 74.000%
+| Epoch [ 77/100] Iter[ 18/ 19]		Loss: 4.0001 Acc@1: 73.000%
+| Epoch [ 77/100] Iter[ 19/ 19]		Loss: 2.2656 Acc@1: 73.000%
+{'Epoch': 77, 'Loss': tensor(2.2656, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #77			Loss: 106350.6953 Acc@1: 81.00%
+| Elapsed time : 0:05:18
+
+=> Training Epoch #78, LR=0.0002
+| Epoch [ 78/100] Iter[  1/ 19]		Loss: 426010.8438 Acc@1: 62.000%
+| Epoch [ 78/100] Iter[  2/ 19]		Loss: 213125.5781 Acc@1: 73.000%
+| Epoch [ 78/100] Iter[  3/ 19]		Loss: 106237.3828 Acc@1: 75.000%
+| Epoch [ 78/100] Iter[  4/ 19]		Loss: 53100.6562 Acc@1: 75.000%
+| Epoch [ 78/100] Iter[  5/ 19]		Loss: 26622.0840 Acc@1: 75.000%
+| Epoch [ 78/100] Iter[  6/ 19]		Loss: 13289.9287 Acc@1: 75.000%
+| Epoch [ 78/100] Iter[  7/ 19]		Loss: 6648.1831 Acc@1: 76.000%
+| Epoch [ 78/100] Iter[  8/ 19]		Loss: 3319.8616 Acc@1: 75.000%
+| Epoch [ 78/100] Iter[  9/ 19]		Loss: 1661.1736 Acc@1: 72.000%
+| Epoch [ 78/100] Iter[ 10/ 19]		Loss: 830.8942 Acc@1: 73.000%
+| Epoch [ 78/100] Iter[ 11/ 19]		Loss: 415.1501 Acc@1: 74.000%
+| Epoch [ 78/100] Iter[ 12/ 19]		Loss: 208.2493 Acc@1: 74.000%
+| Epoch [ 78/100] Iter[ 13/ 19]		Loss: 104.3448 Acc@1: 74.000%
+| Epoch [ 78/100] Iter[ 14/ 19]		Loss: 52.3400 Acc@1: 74.000%
+| Epoch [ 78/100] Iter[ 15/ 19]		Loss: 26.5354 Acc@1: 74.000%
+| Epoch [ 78/100] Iter[ 16/ 19]		Loss: 13.6283 Acc@1: 74.000%
+| Epoch [ 78/100] Iter[ 17/ 19]		Loss: 7.1567 Acc@1: 73.000%
+| Epoch [ 78/100] Iter[ 18/ 19]		Loss: 3.8705 Acc@1: 73.000%
+| Epoch [ 78/100] Iter[ 19/ 19]		Loss: 2.2731 Acc@1: 73.000%
+{'Epoch': 78, 'Loss': tensor(2.2731, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #78			Loss: 106167.4922 Acc@1: 81.00%
+| Elapsed time : 0:05:22
+
+=> Training Epoch #79, LR=0.0002
+| Epoch [ 79/100] Iter[  1/ 19]		Loss: 424370.5312 Acc@1: 71.000%
+| Epoch [ 79/100] Iter[  2/ 19]		Loss: 212657.0469 Acc@1: 68.000%
+| Epoch [ 79/100] Iter[  3/ 19]		Loss: 106200.1094 Acc@1: 65.000%
+| Epoch [ 79/100] Iter[  4/ 19]		Loss: 53038.6406 Acc@1: 70.000%
+| Epoch [ 79/100] Iter[  5/ 19]		Loss: 26538.1797 Acc@1: 71.000%
+| Epoch [ 79/100] Iter[  6/ 19]		Loss: 13275.2334 Acc@1: 72.000%
+| Epoch [ 79/100] Iter[  7/ 19]		Loss: 6633.4580 Acc@1: 72.000%
+| Epoch [ 79/100] Iter[  8/ 19]		Loss: 3316.9810 Acc@1: 72.000%
+| Epoch [ 79/100] Iter[  9/ 19]		Loss: 1660.5204 Acc@1: 71.000%
+| Epoch [ 79/100] Iter[ 10/ 19]		Loss: 830.9163 Acc@1: 70.000%
+| Epoch [ 79/100] Iter[ 11/ 19]		Loss: 415.3138 Acc@1: 70.000%
+| Epoch [ 79/100] Iter[ 12/ 19]		Loss: 208.0760 Acc@1: 70.000%
+| Epoch [ 79/100] Iter[ 13/ 19]		Loss: 104.2946 Acc@1: 70.000%
+| Epoch [ 79/100] Iter[ 14/ 19]		Loss: 52.1034 Acc@1: 72.000%
+| Epoch [ 79/100] Iter[ 15/ 19]		Loss: 26.4773 Acc@1: 72.000%
+| Epoch [ 79/100] Iter[ 16/ 19]		Loss: 13.3963 Acc@1: 73.000%
+| Epoch [ 79/100] Iter[ 17/ 19]		Loss: 7.1258 Acc@1: 72.000%
+| Epoch [ 79/100] Iter[ 18/ 19]		Loss: 3.7374 Acc@1: 73.000%
+| Epoch [ 79/100] Iter[ 19/ 19]		Loss: 2.0283 Acc@1: 73.000%
+{'Epoch': 79, 'Loss': tensor(2.0283, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #79			Loss: 106119.3203 Acc@1: 81.00%
+| Elapsed time : 0:05:25
+
+=> Training Epoch #80, LR=0.0002
+| Epoch [ 80/100] Iter[  1/ 19]		Loss: 423766.7812 Acc@1: 71.000%
+| Epoch [ 80/100] Iter[  2/ 19]		Loss: 212100.5469 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[  3/ 19]		Loss: 105994.8906 Acc@1: 72.000%
+| Epoch [ 80/100] Iter[  4/ 19]		Loss: 53161.2383 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[  5/ 19]		Loss: 26498.7852 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[  6/ 19]		Loss: 13241.8252 Acc@1: 71.000%
+| Epoch [ 80/100] Iter[  7/ 19]		Loss: 6630.1040 Acc@1: 74.000%
+| Epoch [ 80/100] Iter[  8/ 19]		Loss: 3312.3591 Acc@1: 70.000%
+| Epoch [ 80/100] Iter[  9/ 19]		Loss: 1655.7908 Acc@1: 71.000%
+| Epoch [ 80/100] Iter[ 10/ 19]		Loss: 827.5819 Acc@1: 72.000%
+| Epoch [ 80/100] Iter[ 11/ 19]		Loss: 414.6610 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[ 12/ 19]		Loss: 207.5842 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[ 13/ 19]		Loss: 104.2590 Acc@1: 72.000%
+| Epoch [ 80/100] Iter[ 14/ 19]		Loss: 52.0416 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[ 15/ 19]		Loss: 26.4782 Acc@1: 72.000%
+| Epoch [ 80/100] Iter[ 16/ 19]		Loss: 13.4265 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[ 17/ 19]		Loss: 7.1125 Acc@1: 72.000%
+| Epoch [ 80/100] Iter[ 18/ 19]		Loss: 3.7265 Acc@1: 73.000%
+| Epoch [ 80/100] Iter[ 19/ 19]		Loss: 2.2712 Acc@1: 73.000%
+{'Epoch': 80, 'Loss': tensor(2.2712, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #80			Loss: 105720.7109 Acc@1: 81.00%
+| Elapsed time : 0:05:29
+
+=> Training Epoch #81, LR=0.0002
+| Epoch [ 81/100] Iter[  1/ 19]		Loss: 423630.4688 Acc@1: 65.000%
+| Epoch [ 81/100] Iter[  2/ 19]		Loss: 211896.6875 Acc@1: 70.000%
+| Epoch [ 81/100] Iter[  3/ 19]		Loss: 105743.0234 Acc@1: 70.000%
+| Epoch [ 81/100] Iter[  4/ 19]		Loss: 52959.7578 Acc@1: 68.000%
+| Epoch [ 81/100] Iter[  5/ 19]		Loss: 26483.4883 Acc@1: 68.000%
+| Epoch [ 81/100] Iter[  6/ 19]		Loss: 13224.8340 Acc@1: 69.000%
+| Epoch [ 81/100] Iter[  7/ 19]		Loss: 6596.7158 Acc@1: 70.000%
+| Epoch [ 81/100] Iter[  8/ 19]		Loss: 3300.7986 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[  9/ 19]		Loss: 1653.6095 Acc@1: 71.000%
+| Epoch [ 81/100] Iter[ 10/ 19]		Loss: 826.7488 Acc@1: 72.000%
+| Epoch [ 81/100] Iter[ 11/ 19]		Loss: 414.4498 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[ 12/ 19]		Loss: 206.7141 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[ 13/ 19]		Loss: 103.6733 Acc@1: 72.000%
+| Epoch [ 81/100] Iter[ 14/ 19]		Loss: 52.0747 Acc@1: 72.000%
+| Epoch [ 81/100] Iter[ 15/ 19]		Loss: 26.3016 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[ 16/ 19]		Loss: 13.4147 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[ 17/ 19]		Loss: 7.0439 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[ 18/ 19]		Loss: 3.8966 Acc@1: 73.000%
+| Epoch [ 81/100] Iter[ 19/ 19]		Loss: 2.1433 Acc@1: 73.000%
+{'Epoch': 81, 'Loss': tensor(2.1433, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #81			Loss: 105598.9531 Acc@1: 81.00%
+| Elapsed time : 0:05:33
+
+=> Training Epoch #82, LR=0.0002
+| Epoch [ 82/100] Iter[  1/ 19]		Loss: 422534.0000 Acc@1: 68.000%
+| Epoch [ 82/100] Iter[  2/ 19]		Loss: 211171.8594 Acc@1: 65.000%
+| Epoch [ 82/100] Iter[  3/ 19]		Loss: 105465.0547 Acc@1: 65.000%
+| Epoch [ 82/100] Iter[  4/ 19]		Loss: 52784.3906 Acc@1: 68.000%
+| Epoch [ 82/100] Iter[  5/ 19]		Loss: 26389.2129 Acc@1: 68.000%
+| Epoch [ 82/100] Iter[  6/ 19]		Loss: 13185.4189 Acc@1: 70.000%
+| Epoch [ 82/100] Iter[  7/ 19]		Loss: 6591.5684 Acc@1: 70.000%
+| Epoch [ 82/100] Iter[  8/ 19]		Loss: 3296.1326 Acc@1: 71.000%
+| Epoch [ 82/100] Iter[  9/ 19]		Loss: 1649.5684 Acc@1: 72.000%
+| Epoch [ 82/100] Iter[ 10/ 19]		Loss: 823.2071 Acc@1: 73.000%
+| Epoch [ 82/100] Iter[ 11/ 19]		Loss: 412.7389 Acc@1: 74.000%
+| Epoch [ 82/100] Iter[ 12/ 19]		Loss: 206.3628 Acc@1: 74.000%
+| Epoch [ 82/100] Iter[ 13/ 19]		Loss: 103.6286 Acc@1: 74.000%
+| Epoch [ 82/100] Iter[ 14/ 19]		Loss: 52.1506 Acc@1: 73.000%
+| Epoch [ 82/100] Iter[ 15/ 19]		Loss: 26.2378 Acc@1: 74.000%
+| Epoch [ 82/100] Iter[ 16/ 19]		Loss: 13.4887 Acc@1: 74.000%
+| Epoch [ 82/100] Iter[ 17/ 19]		Loss: 7.1361 Acc@1: 73.000%
+| Epoch [ 82/100] Iter[ 18/ 19]		Loss: 3.7851 Acc@1: 73.000%
+| Epoch [ 82/100] Iter[ 19/ 19]		Loss: 2.2679 Acc@1: 73.000%
+{'Epoch': 82, 'Loss': tensor(2.2679, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #82			Loss: 105454.3438 Acc@1: 81.00%
+| Elapsed time : 0:05:37
+
+=> Training Epoch #83, LR=0.0002
+| Epoch [ 83/100] Iter[  1/ 19]		Loss: 421780.4062 Acc@1: 71.000%
+| Epoch [ 83/100] Iter[  2/ 19]		Loss: 210521.2188 Acc@1: 67.000%
+| Epoch [ 83/100] Iter[  3/ 19]		Loss: 105474.9062 Acc@1: 71.000%
+| Epoch [ 83/100] Iter[  4/ 19]		Loss: 52716.5273 Acc@1: 75.000%
+| Epoch [ 83/100] Iter[  5/ 19]		Loss: 26317.7148 Acc@1: 74.000%
+| Epoch [ 83/100] Iter[  6/ 19]		Loss: 13169.6201 Acc@1: 72.000%
+| Epoch [ 83/100] Iter[  7/ 19]		Loss: 6580.1929 Acc@1: 70.000%
+| Epoch [ 83/100] Iter[  8/ 19]		Loss: 3292.8713 Acc@1: 70.000%
+| Epoch [ 83/100] Iter[  9/ 19]		Loss: 1647.8280 Acc@1: 70.000%
+| Epoch [ 83/100] Iter[ 10/ 19]		Loss: 823.4185 Acc@1: 71.000%
+| Epoch [ 83/100] Iter[ 11/ 19]		Loss: 412.2657 Acc@1: 71.000%
+| Epoch [ 83/100] Iter[ 12/ 19]		Loss: 206.1233 Acc@1: 71.000%
+| Epoch [ 83/100] Iter[ 13/ 19]		Loss: 103.3097 Acc@1: 72.000%
+| Epoch [ 83/100] Iter[ 14/ 19]		Loss: 52.0469 Acc@1: 71.000%
+| Epoch [ 83/100] Iter[ 15/ 19]		Loss: 26.1867 Acc@1: 72.000%
+| Epoch [ 83/100] Iter[ 16/ 19]		Loss: 13.3667 Acc@1: 73.000%
+| Epoch [ 83/100] Iter[ 17/ 19]		Loss: 6.9289 Acc@1: 73.000%
+| Epoch [ 83/100] Iter[ 18/ 19]		Loss: 3.7502 Acc@1: 73.000%
+| Epoch [ 83/100] Iter[ 19/ 19]		Loss: 2.6012 Acc@1: 73.000%
+{'Epoch': 83, 'Loss': tensor(2.6012, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #83			Loss: 105200.0156 Acc@1: 81.00%
+| Elapsed time : 0:05:40
+
+=> Training Epoch #84, LR=0.0002
+| Epoch [ 84/100] Iter[  1/ 19]		Loss: 421229.7188 Acc@1: 68.000%
+| Epoch [ 84/100] Iter[  2/ 19]		Loss: 210403.2656 Acc@1: 67.000%
+| Epoch [ 84/100] Iter[  3/ 19]		Loss: 105284.9375 Acc@1: 68.000%
+| Epoch [ 84/100] Iter[  4/ 19]		Loss: 52632.8477 Acc@1: 72.000%
+| Epoch [ 84/100] Iter[  5/ 19]		Loss: 26258.9355 Acc@1: 72.000%
+| Epoch [ 84/100] Iter[  6/ 19]		Loss: 13139.0781 Acc@1: 72.000%
+| Epoch [ 84/100] Iter[  7/ 19]		Loss: 6569.9536 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[  8/ 19]		Loss: 3284.1716 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[  9/ 19]		Loss: 1641.2939 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 10/ 19]		Loss: 821.1972 Acc@1: 74.000%
+| Epoch [ 84/100] Iter[ 11/ 19]		Loss: 410.8296 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 12/ 19]		Loss: 205.6511 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 13/ 19]		Loss: 103.3510 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 14/ 19]		Loss: 51.9316 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 15/ 19]		Loss: 26.2581 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 16/ 19]		Loss: 13.3572 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 17/ 19]		Loss: 7.1627 Acc@1: 72.000%
+| Epoch [ 84/100] Iter[ 18/ 19]		Loss: 3.7692 Acc@1: 73.000%
+| Epoch [ 84/100] Iter[ 19/ 19]		Loss: 2.0152 Acc@1: 73.000%
+{'Epoch': 84, 'Loss': tensor(2.0152, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #84			Loss: 105003.5703 Acc@1: 81.00%
+| Elapsed time : 0:05:44
+
+=> Training Epoch #85, LR=0.0002
+| Epoch [ 85/100] Iter[  1/ 19]		Loss: 420701.6562 Acc@1: 68.000%
+| Epoch [ 85/100] Iter[  2/ 19]		Loss: 209662.9844 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[  3/ 19]		Loss: 104848.4141 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[  4/ 19]		Loss: 52434.6406 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[  5/ 19]		Loss: 26207.3047 Acc@1: 70.000%
+| Epoch [ 85/100] Iter[  6/ 19]		Loss: 13098.6270 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[  7/ 19]		Loss: 6550.8130 Acc@1: 72.000%
+| Epoch [ 85/100] Iter[  8/ 19]		Loss: 3282.2996 Acc@1: 72.000%
+| Epoch [ 85/100] Iter[  9/ 19]		Loss: 1639.5187 Acc@1: 73.000%
+| Epoch [ 85/100] Iter[ 10/ 19]		Loss: 819.0564 Acc@1: 72.000%
+| Epoch [ 85/100] Iter[ 11/ 19]		Loss: 410.0353 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[ 12/ 19]		Loss: 205.6644 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[ 13/ 19]		Loss: 103.0780 Acc@1: 71.000%
+| Epoch [ 85/100] Iter[ 14/ 19]		Loss: 51.6215 Acc@1: 72.000%
+| Epoch [ 85/100] Iter[ 15/ 19]		Loss: 26.0698 Acc@1: 73.000%
+| Epoch [ 85/100] Iter[ 16/ 19]		Loss: 13.3327 Acc@1: 73.000%
+| Epoch [ 85/100] Iter[ 17/ 19]		Loss: 6.9795 Acc@1: 73.000%
+| Epoch [ 85/100] Iter[ 18/ 19]		Loss: 3.8207 Acc@1: 73.000%
+| Epoch [ 85/100] Iter[ 19/ 19]		Loss: 2.2612 Acc@1: 73.000%
+{'Epoch': 85, 'Loss': tensor(2.2612, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #85			Loss: 104975.2969 Acc@1: 81.00%
+| Elapsed time : 0:05:48
+
+=> Training Epoch #86, LR=0.0002
+| Epoch [ 86/100] Iter[  1/ 19]		Loss: 419732.4062 Acc@1: 75.000%
+| Epoch [ 86/100] Iter[  2/ 19]		Loss: 209328.5469 Acc@1: 71.000%
+| Epoch [ 86/100] Iter[  3/ 19]		Loss: 104740.9766 Acc@1: 68.000%
+| Epoch [ 86/100] Iter[  4/ 19]		Loss: 52359.7891 Acc@1: 71.000%
+| Epoch [ 86/100] Iter[  5/ 19]		Loss: 26146.8496 Acc@1: 71.000%
+| Epoch [ 86/100] Iter[  6/ 19]		Loss: 13078.5791 Acc@1: 70.000%
+| Epoch [ 86/100] Iter[  7/ 19]		Loss: 6547.4722 Acc@1: 70.000%
+| Epoch [ 86/100] Iter[  8/ 19]		Loss: 3271.0376 Acc@1: 72.000%
+| Epoch [ 86/100] Iter[  9/ 19]		Loss: 1633.5946 Acc@1: 70.000%
+| Epoch [ 86/100] Iter[ 10/ 19]		Loss: 818.9725 Acc@1: 70.000%
+| Epoch [ 86/100] Iter[ 11/ 19]		Loss: 409.8900 Acc@1: 71.000%
+| Epoch [ 86/100] Iter[ 12/ 19]		Loss: 204.9047 Acc@1: 73.000%
+| Epoch [ 86/100] Iter[ 13/ 19]		Loss: 102.8855 Acc@1: 72.000%
+| Epoch [ 86/100] Iter[ 14/ 19]		Loss: 51.4959 Acc@1: 73.000%
+| Epoch [ 86/100] Iter[ 15/ 19]		Loss: 26.1060 Acc@1: 73.000%
+| Epoch [ 86/100] Iter[ 16/ 19]		Loss: 13.4068 Acc@1: 73.000%
+| Epoch [ 86/100] Iter[ 17/ 19]		Loss: 6.9847 Acc@1: 73.000%
+| Epoch [ 86/100] Iter[ 18/ 19]		Loss: 3.7938 Acc@1: 73.000%
+| Epoch [ 86/100] Iter[ 19/ 19]		Loss: 2.1303 Acc@1: 73.000%
+{'Epoch': 86, 'Loss': tensor(2.1303, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #86			Loss: 104794.9531 Acc@1: 81.00%
+| Elapsed time : 0:05:52
+
+=> Training Epoch #87, LR=0.0002
+| Epoch [ 87/100] Iter[  1/ 19]		Loss: 418243.4688 Acc@1: 65.000%
+| Epoch [ 87/100] Iter[  2/ 19]		Loss: 209314.1094 Acc@1: 71.000%
+| Epoch [ 87/100] Iter[  3/ 19]		Loss: 104729.0469 Acc@1: 72.000%
+| Epoch [ 87/100] Iter[  4/ 19]		Loss: 52390.6797 Acc@1: 72.000%
+| Epoch [ 87/100] Iter[  5/ 19]		Loss: 26108.0059 Acc@1: 75.000%
+| Epoch [ 87/100] Iter[  6/ 19]		Loss: 13032.7168 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[  7/ 19]		Loss: 6527.7798 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[  8/ 19]		Loss: 3264.4939 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[  9/ 19]		Loss: 1635.5731 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[ 10/ 19]		Loss: 818.5318 Acc@1: 75.000%
+| Epoch [ 87/100] Iter[ 11/ 19]		Loss: 408.6510 Acc@1: 75.000%
+| Epoch [ 87/100] Iter[ 12/ 19]		Loss: 204.8871 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[ 13/ 19]		Loss: 102.9556 Acc@1: 73.000%
+| Epoch [ 87/100] Iter[ 14/ 19]		Loss: 51.4757 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[ 15/ 19]		Loss: 26.0930 Acc@1: 74.000%
+| Epoch [ 87/100] Iter[ 16/ 19]		Loss: 13.5481 Acc@1: 72.000%
+| Epoch [ 87/100] Iter[ 17/ 19]		Loss: 7.0712 Acc@1: 72.000%
+| Epoch [ 87/100] Iter[ 18/ 19]		Loss: 3.6563 Acc@1: 72.000%
+| Epoch [ 87/100] Iter[ 19/ 19]		Loss: 1.9279 Acc@1: 73.000%
+{'Epoch': 87, 'Loss': tensor(1.9279, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #87			Loss: 104582.7500 Acc@1: 81.00%
+| Elapsed time : 0:05:55
+
+=> Training Epoch #88, LR=0.0002
+| Epoch [ 88/100] Iter[  1/ 19]		Loss: 417229.9062 Acc@1: 75.000%
+| Epoch [ 88/100] Iter[  2/ 19]		Loss: 209140.0938 Acc@1: 68.000%
+| Epoch [ 88/100] Iter[  3/ 19]		Loss: 104473.8359 Acc@1: 68.000%
+| Epoch [ 88/100] Iter[  4/ 19]		Loss: 52200.5742 Acc@1: 69.000%
+| Epoch [ 88/100] Iter[  5/ 19]		Loss: 26091.6250 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[  6/ 19]		Loss: 13047.7754 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[  7/ 19]		Loss: 6527.7358 Acc@1: 72.000%
+| Epoch [ 88/100] Iter[  8/ 19]		Loss: 3257.8975 Acc@1: 72.000%
+| Epoch [ 88/100] Iter[  9/ 19]		Loss: 1628.4923 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[ 10/ 19]		Loss: 815.9722 Acc@1: 70.000%
+| Epoch [ 88/100] Iter[ 11/ 19]		Loss: 408.2299 Acc@1: 70.000%
+| Epoch [ 88/100] Iter[ 12/ 19]		Loss: 203.9636 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[ 13/ 19]		Loss: 102.4901 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[ 14/ 19]		Loss: 51.4695 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[ 15/ 19]		Loss: 26.0254 Acc@1: 71.000%
+| Epoch [ 88/100] Iter[ 16/ 19]		Loss: 13.2269 Acc@1: 72.000%
+| Epoch [ 88/100] Iter[ 17/ 19]		Loss: 6.8526 Acc@1: 72.000%
+| Epoch [ 88/100] Iter[ 18/ 19]		Loss: 3.7745 Acc@1: 72.000%
+| Epoch [ 88/100] Iter[ 19/ 19]		Loss: 1.8977 Acc@1: 73.000%
+{'Epoch': 88, 'Loss': tensor(1.8977, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #88			Loss: 104142.6250 Acc@1: 81.00%
+| Elapsed time : 0:05:59
+
+=> Training Epoch #89, LR=0.0002
+| Epoch [ 89/100] Iter[  1/ 19]		Loss: 416556.4688 Acc@1: 75.000%
+| Epoch [ 89/100] Iter[  2/ 19]		Loss: 208085.3125 Acc@1: 76.000%
+| Epoch [ 89/100] Iter[  3/ 19]		Loss: 104309.0781 Acc@1: 73.000%
+| Epoch [ 89/100] Iter[  4/ 19]		Loss: 52066.7539 Acc@1: 75.000%
+| Epoch [ 89/100] Iter[  5/ 19]		Loss: 26011.9941 Acc@1: 75.000%
+| Epoch [ 89/100] Iter[  6/ 19]		Loss: 13021.4502 Acc@1: 76.000%
+| Epoch [ 89/100] Iter[  7/ 19]		Loss: 6496.2944 Acc@1: 76.000%
+| Epoch [ 89/100] Iter[  8/ 19]		Loss: 3251.7349 Acc@1: 76.000%
+| Epoch [ 89/100] Iter[  9/ 19]		Loss: 1628.6256 Acc@1: 76.000%
+| Epoch [ 89/100] Iter[ 10/ 19]		Loss: 813.3493 Acc@1: 77.000%
+| Epoch [ 89/100] Iter[ 11/ 19]		Loss: 407.3776 Acc@1: 76.000%
+| Epoch [ 89/100] Iter[ 12/ 19]		Loss: 203.7682 Acc@1: 75.000%
+| Epoch [ 89/100] Iter[ 13/ 19]		Loss: 102.2661 Acc@1: 75.000%
+| Epoch [ 89/100] Iter[ 14/ 19]		Loss: 51.6002 Acc@1: 74.000%
+| Epoch [ 89/100] Iter[ 15/ 19]		Loss: 26.0964 Acc@1: 73.000%
+| Epoch [ 89/100] Iter[ 16/ 19]		Loss: 13.1765 Acc@1: 74.000%
+| Epoch [ 89/100] Iter[ 17/ 19]		Loss: 7.0424 Acc@1: 73.000%
+| Epoch [ 89/100] Iter[ 18/ 19]		Loss: 3.7634 Acc@1: 73.000%
+| Epoch [ 89/100] Iter[ 19/ 19]		Loss: 2.1385 Acc@1: 73.000%
+{'Epoch': 89, 'Loss': tensor(2.1385, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #89			Loss: 103857.1172 Acc@1: 81.00%
+| Elapsed time : 0:06:03
+
+=> Training Epoch #90, LR=0.0002
+| Epoch [ 90/100] Iter[  1/ 19]		Loss: 415832.2188 Acc@1: 71.000%
+| Epoch [ 90/100] Iter[  2/ 19]		Loss: 208105.7656 Acc@1: 68.000%
+| Epoch [ 90/100] Iter[  3/ 19]		Loss: 103973.6250 Acc@1: 73.000%
+| Epoch [ 90/100] Iter[  4/ 19]		Loss: 51871.1367 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[  5/ 19]		Loss: 25977.4336 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[  6/ 19]		Loss: 12978.3955 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[  7/ 19]		Loss: 6483.7148 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[  8/ 19]		Loss: 3248.0071 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[  9/ 19]		Loss: 1624.3541 Acc@1: 74.000%
+| Epoch [ 90/100] Iter[ 10/ 19]		Loss: 811.9068 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[ 11/ 19]		Loss: 405.7282 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[ 12/ 19]		Loss: 203.3077 Acc@1: 75.000%
+| Epoch [ 90/100] Iter[ 13/ 19]		Loss: 102.2289 Acc@1: 73.000%
+| Epoch [ 90/100] Iter[ 14/ 19]		Loss: 51.2561 Acc@1: 73.000%
+| Epoch [ 90/100] Iter[ 15/ 19]		Loss: 25.9885 Acc@1: 73.000%
+| Epoch [ 90/100] Iter[ 16/ 19]		Loss: 13.2313 Acc@1: 73.000%
+| Epoch [ 90/100] Iter[ 17/ 19]		Loss: 6.9592 Acc@1: 72.000%
+| Epoch [ 90/100] Iter[ 18/ 19]		Loss: 3.6776 Acc@1: 73.000%
+| Epoch [ 90/100] Iter[ 19/ 19]		Loss: 2.2282 Acc@1: 73.000%
+{'Epoch': 90, 'Loss': tensor(2.2282, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #90			Loss: 103767.2656 Acc@1: 81.00%
+| Elapsed time : 0:06:06
+
+=> Training Epoch #91, LR=0.0002
+| Epoch [ 91/100] Iter[  1/ 19]		Loss: 415502.7500 Acc@1: 78.000%
+| Epoch [ 91/100] Iter[  2/ 19]		Loss: 207836.9375 Acc@1: 78.000%
+| Epoch [ 91/100] Iter[  3/ 19]		Loss: 103631.1406 Acc@1: 77.000%
+| Epoch [ 91/100] Iter[  4/ 19]		Loss: 51849.6602 Acc@1: 76.000%
+| Epoch [ 91/100] Iter[  5/ 19]		Loss: 25890.9180 Acc@1: 76.000%
+| Epoch [ 91/100] Iter[  6/ 19]		Loss: 12960.9600 Acc@1: 75.000%
+| Epoch [ 91/100] Iter[  7/ 19]		Loss: 6484.8184 Acc@1: 74.000%
+| Epoch [ 91/100] Iter[  8/ 19]		Loss: 3246.2964 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[  9/ 19]		Loss: 1620.1755 Acc@1: 72.000%
+| Epoch [ 91/100] Iter[ 10/ 19]		Loss: 810.3047 Acc@1: 71.000%
+| Epoch [ 91/100] Iter[ 11/ 19]		Loss: 405.2567 Acc@1: 72.000%
+| Epoch [ 91/100] Iter[ 12/ 19]		Loss: 203.6942 Acc@1: 72.000%
+| Epoch [ 91/100] Iter[ 13/ 19]		Loss: 101.8511 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[ 14/ 19]		Loss: 51.1575 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[ 15/ 19]		Loss: 25.8734 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[ 16/ 19]		Loss: 13.1858 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[ 17/ 19]		Loss: 6.9038 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[ 18/ 19]		Loss: 3.7369 Acc@1: 73.000%
+| Epoch [ 91/100] Iter[ 19/ 19]		Loss: 2.4036 Acc@1: 73.000%
+{'Epoch': 91, 'Loss': tensor(2.4036, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #91			Loss: 103578.9688 Acc@1: 81.00%
+| Elapsed time : 0:06:10
+
+=> Training Epoch #92, LR=0.0002
+| Epoch [ 92/100] Iter[  1/ 19]		Loss: 414395.1562 Acc@1: 59.000%
+| Epoch [ 92/100] Iter[  2/ 19]		Loss: 207139.0312 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[  3/ 19]		Loss: 103720.3281 Acc@1: 70.000%
+| Epoch [ 92/100] Iter[  4/ 19]		Loss: 51775.4766 Acc@1: 69.000%
+| Epoch [ 92/100] Iter[  5/ 19]		Loss: 25880.3223 Acc@1: 71.000%
+| Epoch [ 92/100] Iter[  6/ 19]		Loss: 12943.3350 Acc@1: 72.000%
+| Epoch [ 92/100] Iter[  7/ 19]		Loss: 6478.5259 Acc@1: 71.000%
+| Epoch [ 92/100] Iter[  8/ 19]		Loss: 3235.4517 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[  9/ 19]		Loss: 1616.2212 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[ 10/ 19]		Loss: 809.2272 Acc@1: 74.000%
+| Epoch [ 92/100] Iter[ 11/ 19]		Loss: 404.1193 Acc@1: 74.000%
+| Epoch [ 92/100] Iter[ 12/ 19]		Loss: 202.7337 Acc@1: 74.000%
+| Epoch [ 92/100] Iter[ 13/ 19]		Loss: 101.6443 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[ 14/ 19]		Loss: 51.0757 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[ 15/ 19]		Loss: 25.7815 Acc@1: 74.000%
+| Epoch [ 92/100] Iter[ 16/ 19]		Loss: 13.3084 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[ 17/ 19]		Loss: 6.8844 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[ 18/ 19]		Loss: 3.7834 Acc@1: 73.000%
+| Epoch [ 92/100] Iter[ 19/ 19]		Loss: 2.2332 Acc@1: 73.000%
+{'Epoch': 92, 'Loss': tensor(2.2332, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #92			Loss: 103447.3047 Acc@1: 81.00%
+| Elapsed time : 0:06:14
+
+=> Training Epoch #93, LR=0.0002
+| Epoch [ 93/100] Iter[  1/ 19]		Loss: 414046.4688 Acc@1: 71.000%
+| Epoch [ 93/100] Iter[  2/ 19]		Loss: 207293.4531 Acc@1: 65.000%
+| Epoch [ 93/100] Iter[  3/ 19]		Loss: 103228.1016 Acc@1: 71.000%
+| Epoch [ 93/100] Iter[  4/ 19]		Loss: 51656.4102 Acc@1: 75.000%
+| Epoch [ 93/100] Iter[  5/ 19]		Loss: 25826.3359 Acc@1: 75.000%
+| Epoch [ 93/100] Iter[  6/ 19]		Loss: 12907.5684 Acc@1: 76.000%
+| Epoch [ 93/100] Iter[  7/ 19]		Loss: 6452.3687 Acc@1: 76.000%
+| Epoch [ 93/100] Iter[  8/ 19]		Loss: 3233.2073 Acc@1: 77.000%
+| Epoch [ 93/100] Iter[  9/ 19]		Loss: 1614.3711 Acc@1: 76.000%
+| Epoch [ 93/100] Iter[ 10/ 19]		Loss: 806.2155 Acc@1: 76.000%
+| Epoch [ 93/100] Iter[ 11/ 19]		Loss: 404.2184 Acc@1: 76.000%
+| Epoch [ 93/100] Iter[ 12/ 19]		Loss: 202.4889 Acc@1: 74.000%
+| Epoch [ 93/100] Iter[ 13/ 19]		Loss: 101.3493 Acc@1: 74.000%
+| Epoch [ 93/100] Iter[ 14/ 19]		Loss: 51.0686 Acc@1: 74.000%
+| Epoch [ 93/100] Iter[ 15/ 19]		Loss: 25.8528 Acc@1: 73.000%
+| Epoch [ 93/100] Iter[ 16/ 19]		Loss: 13.2220 Acc@1: 73.000%
+| Epoch [ 93/100] Iter[ 17/ 19]		Loss: 6.9837 Acc@1: 72.000%
+| Epoch [ 93/100] Iter[ 18/ 19]		Loss: 3.7159 Acc@1: 73.000%
+| Epoch [ 93/100] Iter[ 19/ 19]		Loss: 2.0048 Acc@1: 73.000%
+{'Epoch': 93, 'Loss': tensor(2.0048, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #93			Loss: 103138.7812 Acc@1: 81.00%
+| Elapsed time : 0:06:18
+
+=> Training Epoch #94, LR=0.0002
+| Epoch [ 94/100] Iter[  1/ 19]		Loss: 413387.4375 Acc@1: 53.000%
+| Epoch [ 94/100] Iter[  2/ 19]		Loss: 206610.6094 Acc@1: 56.000%
+| Epoch [ 94/100] Iter[  3/ 19]		Loss: 103134.3828 Acc@1: 63.000%
+| Epoch [ 94/100] Iter[  4/ 19]		Loss: 51644.9844 Acc@1: 64.000%
+| Epoch [ 94/100] Iter[  5/ 19]		Loss: 25756.7012 Acc@1: 63.000%
+| Epoch [ 94/100] Iter[  6/ 19]		Loss: 12876.7393 Acc@1: 67.000%
+| Epoch [ 94/100] Iter[  7/ 19]		Loss: 6432.4419 Acc@1: 68.000%
+| Epoch [ 94/100] Iter[  8/ 19]		Loss: 3220.5615 Acc@1: 69.000%
+| Epoch [ 94/100] Iter[  9/ 19]		Loss: 1611.9312 Acc@1: 70.000%
+| Epoch [ 94/100] Iter[ 10/ 19]		Loss: 805.5981 Acc@1: 71.000%
+| Epoch [ 94/100] Iter[ 11/ 19]		Loss: 403.2332 Acc@1: 71.000%
+| Epoch [ 94/100] Iter[ 12/ 19]		Loss: 201.5654 Acc@1: 71.000%
+| Epoch [ 94/100] Iter[ 13/ 19]		Loss: 101.2658 Acc@1: 72.000%
+| Epoch [ 94/100] Iter[ 14/ 19]		Loss: 50.7765 Acc@1: 73.000%
+| Epoch [ 94/100] Iter[ 15/ 19]		Loss: 25.7526 Acc@1: 73.000%
+| Epoch [ 94/100] Iter[ 16/ 19]		Loss: 13.0734 Acc@1: 73.000%
+| Epoch [ 94/100] Iter[ 17/ 19]		Loss: 6.9543 Acc@1: 72.000%
+| Epoch [ 94/100] Iter[ 18/ 19]		Loss: 3.6453 Acc@1: 73.000%
+| Epoch [ 94/100] Iter[ 19/ 19]		Loss: 2.2250 Acc@1: 73.000%
+{'Epoch': 94, 'Loss': tensor(2.2250, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #94			Loss: 102993.6641 Acc@1: 81.00%
+| Elapsed time : 0:06:23
+
+=> Training Epoch #95, LR=0.0002
+| Epoch [ 95/100] Iter[  1/ 19]		Loss: 412152.8125 Acc@1: 71.000%
+| Epoch [ 95/100] Iter[  2/ 19]		Loss: 206030.7031 Acc@1: 75.000%
+| Epoch [ 95/100] Iter[  3/ 19]		Loss: 103041.7891 Acc@1: 72.000%
+| Epoch [ 95/100] Iter[  4/ 19]		Loss: 51460.6602 Acc@1: 72.000%
+| Epoch [ 95/100] Iter[  5/ 19]		Loss: 25753.5000 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[  6/ 19]		Loss: 12857.8730 Acc@1: 75.000%
+| Epoch [ 95/100] Iter[  7/ 19]		Loss: 6428.4980 Acc@1: 74.000%
+| Epoch [ 95/100] Iter[  8/ 19]		Loss: 3209.6375 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[  9/ 19]		Loss: 1607.9983 Acc@1: 74.000%
+| Epoch [ 95/100] Iter[ 10/ 19]		Loss: 804.3668 Acc@1: 74.000%
+| Epoch [ 95/100] Iter[ 11/ 19]		Loss: 402.2435 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[ 12/ 19]		Loss: 201.1647 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[ 13/ 19]		Loss: 100.9611 Acc@1: 74.000%
+| Epoch [ 95/100] Iter[ 14/ 19]		Loss: 50.9601 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[ 15/ 19]		Loss: 25.7182 Acc@1: 72.000%
+| Epoch [ 95/100] Iter[ 16/ 19]		Loss: 13.1182 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[ 17/ 19]		Loss: 6.8463 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[ 18/ 19]		Loss: 3.6987 Acc@1: 73.000%
+| Epoch [ 95/100] Iter[ 19/ 19]		Loss: 2.1051 Acc@1: 73.000%
+{'Epoch': 95, 'Loss': tensor(2.1051, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #95			Loss: 102873.5938 Acc@1: 81.00%
+| Elapsed time : 0:06:27
+
+=> Training Epoch #96, LR=0.0002
+| Epoch [ 96/100] Iter[  1/ 19]		Loss: 411818.5625 Acc@1: 62.000%
+| Epoch [ 96/100] Iter[  2/ 19]		Loss: 205519.4531 Acc@1: 65.000%
+| Epoch [ 96/100] Iter[  3/ 19]		Loss: 102639.8516 Acc@1: 68.000%
+| Epoch [ 96/100] Iter[  4/ 19]		Loss: 51277.4570 Acc@1: 69.000%
+| Epoch [ 96/100] Iter[  5/ 19]		Loss: 25689.4355 Acc@1: 68.000%
+| Epoch [ 96/100] Iter[  6/ 19]		Loss: 12840.1504 Acc@1: 70.000%
+| Epoch [ 96/100] Iter[  7/ 19]		Loss: 6421.1240 Acc@1: 70.000%
+| Epoch [ 96/100] Iter[  8/ 19]		Loss: 3207.7258 Acc@1: 72.000%
+| Epoch [ 96/100] Iter[  9/ 19]		Loss: 1601.1642 Acc@1: 71.000%
+| Epoch [ 96/100] Iter[ 10/ 19]		Loss: 800.6895 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 11/ 19]		Loss: 401.3600 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 12/ 19]		Loss: 200.5534 Acc@1: 75.000%
+| Epoch [ 96/100] Iter[ 13/ 19]		Loss: 100.8975 Acc@1: 74.000%
+| Epoch [ 96/100] Iter[ 14/ 19]		Loss: 50.9100 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 15/ 19]		Loss: 25.5934 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 16/ 19]		Loss: 13.0423 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 17/ 19]		Loss: 6.9169 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 18/ 19]		Loss: 3.6944 Acc@1: 73.000%
+| Epoch [ 96/100] Iter[ 19/ 19]		Loss: 2.3605 Acc@1: 73.000%
+{'Epoch': 96, 'Loss': tensor(2.3605, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #96			Loss: 102653.8828 Acc@1: 81.00%
+| Elapsed time : 0:06:31
+
+=> Training Epoch #97, LR=0.0002
+| Epoch [ 97/100] Iter[  1/ 19]		Loss: 410641.4375 Acc@1: 78.000%
+| Epoch [ 97/100] Iter[  2/ 19]		Loss: 205256.1562 Acc@1: 81.000%
+| Epoch [ 97/100] Iter[  3/ 19]		Loss: 102334.9453 Acc@1: 76.000%
+| Epoch [ 97/100] Iter[  4/ 19]		Loss: 51220.3711 Acc@1: 75.000%
+| Epoch [ 97/100] Iter[  5/ 19]		Loss: 25630.3340 Acc@1: 75.000%
+| Epoch [ 97/100] Iter[  6/ 19]		Loss: 12809.5381 Acc@1: 76.000%
+| Epoch [ 97/100] Iter[  7/ 19]		Loss: 6406.5093 Acc@1: 73.000%
+| Epoch [ 97/100] Iter[  8/ 19]		Loss: 3208.1321 Acc@1: 72.000%
+| Epoch [ 97/100] Iter[  9/ 19]		Loss: 1603.7463 Acc@1: 73.000%
+| Epoch [ 97/100] Iter[ 10/ 19]		Loss: 802.1664 Acc@1: 73.000%
+| Epoch [ 97/100] Iter[ 11/ 19]		Loss: 401.3352 Acc@1: 71.000%
+| Epoch [ 97/100] Iter[ 12/ 19]		Loss: 200.1864 Acc@1: 72.000%
+| Epoch [ 97/100] Iter[ 13/ 19]		Loss: 100.7814 Acc@1: 72.000%
+| Epoch [ 97/100] Iter[ 14/ 19]		Loss: 50.6450 Acc@1: 72.000%
+| Epoch [ 97/100] Iter[ 15/ 19]		Loss: 25.5550 Acc@1: 72.000%
+| Epoch [ 97/100] Iter[ 16/ 19]		Loss: 13.0136 Acc@1: 73.000%
+| Epoch [ 97/100] Iter[ 17/ 19]		Loss: 6.8709 Acc@1: 73.000%
+| Epoch [ 97/100] Iter[ 18/ 19]		Loss: 3.7208 Acc@1: 73.000%
+| Epoch [ 97/100] Iter[ 19/ 19]		Loss: 2.0246 Acc@1: 73.000%
+{'Epoch': 97, 'Loss': tensor(2.0246, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #97			Loss: 102222.1562 Acc@1: 81.00%
+| Elapsed time : 0:06:35
+
+=> Training Epoch #98, LR=0.0002
+| Epoch [ 98/100] Iter[  1/ 19]		Loss: 409485.6250 Acc@1: 84.000%
+| Epoch [ 98/100] Iter[  2/ 19]		Loss: 204581.7656 Acc@1: 78.000%
+| Epoch [ 98/100] Iter[  3/ 19]		Loss: 102299.9219 Acc@1: 79.000%
+| Epoch [ 98/100] Iter[  4/ 19]		Loss: 51212.5703 Acc@1: 81.000%
+| Epoch [ 98/100] Iter[  5/ 19]		Loss: 25552.9492 Acc@1: 81.000%
+| Epoch [ 98/100] Iter[  6/ 19]		Loss: 12794.6611 Acc@1: 79.000%
+| Epoch [ 98/100] Iter[  7/ 19]		Loss: 6391.0659 Acc@1: 79.000%
+| Epoch [ 98/100] Iter[  8/ 19]		Loss: 3193.7090 Acc@1: 78.000%
+| Epoch [ 98/100] Iter[  9/ 19]		Loss: 1601.3389 Acc@1: 76.000%
+| Epoch [ 98/100] Iter[ 10/ 19]		Loss: 800.2118 Acc@1: 75.000%
+| Epoch [ 98/100] Iter[ 11/ 19]		Loss: 400.4307 Acc@1: 74.000%
+| Epoch [ 98/100] Iter[ 12/ 19]		Loss: 200.1620 Acc@1: 74.000%
+| Epoch [ 98/100] Iter[ 13/ 19]		Loss: 100.4720 Acc@1: 73.000%
+| Epoch [ 98/100] Iter[ 14/ 19]		Loss: 50.6576 Acc@1: 72.000%
+| Epoch [ 98/100] Iter[ 15/ 19]		Loss: 25.5573 Acc@1: 72.000%
+| Epoch [ 98/100] Iter[ 16/ 19]		Loss: 13.0178 Acc@1: 72.000%
+| Epoch [ 98/100] Iter[ 17/ 19]		Loss: 6.7477 Acc@1: 73.000%
+| Epoch [ 98/100] Iter[ 18/ 19]		Loss: 3.6635 Acc@1: 73.000%
+| Epoch [ 98/100] Iter[ 19/ 19]		Loss: 2.1978 Acc@1: 73.000%
+{'Epoch': 98, 'Loss': tensor(2.1978, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #98			Loss: 102284.8672 Acc@1: 81.00%
+| Elapsed time : 0:06:38
+
+=> Training Epoch #99, LR=0.0002
+| Epoch [ 99/100] Iter[  1/ 19]		Loss: 408431.8438 Acc@1: 78.000%
+| Epoch [ 99/100] Iter[  2/ 19]		Loss: 204310.5312 Acc@1: 78.000%
+| Epoch [ 99/100] Iter[  3/ 19]		Loss: 102241.3906 Acc@1: 76.000%
+| Epoch [ 99/100] Iter[  4/ 19]		Loss: 51079.1094 Acc@1: 71.000%
+| Epoch [ 99/100] Iter[  5/ 19]		Loss: 25478.6816 Acc@1: 71.000%
+| Epoch [ 99/100] Iter[  6/ 19]		Loss: 12737.1797 Acc@1: 72.000%
+| Epoch [ 99/100] Iter[  7/ 19]		Loss: 6374.4526 Acc@1: 74.000%
+| Epoch [ 99/100] Iter[  8/ 19]		Loss: 3188.6543 Acc@1: 75.000%
+| Epoch [ 99/100] Iter[  9/ 19]		Loss: 1596.6876 Acc@1: 73.000%
+| Epoch [ 99/100] Iter[ 10/ 19]		Loss: 798.2230 Acc@1: 73.000%
+| Epoch [ 99/100] Iter[ 11/ 19]		Loss: 399.1293 Acc@1: 73.000%
+| Epoch [ 99/100] Iter[ 12/ 19]		Loss: 199.5175 Acc@1: 74.000%
+| Epoch [ 99/100] Iter[ 13/ 19]		Loss: 100.1491 Acc@1: 74.000%
+| Epoch [ 99/100] Iter[ 14/ 19]		Loss: 50.3306 Acc@1: 75.000%
+| Epoch [ 99/100] Iter[ 15/ 19]		Loss: 25.6264 Acc@1: 74.000%
+| Epoch [ 99/100] Iter[ 16/ 19]		Loss: 13.0782 Acc@1: 74.000%
+| Epoch [ 99/100] Iter[ 17/ 19]		Loss: 6.7561 Acc@1: 74.000%
+| Epoch [ 99/100] Iter[ 18/ 19]		Loss: 3.7792 Acc@1: 73.000%
+| Epoch [ 99/100] Iter[ 19/ 19]		Loss: 2.4442 Acc@1: 73.000%
+{'Epoch': 99, 'Loss': tensor(2.4442, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #99			Loss: 101955.8125 Acc@1: 81.00%
+| Elapsed time : 0:06:42
+
+=> Training Epoch #100, LR=0.0002
+| Epoch [100/100] Iter[  1/ 19]		Loss: 407757.2188 Acc@1: 68.000%
+| Epoch [100/100] Iter[  2/ 19]		Loss: 203786.4219 Acc@1: 67.000%
+| Epoch [100/100] Iter[  3/ 19]		Loss: 101917.1719 Acc@1: 67.000%
+| Epoch [100/100] Iter[  4/ 19]		Loss: 50959.7617 Acc@1: 70.000%
+| Epoch [100/100] Iter[  5/ 19]		Loss: 25471.4102 Acc@1: 69.000%
+| Epoch [100/100] Iter[  6/ 19]		Loss: 12735.4834 Acc@1: 68.000%
+| Epoch [100/100] Iter[  7/ 19]		Loss: 6376.1846 Acc@1: 70.000%
+| Epoch [100/100] Iter[  8/ 19]		Loss: 3175.0500 Acc@1: 70.000%
+| Epoch [100/100] Iter[  9/ 19]		Loss: 1594.0488 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 10/ 19]		Loss: 795.9814 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 11/ 19]		Loss: 398.5742 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 12/ 19]		Loss: 199.7816 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 13/ 19]		Loss: 99.9188 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 14/ 19]		Loss: 50.2048 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 15/ 19]		Loss: 25.5438 Acc@1: 71.000%
+| Epoch [100/100] Iter[ 16/ 19]		Loss: 12.8576 Acc@1: 72.000%
+| Epoch [100/100] Iter[ 17/ 19]		Loss: 6.7703 Acc@1: 72.000%
+| Epoch [100/100] Iter[ 18/ 19]		Loss: 3.5635 Acc@1: 73.000%
+| Epoch [100/100] Iter[ 19/ 19]		Loss: 2.0794 Acc@1: 73.000%
+{'Epoch': 100, 'Loss': tensor(2.0794, device='cuda:0'), 'Accuracy': tensor(73)}
+
+| Validation Epoch #100			Loss: 101773.8359 Acc@1: 81.00%
+| Elapsed time : 0:06:46
+
+[Phase 4] : Testing model
+* Test results : Acc@1 = 81.00%
